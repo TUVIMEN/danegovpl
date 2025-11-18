@@ -10,20 +10,21 @@ from concurrent.futures.thread import ThreadPoolExecutor
 import json
 from functools import partial
 from math import ceil
+from Typing import Callable, Iterable, Iterator, List
 
 import treerequests
 import zstandard
 
 from .args import argparser
 from .exceptions import Error, ArgError, RequestError
-from .api import Api, RequestError
+from .api import Api
 
 
-def fexists(filename, size=0):
+def fexists(filename: str | Path, size: int = 0):
     return os.path.exists(filename) and os.path.getsize(filename) >= size
 
 
-def run(func, niter, threads=1, batch_size=2000):
+def run(func: Callable, niter: Iterable, threads: int = 1, batch_size: int = 2000):
     if threads < 2:
         for i in niter:
             func(i)
@@ -34,17 +35,17 @@ def run(func, niter, threads=1, batch_size=2000):
                     pass
 
 
-def json_load(file):
+def json_load(file: str | Path):
     with open(file, "r") as f:
         return json.load(f)
 
 
-def json_dump(data, file):
+def json_dump(data, file: str | Path):
     with open(file, "w") as f:
-        return json.dump(data, f)
+        return json.dump(data, f, separators=(",", ":"))
 
 
-def json_get(func, path):
+def json_get(func: Callable, path: str | Path):
     if fexists(path, 2):
         return json_load(path)
     r = func()
@@ -52,7 +53,7 @@ def json_get(func, path):
     return r
 
 
-def pageiter_get(func, path, per_page=100):
+def pageiter_get(func: Callable, path: str | Path, per_page: int = 100) -> Iterator:
     page = 1
     maxpages = 1
     while page <= maxpages:
@@ -72,7 +73,9 @@ def pageiter_get(func, path, per_page=100):
         page += 1
 
 
-def pageiter_ids(func, source_func, path, res_type, threads):
+def pageiter_ids(
+    func: Callable, source_func: Callable, path: str | Path, res_type: str, threads: int
+):
     run(
         func,
         (
@@ -85,7 +88,15 @@ def pageiter_ids(func, source_func, path, res_type, threads):
     )
 
 
-def download_res_id(func_index, func, source_func, path, i_id, res_type, threads):
+def download_res_id(
+    func_index: Callable,
+    func: Callable,
+    source_func: Callable,
+    path: str | Path,
+    i_id: int,
+    res_type: str,
+    threads: int,
+):
     npath = path / str(i_id)
     os.makedirs(npath, exist_ok=True)
 
@@ -104,16 +115,18 @@ def nop(*args, **kwargs):
 
 
 class Dane:
-    def __init__(self, dane, path, lvl, format):
+    def __init__(self, dane: Api, path: Path, lvl: int, format: List[str] | None):
         self.dane = dane
         self.path = path
         self.lvl = lvl
         self.format = format
 
-    def lvl_exceeded(self, lvl):
+    def lvl_exceeded(self, lvl: int) -> bool:
         return self.lvl >= 0 and lvl > self.lvl
 
-    def download_institution(self, path, i_id, threads=1, lvl=1):
+    def download_institution(
+        self, path: str | Path, i_id: int, threads: int = 1, lvl: int = 1
+    ):
         return download_res_id(
             self.dane.institution,
             (
@@ -128,7 +141,9 @@ class Dane:
             threads,
         )
 
-    def download_dataset(self, path, i_id, threads=1, lvl=1):
+    def download_dataset(
+        self, path: Path | str, i_id: int, threads: int = 1, lvl: int = 1
+    ):
         return download_res_id(
             self.dane.dataset,
             (
@@ -143,7 +158,9 @@ class Dane:
             threads,
         )
 
-    def download_file(self, url, filename, size=0, openfunc=open):
+    def download_file(
+        self, url: str, filename: str | Path, size: int = 0, openfunc: Callable = open
+    ):
         if fexists(filename, size):
             return
         try:
@@ -154,10 +171,12 @@ class Dane:
         except Exception as e:
             print(str(filename) + " " + repr(e))
 
-    def download_file_compress(self, url, filename, size=0):
+    def download_file_compress(self, url: str, filename: str | Path, size: int = 0):
         return self.download_file(url, filename, size=size, openfunc=zstandard.open)
 
-    def download_resource(self, path, i_id, threads=1, lvl=1):
+    def download_resource(
+        self, path: Path | str, i_id: int, threads: int = 1, lvl: int = 1
+    ):
         npath = path / str(i_id)
         os.makedirs(npath, exist_ok=True)
 
@@ -177,7 +196,7 @@ class Dane:
 
         files = {i[1]: i[0] for i in file_urls()}
 
-        def get_file(url, format):
+        def get_file(url: str, format: str):
             filepath = npath / ("file." + format)
             if format == "xlsx":
                 self.download_file(url, filepath, size=1)
@@ -192,7 +211,7 @@ class Dane:
                 if files.get(i) is not None:
                     get_file(files[i], i)
 
-    def download_datasets(self, path, threads=1, lvl=1):
+    def download_datasets(self, path: str | Path, threads: int = 1, lvl: int = 1):
         npath = path / "datasets"
         os.makedirs(npath, exist_ok=True)
         pageiter_ids(
@@ -203,7 +222,7 @@ class Dane:
             threads,
         )
 
-    def download_institutions(self, path, threads=1, lvl=1):
+    def download_institutions(self, path: str | Path, threads: int = 1, lvl: int = 1):
         npath = path / "institutions"
         os.makedirs(npath, exist_ok=True)
         pageiter_ids(
@@ -214,7 +233,7 @@ class Dane:
             threads,
         )
 
-    def download_resources(self, path, threads=1, lvl=1):
+    def download_resources(self, path: str | Path, threads: int = 1, lvl: int = 1):
         npath = path / "resources"
         os.makedirs(npath, exist_ok=True)
         pageiter_ids(
@@ -225,7 +244,7 @@ class Dane:
             threads,
         )
 
-    def resource_run(self, res, threads=1):
+    def resource_run(self, res: str, threads: int = 1):
         resources_map = {
             "institutions": self.download_institutions,
             "datasets": self.download_datasets,

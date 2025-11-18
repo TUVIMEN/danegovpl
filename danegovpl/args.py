@@ -1,5 +1,6 @@
 import os
 import argparse
+from typing import List
 from importlib.metadata import version
 
 from treerequests import args_section
@@ -7,7 +8,7 @@ from treerequests import args_section
 __version__ = version(__package__ or __name__)
 
 
-def valid_directory(directory: str):
+def valid_directory(directory: str) -> str:
     if not os.path.isdir(directory):
         raise argparse.ArgumentTypeError(
             'couldn\'t change directory to "{}"'.format(directory)
@@ -15,7 +16,7 @@ def valid_directory(directory: str):
     return directory
 
 
-def valid_resource(res: str):
+def valid_resource(res: str) -> str:
     res = res.lower()
     if res in ["institutions", "datasets", "resources"]:
         return res
@@ -33,7 +34,7 @@ def valid_resource(res: str):
     return res
 
 
-def valid_format(format: str):
+def valid_format(format: str) -> List[str] | None:
     format = format.lower()
     if format == "":
         return None

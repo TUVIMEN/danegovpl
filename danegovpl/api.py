@@ -2,7 +2,7 @@
 # by Dominik Stanisław Suchora <hexderm@gmail.com>
 # License: GNU GPLv3
 
-from typing import Iterator
+from typing import Iterator, List, Tuple
 import re
 import urllib.parse
 from math import ceil
@@ -29,7 +29,9 @@ class Api:
         )
         self.ses.headers.update({"X-API-VERSION": version, "Accept-Language": "en"})
 
-    def call_api_request(self, path, method, params=[], **kwargs):
+    def call_api_request(
+        self, path: str, method: str, params: List[Tuple[str, str]] = [], **kwargs
+    ):
         query = ""
         if len(params) != 0:
             query = "?" + urllib.parse.urlencode(params)
@@ -43,11 +45,24 @@ class Api:
         )
         return r
 
-    def call_api(self, path, method="get", params=[], **kwargs):
+    def call_api(
+        self,
+        path: str,
+        method: str = "get",
+        params: List[Tuple[str, str]] = [],
+        **kwargs,
+    ):
         r = self.call_api_request(path, method, params=params, **kwargs)
         return r
 
-    def go_through_pages(self, path, params=[], page=1, per_page=25, max_per_page=100):
+    def go_through_pages(
+        self,
+        path: str,
+        params: List[Tuple[str, str]] = [],
+        page: int = 1,
+        per_page: int = 25,
+        max_per_page: int = 100,
+    ) -> Iterator:
         if per_page > max_per_page:
             raise ArgError(
                 'Amount of results returned per page is set too high "{}", where max is "{}"'.format(
@@ -69,15 +84,26 @@ class Api:
 
             page += 1
 
-    def institutions(self, params=[], page=1, per_page=100) -> Iterator:
+    def institutions(
+        self,
+        params: List[Tuple[str, str]] = [],
+        page: int = 1,
+        per_page: int = 100,
+    ) -> Iterator[dict]:
         return self.go_through_pages(
             "institutions", params=params, page=page, per_page=per_page
         )
 
-    def institution(self, i_id, params=[]) -> dict:
+    def institution(self, i_id: int, params: List[Tuple[str, str]] = []) -> dict:
         return self.call_api("institutions/" + str(i_id), params=params)
 
-    def institution_datasets(self, i_id, params=[], page=1, per_page=100) -> Iterator:
+    def institution_datasets(
+        self,
+        i_id: int,
+        params: List[Tuple[str, str]] = [],
+        page: int = 1,
+        per_page: int = 100,
+    ) -> Iterator[dict]:
         return self.go_through_pages(
             "institutions/" + str(i_id) + "/datasets",
             params=params,
@@ -85,18 +111,29 @@ class Api:
             per_page=per_page,
         )
 
-    def datasets(self, params=[], page=1, per_page=100) -> Iterator:
+    def datasets(
+        self,
+        params: List[Tuple[str, str]] = [],
+        page: int = 1,
+        per_page: int = 100,
+    ) -> Iterator[dict]:
         return self.go_through_pages(
             "datasets", params=params, page=page, per_page=per_page
         )
 
-    def dataset(self, i_id, params=[]) -> dict:
+    def dataset(self, i_id: int, params: List[Tuple[str, str]] = []) -> dict:
         return self.call_api(
             "datasets/" + str(i_id),
             params=params,
         )
 
-    def dataset_resources(self, i_id, params=[], page=1, per_page=100) -> Iterator:
+    def dataset_resources(
+        self,
+        i_id: int,
+        params: List[Tuple[str, str]] = [],
+        page: int = 1,
+        per_page: int = 100,
+    ) -> Iterator[dict]:
         return self.go_through_pages(
             "datasets/" + str(i_id) + "/resources",
             params=params,
@@ -104,7 +141,13 @@ class Api:
             per_page=per_page,
         )
 
-    def dataset_showcases(self, i_id, params=[], page=1, per_page=100) -> Iterator:
+    def dataset_showcases(
+        self,
+        i_id: int,
+        params: List[Tuple[str, str]] = [],
+        page: int = 1,
+        per_page: int = 100,
+    ) -> Iterator[dict]:
         return self.go_through_pages(
             "datasets/" + str(i_id) + "/showcases",
             params=params,
@@ -112,27 +155,28 @@ class Api:
             per_page=per_page,
         )
 
-    def resources(self, params=[], page=1, per_page=100) -> Iterator:
+    def resources(
+        self,
+        params: List[Tuple[str, str]] = [],
+        page: int = 1,
+        per_page: int = 100,
+    ) -> Iterator[dict]:
         return self.go_through_pages(
             "resources", params=params, page=page, per_page=per_page
         )
 
-    def resource(self, i_id, params=[]) -> dict:
+    def resource(self, i_id: int, params: List[Tuple[str, str]] = []) -> dict:
         return self.call_api(
             "resources/" + str(i_id),
             params=params,
         )
 
-    def dga_aggregated(self) -> dict:
-        return self.call_api("dga-aggregated")
+    def dga_aggregated(self, params: List[Tuple[str]] = []) -> dict:
+        return self.call_api("dga-aggregated", params=params)
 
     def resource_data(
-        self,
-        i_id,
-        params=[],
-        page=1,
-        per_page=100,
-    ) -> Iterator:
+        self, i_id: int, params: List[Tuple[str, str]] = [], page=1, per_page=100
+    ) -> Iterator[dict]:
 
         return self.go_through_pages(
             "resources/" + str(i_id) + "/data",
@@ -141,26 +185,37 @@ class Api:
             params=params,
         )
 
-    def resource_data_row(self, i_id, row_id) -> str:
+    def resource_data_row(
+        self, i_id: int, row_id: int, params: List[Tuple[str]] = []
+    ) -> str:
         return self.call_api("resources/" + str(i_id) + "/data/" + str(row_id))
 
-    def search(self, params=[], page=1, per_page=100) -> Iterator:
+    def search(
+        self,
+        params: List[Tuple[str, str]] = [],
+        page: int = 1,
+        per_page: int = 100,
+    ) -> Iterator[dict]:
         return self.go_through_pages(
             "search", params=params, page=page, per_page=per_page
         )
 
-    def showcases(self, params=[], page=1, per_page=100) -> Iterator:
+    def showcases(
+        self, params: List[Tuple[str, str]] = [], page: int = 1, per_page: int = 100
+    ) -> Iterator[dict]:
         return self.go_through_pages(
             "showcases", params=params, page=page, per_page=per_page
         )
 
-    def showcase(self, i_id, params=[]) -> dict:
+    def showcase(self, i_id: int, params: List[Tuple[str]] = []) -> dict:
         return self.call_api("showcases/" + str(i_id), params=params)
 
-    def histories(self, params=[], page=1, per_page=100) -> Iterator:
+    def histories(
+        self, params: List[Tuple[str, str]] = [], page: int = 1, per_page: int = 100
+    ) -> Iterator[dict]:
         return self.go_through_pages(
             "histories", params=params, page=page, per_page=per_page
         )
 
-    def history(self, i_id, params=[]) -> dict:
+    def history(self, i_id: int, params: List[Tuple[str]] = []) -> dict:
         return self.call_api("histories/" + str(i_id), params=params)
