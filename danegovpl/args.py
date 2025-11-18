@@ -55,7 +55,7 @@ def argparser():
 
     parser.add_argument(
         "resources",
-        metavar="URL",
+        metavar="RESOURCE",
         type=valid_resource,
         nargs="*",
         help="starting point for getting resources i.e. institutions, institution.{ID}, datasets, dataset.{ID}, resources, resource.{ID}",
@@ -108,6 +108,13 @@ def argparser():
         type=valid_format,
         default="",
         help="Download files in specified format preference i.e. all; jsonld; csv; xlsx, csv,jsonld,xls (if not set, files are not downloaded)",
+    )
+    settings.add_argument(
+        "-c",
+        "--compress",
+        type=valid_format,
+        default="",
+        help="Compress csv and jsonld files with zstd",
     )
 
     args_section(parser)

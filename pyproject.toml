@@ -39,5 +39,10 @@ classifiers = [
 [tool.setuptools]
 packages = ["danegovpl"]
 
+[project.optional-dependencies]
+compression = [
+    "zstandard"
+]
+
 [project.scripts]
 danegovpl = "danegovpl.__init__:main"
