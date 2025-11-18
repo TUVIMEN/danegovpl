@@ -1,0 +1,117 @@
+{
+  "data": {
+    "links": {
+      "self": "https://api.dane.gov.pl/1.4/datasets/7,rejestr-podmiotow-prowadzacych-agencje-zatrudnienia"
+    },
+    "relationships": {
+      "showcases": {
+        "meta": {
+          "count": 0
+        },
+        "links": {
+          "related": "https://api.dane.gov.pl/1.4/datasets/7,rejestr-podmiotow-prowadzacych-agencje-zatrudnienia/showcases"
+        }
+      },
+      "resources": {
+        "meta": {
+          "count": 5
+        },
+        "links": {
+          "related": "https://api.dane.gov.pl/1.4/datasets/7,rejestr-podmiotow-prowadzacych-agencje-zatrudnienia/resources"
+        }
+      },
+      "institution": {
+        "data": {
+          "id": "30",
+          "type": "institution"
+        },
+        "links": {
+          "related": "https://api.dane.gov.pl/1.4/institutions/30,ministerstwo-rodziny-pracy-i-polityki-spolecznej"
+        }
+      }
+    },
+    "attributes": {
+      "modified": "2025-01-03T10:19:15Z",
+      "license_condition_personal_data": null,
+      "created": "2015-05-18T13:22:05Z",
+      "source": null,
+      "category": {
+        "code": "",
+        "id": "5",
+        "title": "Labour and Social Welfare"
+      },
+      "image_url": "",
+      "title": "Rejestr Podmiotów Prowadzących Agencje Zatrudnienia",
+      "license_name": "CC0 1.0",
+      "is_promoted": false,
+      "license_chosen": null,
+      "current_condition_descriptions": {},
+      "formats": [
+        "docx",
+        "html",
+        "json",
+        "pdf"
+      ],
+      "license_description": "Other (Public Domain)",
+      "openness_scores": [
+        1,
+        3
+      ],
+      "url": "http://stor.praca.gov.pl/portal/#/kraz",
+      "has_high_value_data": false,
+      "has_dynamic_data": false,
+      "views_count": 31295,
+      "license_condition_original": null,
+      "license_condition_timestamp": null,
+      "has_research_data": false,
+      "downloads_count": 1913,
+      "categories": [
+        {
+          "code": "SOCI",
+          "id": "146",
+          "title": "Population and society"
+        }
+      ],
+      "supplements": [],
+      "update_frequency": "Daily",
+      "types": [
+        "file",
+        "website"
+      ],
+      "keywords": [],
+      "archived_resources_files_url": "https://api.dane.gov.pl/datasets/7,rejestr-podmiotow-prowadzacych-agencje-zatrudnienia/resources/files/download",
+      "license_condition_custom_description": "",
+      "slug": "rejestr-podmiotow-prowadzacych-agencje-zatrudnienia",
+      "notes": "<p>Rejestr Podmiotów Prowadzących Agencje Zatrudnienia (KRAZ) prowadzony jest zgodnie z ustawą z dnia 20 kwietna 2004 r. o promocji zatrudnienia i instytucjach rynku pracy. Wyszukiwanie agencji zatrudnienia można realizować po województwie lub danych agencji zatrudnienia.</p>",
+      "has_high_value_data_from_ec_list": false,
+      "license_condition_default_cc40": false,
+      "verified": "2022-07-06T14:36:03Z",
+      "license_condition_db_or_copyrighted": "",
+      "regions": [
+        {
+          "region_id": "85633723",
+          "name": "Poland",
+          "is_additional": false,
+          "hierarchy_label": "Poland"
+        }
+      ],
+      "image_alt": "",
+      "visualization_types": []
+    },
+    "type": "dataset",
+    "id": "7"
+  },
+  "links": {
+    "self": "http://api.dane.gov.pl/1.4/datasets/7"
+  },
+  "jsonapi": {
+    "version": "1.0"
+  },
+  "meta": {
+    "path": "/1.4/datasets/7",
+    "server_time": "2025-11-10T22:20:12Z",
+    "params": {},
+    "language": "en",
+    "relative_uri": "/1.4/datasets/7"
+  }
+}

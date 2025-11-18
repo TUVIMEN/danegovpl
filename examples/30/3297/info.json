@@ -1,0 +1,117 @@
+{
+  "jsonapi": {
+    "version": "1.0"
+  },
+  "data": {
+    "type": "dataset",
+    "attributes": {
+      "url": "",
+      "has_high_value_data": false,
+      "archived_resources_files_url": "https://api.dane.gov.pl/datasets/3297,wykaz-zasobow-chronionych-danych-dga-ministerstwo/resources/files/download",
+      "downloads_count": 311,
+      "image_alt": "",
+      "slug": "wykaz-zasobow-chronionych-danych-dga-ministerstwo",
+      "categories": [
+        {
+          "title": "Population and society",
+          "code": "SOCI",
+          "id": "146"
+        },
+        {
+          "title": "Government and public sector",
+          "code": "GOVE",
+          "id": "148"
+        }
+      ],
+      "license_condition_personal_data": null,
+      "current_condition_descriptions": {},
+      "openness_scores": [
+        4
+      ],
+      "title": "Wykaz zasobów chronionych danych DGA – Ministerstwo Rodziny i Polityki Społecznej",
+      "image_url": "",
+      "license_condition_timestamp": null,
+      "license_chosen": null,
+      "license_condition_default_cc40": false,
+      "keywords": [],
+      "update_frequency": "Every half year",
+      "types": [
+        "file"
+      ],
+      "modified": "2024-03-19T19:17:33Z",
+      "notes": "<p>Wykaz zasobów chronionych danych Ministerstwo Rodziny i Polityki Społecznej - Akt o zarządzaniu danymi. Dostęp do chronionych danych wymienionych w wykazie jest możliwy wyłącznie na wniosek. Warunki ponownego wykorzystywania zostaną określone indywidualnie w ofercie (po złożeniu wniosku). Format oraz rozmiar danych wskazane w wykazie mogą ulec zmianie. Więcej na temat dostępu do chronionych danych (w tym jak złożyć wniosek) dowiesz się w Punkcie informacyjnym dostępnym pod adresem:<br />\r\n<a href=\"https://dane.gov.pl/pl/knowledgebase/useful-materials/akt-o-zarzadzaniu-danymipunkt-informacyjny\">https://dane.gov.pl/pl/knowledgebase/useful-materials/akt-o-zarzadzaniu-danymipunkt-informacyjny</a></p>",
+      "license_condition_db_or_copyrighted": "",
+      "license_description": "",
+      "license_condition_custom_description": "",
+      "regions": [
+        {
+          "hierarchy_label": "Poland",
+          "name": "Poland",
+          "is_additional": false,
+          "region_id": "85633723"
+        }
+      ],
+      "has_high_value_data_from_ec_list": null,
+      "is_promoted": false,
+      "license_condition_original": null,
+      "has_dynamic_data": false,
+      "supplements": [],
+      "verified": "2024-07-30T08:42:14Z",
+      "category": null,
+      "formats": [
+        "csv",
+        "jsonld",
+        "xlsx"
+      ],
+      "source": null,
+      "views_count": 1076,
+      "license_name": "CC0 1.0",
+      "created": "2023-08-31T09:04:07Z",
+      "has_research_data": false,
+      "visualization_types": [
+        "table"
+      ]
+    },
+    "relationships": {
+      "institution": {
+        "links": {
+          "related": "https://api.dane.gov.pl/1.4/institutions/30,ministerstwo-rodziny-pracy-i-polityki-spolecznej"
+        },
+        "data": {
+          "type": "institution",
+          "id": "30"
+        }
+      },
+      "showcases": {
+        "links": {
+          "related": "https://api.dane.gov.pl/1.4/datasets/3297,wykaz-zasobow-chronionych-danych-dga-ministerstwo/showcases"
+        },
+        "meta": {
+          "count": 0
+        }
+      },
+      "resources": {
+        "links": {
+          "related": "https://api.dane.gov.pl/1.4/datasets/3297,wykaz-zasobow-chronionych-danych-dga-ministerstwo/resources"
+        },
+        "meta": {
+          "count": 2
+        }
+      }
+    },
+    "id": "3297",
+    "links": {
+      "self": "https://api.dane.gov.pl/1.4/datasets/3297,wykaz-zasobow-chronionych-danych-dga-ministerstwo"
+    }
+  },
+  "links": {
+    "self": "http://api.dane.gov.pl/1.4/datasets/3297"
+  },
+  "meta": {
+    "server_time": "2025-11-10T22:20:33Z",
+    "path": "/1.4/datasets/3297",
+    "language": "en",
+    "params": {},
+    "relative_uri": "/1.4/datasets/3297"
+  }
+}

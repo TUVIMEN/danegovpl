@@ -1,0 +1,1511 @@
+{
+  "jsonapi": {
+    "version": "1.0"
+  },
+  "data": [
+    {
+      "type": "resource",
+      "attributes": {
+        "media_type": "file",
+        "special_signs": [],
+        "jsonld_download_url": "https://api.dane.gov.pl/resources/63915,przyczyny-niepenosprawnosci-wedug-stanu-na-ii-kw2024/jsonld",
+        "has_high_value_data": false,
+        "jsonld_file_size": 32637,
+        "downloads_count": 245,
+        "csv_download_url": "https://api.dane.gov.pl/resources/63915,przyczyny-niepenosprawnosci-wedug-stanu-na-ii-kw2024/csv",
+        "contains_protected_data": false,
+        "openness_score": 4,
+        "title": "Przyczyny niepełnosprawności według stanu na II kw.2024.",
+        "download_url": "https://api.dane.gov.pl/resources/63915,przyczyny-niepenosprawnosci-wedug-stanu-na-ii-kw2024/file",
+        "link": "https://api.dane.gov.pl/media/resources/20250124/Tab3-OD.xls",
+        "file_size": 38400,
+        "modified": "2025-01-24T09:52:41Z",
+        "file_url": "https://api.dane.gov.pl/media/resources/20250124/Tab3-OD.xls",
+        "csv_file_url": "https://api.dane.gov.pl/media/resources/20250124/Tab3-OD.csv",
+        "files": [
+          {
+            "openness_score": 2,
+            "download_url": "https://api.dane.gov.pl/resources/63915,przyczyny-niepenosprawnosci-wedug-stanu-na-ii-kw2024/file",
+            "format": "xls",
+            "file_size": 38400
+          },
+          {
+            "openness_score": 4,
+            "download_url": "https://api.dane.gov.pl/resources/63915,przyczyny-niepenosprawnosci-wedug-stanu-na-ii-kw2024/jsonld",
+            "format": "jsonld",
+            "file_size": 32637
+          },
+          {
+            "openness_score": 3,
+            "download_url": "https://api.dane.gov.pl/resources/63915,przyczyny-niepenosprawnosci-wedug-stanu-na-ii-kw2024/csv",
+            "format": "csv",
+            "file_size": 2303
+          }
+        ],
+        "description": "<p>Przyczyny niepełnosprawności - osoby powyżej 16-go roku życia</p>",
+        "jsonld_file_url": "https://api.dane.gov.pl/media/resources/20250124/Tab3-OD.jsonld",
+        "csv_file_size": 2303,
+        "is_chart_creation_blocked": false,
+        "regions": [
+          {
+            "hierarchy_label": "Poland",
+            "name": "Poland",
+            "region_id": "85633723"
+          }
+        ],
+        "has_high_value_data_from_ec_list": false,
+        "language": "pl",
+        "has_dynamic_data": false,
+        "supplements": [],
+        "verified": "2025-01-24T09:53:21Z",
+        "views_count": 148,
+        "has_research_data": false,
+        "created": "2025-01-24T09:52:41Z",
+        "format": "xls",
+        "data_date": "2024-06-30",
+        "visualization_types": [
+          "table"
+        ]
+      },
+      "relationships": {
+        "institution": {
+          "links": {
+            "related": "https://api.dane.gov.pl/1.4/institutions/30,ministerstwo-rodziny-pracy-i-polityki-spolecznej"
+          },
+          "data": {
+            "type": "institution",
+            "id": "30"
+          }
+        },
+        "tabular_data": {
+          "links": {
+            "related": "https://api.dane.gov.pl/1.4/resources/63915/data"
+          },
+          "data": {
+            "type": "tabular_data",
+            "id": "63915"
+          }
+        },
+        "chart": {
+          "links": {
+            "related": "https://api.dane.gov.pl/1.4/resources/63915/chart"
+          },
+          "data": {
+            "type": "chart",
+            "id": "63915"
+          }
+        },
+        "dataset": {
+          "links": {
+            "related": "https://api.dane.gov.pl/1.4/datasets/4660,osoby-zaliczone-do-stopnia-niepelnosprawnosci-praw"
+          },
+          "data": {
+            "type": "dataset",
+            "id": "4660"
+          }
+        }
+      },
+      "id": "63915",
+      "links": {
+        "self": "https://api.dane.gov.pl/1.4/resources/63915,przyczyny-niepenosprawnosci-wedug-stanu-na-ii-kw2024"
+      }
+    },
+    {
+      "type": "resource",
+      "attributes": {
+        "media_type": "file",
+        "special_signs": [],
+        "jsonld_download_url": "https://api.dane.gov.pl/resources/63918,przyczyny-niepenosprawnosci-wedug-stanu-na-iii-kw2024/jsonld",
+        "has_high_value_data": false,
+        "jsonld_file_size": 34014,
+        "downloads_count": 259,
+        "csv_download_url": "https://api.dane.gov.pl/resources/63918,przyczyny-niepenosprawnosci-wedug-stanu-na-iii-kw2024/csv",
+        "contains_protected_data": false,
+        "openness_score": 4,
+        "title": "Przyczyny niepełnosprawności według stanu na III kw.2024.",
+        "download_url": "https://api.dane.gov.pl/resources/63918,przyczyny-niepenosprawnosci-wedug-stanu-na-iii-kw2024/file",
+        "link": "https://api.dane.gov.pl/media/resources/20250124/Kopia_Tab3-OD.xls",
+        "file_size": 38400,
+        "modified": "2025-01-24T09:55:46Z",
+        "file_url": "https://api.dane.gov.pl/media/resources/20250124/Kopia_Tab3-OD.xls",
+        "csv_file_url": "https://api.dane.gov.pl/media/resources/20250124/Kopia_Tab3-OD.csv",
+        "files": [
+          {
+            "openness_score": 2,
+            "download_url": "https://api.dane.gov.pl/resources/63918,przyczyny-niepenosprawnosci-wedug-stanu-na-iii-kw2024/file",
+            "format": "xls",
+            "file_size": 38400
+          },
+          {
+            "openness_score": 4,
+            "download_url": "https://api.dane.gov.pl/resources/63918,przyczyny-niepenosprawnosci-wedug-stanu-na-iii-kw2024/jsonld",
+            "format": "jsonld",
+            "file_size": 34014
+          },
+          {
+            "openness_score": 3,
+            "download_url": "https://api.dane.gov.pl/resources/63918,przyczyny-niepenosprawnosci-wedug-stanu-na-iii-kw2024/csv",
+            "format": "csv",
+            "file_size": 2306
+          }
+        ],
+        "description": "<p>Przyczyny niepełnosprawności - osoby powyżej 16-go roku życia</p>",
+        "jsonld_file_url": "https://api.dane.gov.pl/media/resources/20250124/Kopia_Tab3-OD.jsonld",
+        "csv_file_size": 2306,
+        "is_chart_creation_blocked": false,
+        "regions": [
+          {
+            "hierarchy_label": "Poland",
+            "name": "Poland",
+            "region_id": "85633723"
+          }
+        ],
+        "has_high_value_data_from_ec_list": false,
+        "language": "pl",
+        "has_dynamic_data": false,
+        "supplements": [],
+        "verified": "2025-01-24T09:56:36Z",
+        "views_count": 158,
+        "has_research_data": false,
+        "created": "2025-01-24T09:55:46Z",
+        "format": "xls",
+        "data_date": "2024-09-30",
+        "visualization_types": [
+          "table"
+        ]
+      },
+      "relationships": {
+        "institution": {
+          "links": {
+            "related": "https://api.dane.gov.pl/1.4/institutions/30,ministerstwo-rodziny-pracy-i-polityki-spolecznej"
+          },
+          "data": {
+            "type": "institution",
+            "id": "30"
+          }
+        },
+        "tabular_data": {
+          "links": {
+            "related": "https://api.dane.gov.pl/1.4/resources/63918/data"
+          },
+          "data": {
+            "type": "tabular_data",
+            "id": "63918"
+          }
+        },
+        "chart": {
+          "links": {
+            "related": "https://api.dane.gov.pl/1.4/resources/63918/chart"
+          },
+          "data": {
+            "type": "chart",
+            "id": "63918"
+          }
+        },
+        "dataset": {
+          "links": {
+            "related": "https://api.dane.gov.pl/1.4/datasets/4660,osoby-zaliczone-do-stopnia-niepelnosprawnosci-praw"
+          },
+          "data": {
+            "type": "dataset",
+            "id": "4660"
+          }
+        }
+      },
+      "id": "63918",
+      "links": {
+        "self": "https://api.dane.gov.pl/1.4/resources/63918,przyczyny-niepenosprawnosci-wedug-stanu-na-iii-kw2024"
+      }
+    },
+    {
+      "type": "resource",
+      "attributes": {
+        "media_type": "file",
+        "special_signs": [],
+        "jsonld_download_url": "https://api.dane.gov.pl/resources/63919,liczba-przyczyn-niepenosprawnosci-wedug-stanu-na-iii-kw2024/jsonld",
+        "has_high_value_data": false,
+        "jsonld_file_size": 8860,
+        "downloads_count": 240,
+        "csv_download_url": "https://api.dane.gov.pl/resources/63919,liczba-przyczyn-niepenosprawnosci-wedug-stanu-na-iii-kw2024/csv",
+        "contains_protected_data": false,
+        "openness_score": 4,
+        "title": "Liczba przyczyn niepełnosprawności według stanu na III kw.2024.",
+        "download_url": "https://api.dane.gov.pl/resources/63919,liczba-przyczyn-niepenosprawnosci-wedug-stanu-na-iii-kw2024/file",
+        "link": "https://api.dane.gov.pl/media/resources/20250124/Kopia_Tab4-OD.xls",
+        "file_size": 35840,
+        "modified": "2025-01-24T09:56:33Z",
+        "file_url": "https://api.dane.gov.pl/media/resources/20250124/Kopia_Tab4-OD.xls",
+        "csv_file_url": "https://api.dane.gov.pl/media/resources/20250124/Kopia_Tab4-OD.csv",
+        "files": [
+          {
+            "openness_score": 2,
+            "download_url": "https://api.dane.gov.pl/resources/63919,liczba-przyczyn-niepenosprawnosci-wedug-stanu-na-iii-kw2024/file",
+            "format": "xls",
+            "file_size": 35840
+          },
+          {
+            "openness_score": 4,
+            "download_url": "https://api.dane.gov.pl/resources/63919,liczba-przyczyn-niepenosprawnosci-wedug-stanu-na-iii-kw2024/jsonld",
+            "format": "jsonld",
+            "file_size": 8860
+          },
+          {
+            "openness_score": 3,
+            "download_url": "https://api.dane.gov.pl/resources/63919,liczba-przyczyn-niepenosprawnosci-wedug-stanu-na-iii-kw2024/csv",
+            "format": "csv",
+            "file_size": 942
+          }
+        ],
+        "description": "<p>Liczba przyczyn niepełnosprawności dla osób powyżej 16-go roku życia.</p>",
+        "jsonld_file_url": "https://api.dane.gov.pl/media/resources/20250124/Kopia_Tab4-OD.jsonld",
+        "csv_file_size": 942,
+        "is_chart_creation_blocked": false,
+        "regions": [
+          {
+            "hierarchy_label": "Poland",
+            "name": "Poland",
+            "region_id": "85633723"
+          }
+        ],
+        "has_high_value_data_from_ec_list": false,
+        "language": "pl",
+        "has_dynamic_data": false,
+        "supplements": [],
+        "verified": "2025-01-24T09:57:31Z",
+        "views_count": 116,
+        "has_research_data": false,
+        "created": "2025-01-24T09:56:33Z",
+        "format": "xls",
+        "data_date": "2024-09-30",
+        "visualization_types": [
+          "table"
+        ]
+      },
+      "relationships": {
+        "institution": {
+          "links": {
+            "related": "https://api.dane.gov.pl/1.4/institutions/30,ministerstwo-rodziny-pracy-i-polityki-spolecznej"
+          },
+          "data": {
+            "type": "institution",
+            "id": "30"
+          }
+        },
+        "tabular_data": {
+          "links": {
+            "related": "https://api.dane.gov.pl/1.4/resources/63919/data"
+          },
+          "data": {
+            "type": "tabular_data",
+            "id": "63919"
+          }
+        },
+        "chart": {
+          "links": {
+            "related": "https://api.dane.gov.pl/1.4/resources/63919/chart"
+          },
+          "data": {
+            "type": "chart",
+            "id": "63919"
+          }
+        },
+        "dataset": {
+          "links": {
+            "related": "https://api.dane.gov.pl/1.4/datasets/4660,osoby-zaliczone-do-stopnia-niepelnosprawnosci-praw"
+          },
+          "data": {
+            "type": "dataset",
+            "id": "4660"
+          }
+        }
+      },
+      "id": "63919",
+      "links": {
+        "self": "https://api.dane.gov.pl/1.4/resources/63919,liczba-przyczyn-niepenosprawnosci-wedug-stanu-na-iii-kw2024"
+      }
+    },
+    {
+      "type": "resource",
+      "attributes": {
+        "media_type": "file",
+        "special_signs": [],
+        "jsonld_download_url": "https://api.dane.gov.pl/resources/65300,liczba-przyczyn-niepenosprawnosci-wedug-stanu-na-iv-kw2024/jsonld",
+        "has_high_value_data": false,
+        "jsonld_file_size": 8968,
+        "downloads_count": 231,
+        "csv_download_url": "https://api.dane.gov.pl/resources/65300,liczba-przyczyn-niepenosprawnosci-wedug-stanu-na-iv-kw2024/csv",
+        "contains_protected_data": false,
+        "openness_score": 4,
+        "title": "Liczba przyczyn niepełnosprawności według stanu na IV kw.2024.",
+        "download_url": "https://api.dane.gov.pl/resources/65300,liczba-przyczyn-niepenosprawnosci-wedug-stanu-na-iv-kw2024/file",
+        "link": "https://api.dane.gov.pl/media/resources/20250313/Tab4-IV-2024-OD.xls",
+        "file_size": 35840,
+        "modified": "2025-03-13T12:07:56Z",
+        "file_url": "https://api.dane.gov.pl/media/resources/20250313/Tab4-IV-2024-OD.xls",
+        "csv_file_url": "https://api.dane.gov.pl/media/resources/20250313/Tab4-IV-2024-OD.csv",
+        "files": [
+          {
+            "openness_score": 2,
+            "download_url": "https://api.dane.gov.pl/resources/65300,liczba-przyczyn-niepenosprawnosci-wedug-stanu-na-iv-kw2024/file",
+            "format": "xls",
+            "file_size": 35840
+          },
+          {
+            "openness_score": 4,
+            "download_url": "https://api.dane.gov.pl/resources/65300,liczba-przyczyn-niepenosprawnosci-wedug-stanu-na-iv-kw2024/jsonld",
+            "format": "jsonld",
+            "file_size": 8968
+          },
+          {
+            "openness_score": 3,
+            "download_url": "https://api.dane.gov.pl/resources/65300,liczba-przyczyn-niepenosprawnosci-wedug-stanu-na-iv-kw2024/csv",
+            "format": "csv",
+            "file_size": 934
+          }
+        ],
+        "description": "<p>Liczba przyczyn niepełnosprawności dla osób powyżej 16-go roku życia.</p>",
+        "jsonld_file_url": "https://api.dane.gov.pl/media/resources/20250313/Tab4-IV-2024-OD.jsonld",
+        "csv_file_size": 934,
+        "is_chart_creation_blocked": false,
+        "regions": [
+          {
+            "hierarchy_label": "Poland",
+            "name": "Poland",
+            "region_id": "85633723"
+          }
+        ],
+        "has_high_value_data_from_ec_list": false,
+        "language": "pl",
+        "has_dynamic_data": false,
+        "supplements": [],
+        "verified": "2025-03-13T12:08:37Z",
+        "views_count": 83,
+        "has_research_data": false,
+        "created": "2025-03-13T12:07:56Z",
+        "format": "xls",
+        "data_date": "2024-12-31",
+        "visualization_types": [
+          "table"
+        ]
+      },
+      "relationships": {
+        "institution": {
+          "links": {
+            "related": "https://api.dane.gov.pl/1.4/institutions/30,ministerstwo-rodziny-pracy-i-polityki-spolecznej"
+          },
+          "data": {
+            "type": "institution",
+            "id": "30"
+          }
+        },
+        "tabular_data": {
+          "links": {
+            "related": "https://api.dane.gov.pl/1.4/resources/65300/data"
+          },
+          "data": {
+            "type": "tabular_data",
+            "id": "65300"
+          }
+        },
+        "chart": {
+          "links": {
+            "related": "https://api.dane.gov.pl/1.4/resources/65300/chart"
+          },
+          "data": {
+            "type": "chart",
+            "id": "65300"
+          }
+        },
+        "dataset": {
+          "links": {
+            "related": "https://api.dane.gov.pl/1.4/datasets/4660,osoby-zaliczone-do-stopnia-niepelnosprawnosci-praw"
+          },
+          "data": {
+            "type": "dataset",
+            "id": "4660"
+          }
+        }
+      },
+      "id": "65300",
+      "links": {
+        "self": "https://api.dane.gov.pl/1.4/resources/65300,liczba-przyczyn-niepenosprawnosci-wedug-stanu-na-iv-kw2024"
+      }
+    },
+    {
+      "type": "resource",
+      "attributes": {
+        "media_type": "file",
+        "special_signs": [],
+        "jsonld_download_url": "https://api.dane.gov.pl/resources/211280,przyczyny-niepenosprawnosci-wedug-stanu-na-iv-kw2024-aktualizacja/jsonld",
+        "has_high_value_data": false,
+        "jsonld_file_size": 37203,
+        "downloads_count": 11,
+        "csv_download_url": "https://api.dane.gov.pl/resources/211280,przyczyny-niepenosprawnosci-wedug-stanu-na-iv-kw2024-aktualizacja/csv",
+        "contains_protected_data": false,
+        "openness_score": 4,
+        "title": "Przyczyny niepełnosprawności według stanu na IV kw.2024 - aktualizacja",
+        "download_url": "https://api.dane.gov.pl/resources/211280,przyczyny-niepenosprawnosci-wedug-stanu-na-iv-kw2024-aktualizacja/file",
+        "link": "https://api.dane.gov.pl/media/resources/20251008/AktualizacjaTab3-OD-2024-IV.xls",
+        "file_size": 38400,
+        "modified": "2025-10-13T13:33:35Z",
+        "file_url": "https://api.dane.gov.pl/media/resources/20251008/AktualizacjaTab3-OD-2024-IV.xls",
+        "csv_file_url": "https://api.dane.gov.pl/media/resources/20251008/AktualizacjaTab3-OD-2024-IV.csv",
+        "files": [
+          {
+            "openness_score": 2,
+            "download_url": "https://api.dane.gov.pl/resources/211280,przyczyny-niepenosprawnosci-wedug-stanu-na-iv-kw2024-aktualizacja/file",
+            "format": "xls",
+            "file_size": 38400
+          },
+          {
+            "openness_score": 4,
+            "download_url": "https://api.dane.gov.pl/resources/211280,przyczyny-niepenosprawnosci-wedug-stanu-na-iv-kw2024-aktualizacja/jsonld",
+            "format": "jsonld",
+            "file_size": 37203
+          },
+          {
+            "openness_score": 3,
+            "download_url": "https://api.dane.gov.pl/resources/211280,przyczyny-niepenosprawnosci-wedug-stanu-na-iv-kw2024-aktualizacja/csv",
+            "format": "csv",
+            "file_size": 2289
+          }
+        ],
+        "description": "<p>Przyczyny niepełnosprawności - osoby powyżej 16-go roku życia.</p>\n\n<p>Aktualizacja</p>",
+        "jsonld_file_url": "https://api.dane.gov.pl/media/resources/20251008/AktualizacjaTab3-OD-2024-IV.jsonld",
+        "csv_file_size": 2289,
+        "is_chart_creation_blocked": false,
+        "regions": [
+          {
+            "hierarchy_label": "Poland",
+            "name": "Poland",
+            "region_id": "85633723"
+          }
+        ],
+        "has_high_value_data_from_ec_list": false,
+        "language": "pl",
+        "has_dynamic_data": false,
+        "supplements": [],
+        "verified": "2025-10-13T13:33:24Z",
+        "views_count": 15,
+        "has_research_data": false,
+        "created": "2025-10-08T07:39:39Z",
+        "format": "xls",
+        "data_date": "2024-12-31",
+        "visualization_types": [
+          "table"
+        ]
+      },
+      "relationships": {
+        "institution": {
+          "links": {
+            "related": "https://api.dane.gov.pl/1.4/institutions/30,ministerstwo-rodziny-pracy-i-polityki-spolecznej"
+          },
+          "data": {
+            "type": "institution",
+            "id": "30"
+          }
+        },
+        "chart": {
+          "links": {
+            "related": "https://api.dane.gov.pl/1.4/resources/211280/chart"
+          },
+          "data": {
+            "type": "chart",
+            "id": "211280"
+          }
+        },
+        "dataset": {
+          "links": {
+            "related": "https://api.dane.gov.pl/1.4/datasets/4660,osoby-zaliczone-do-stopnia-niepelnosprawnosci-praw"
+          },
+          "data": {
+            "type": "dataset",
+            "id": "4660"
+          }
+        }
+      },
+      "id": "211280",
+      "links": {
+        "self": "https://api.dane.gov.pl/1.4/resources/211280,przyczyny-niepenosprawnosci-wedug-stanu-na-iv-kw2024-aktualizacja"
+      }
+    },
+    {
+      "type": "resource",
+      "attributes": {
+        "media_type": "file",
+        "special_signs": [],
+        "jsonld_download_url": "https://api.dane.gov.pl/resources/63917,liczba-przyczyn-niepenosprawnosci-wedug-stanu-na-ii-kw2024/jsonld",
+        "has_high_value_data": false,
+        "jsonld_file_size": 8510,
+        "downloads_count": 245,
+        "csv_download_url": "https://api.dane.gov.pl/resources/63917,liczba-przyczyn-niepenosprawnosci-wedug-stanu-na-ii-kw2024/csv",
+        "contains_protected_data": false,
+        "openness_score": 4,
+        "title": "Liczba przyczyn niepełnosprawności według stanu na II kw.2024.",
+        "download_url": "https://api.dane.gov.pl/resources/63917,liczba-przyczyn-niepenosprawnosci-wedug-stanu-na-ii-kw2024/file",
+        "link": "https://api.dane.gov.pl/media/resources/20250124/Tab4-OD.xls",
+        "file_size": 36352,
+        "modified": "2025-01-24T09:54:46Z",
+        "file_url": "https://api.dane.gov.pl/media/resources/20250124/Tab4-OD.xls",
+        "csv_file_url": "https://api.dane.gov.pl/media/resources/20250124/Tab4-OD.csv",
+        "files": [
+          {
+            "openness_score": 2,
+            "download_url": "https://api.dane.gov.pl/resources/63917,liczba-przyczyn-niepenosprawnosci-wedug-stanu-na-ii-kw2024/file",
+            "format": "xls",
+            "file_size": 36352
+          },
+          {
+            "openness_score": 4,
+            "download_url": "https://api.dane.gov.pl/resources/63917,liczba-przyczyn-niepenosprawnosci-wedug-stanu-na-ii-kw2024/jsonld",
+            "format": "jsonld",
+            "file_size": 8510
+          },
+          {
+            "openness_score": 3,
+            "download_url": "https://api.dane.gov.pl/resources/63917,liczba-przyczyn-niepenosprawnosci-wedug-stanu-na-ii-kw2024/csv",
+            "format": "csv",
+            "file_size": 940
+          }
+        ],
+        "description": "<p>Liczba przyczyn niepełnosprawności dla osób powyżej 16-go roku życia.</p>",
+        "jsonld_file_url": "https://api.dane.gov.pl/media/resources/20250124/Tab4-OD.jsonld",
+        "csv_file_size": 940,
+        "is_chart_creation_blocked": false,
+        "regions": [
+          {
+            "hierarchy_label": "Poland",
+            "name": "Poland",
+            "region_id": "85633723"
+          }
+        ],
+        "has_high_value_data_from_ec_list": false,
+        "language": "pl",
+        "has_dynamic_data": false,
+        "supplements": [],
+        "verified": "2025-01-24T09:55:39Z",
+        "views_count": 99,
+        "has_research_data": false,
+        "created": "2025-01-24T09:54:46Z",
+        "format": "xls",
+        "data_date": "2024-06-30",
+        "visualization_types": [
+          "table"
+        ]
+      },
+      "relationships": {
+        "institution": {
+          "links": {
+            "related": "https://api.dane.gov.pl/1.4/institutions/30,ministerstwo-rodziny-pracy-i-polityki-spolecznej"
+          },
+          "data": {
+            "type": "institution",
+            "id": "30"
+          }
+        },
+        "tabular_data": {
+          "links": {
+            "related": "https://api.dane.gov.pl/1.4/resources/63917/data"
+          },
+          "data": {
+            "type": "tabular_data",
+            "id": "63917"
+          }
+        },
+        "chart": {
+          "links": {
+            "related": "https://api.dane.gov.pl/1.4/resources/63917/chart"
+          },
+          "data": {
+            "type": "chart",
+            "id": "63917"
+          }
+        },
+        "dataset": {
+          "links": {
+            "related": "https://api.dane.gov.pl/1.4/datasets/4660,osoby-zaliczone-do-stopnia-niepelnosprawnosci-praw"
+          },
+          "data": {
+            "type": "dataset",
+            "id": "4660"
+          }
+        }
+      },
+      "id": "63917",
+      "links": {
+        "self": "https://api.dane.gov.pl/1.4/resources/63917,liczba-przyczyn-niepenosprawnosci-wedug-stanu-na-ii-kw2024"
+      }
+    },
+    {
+      "type": "resource",
+      "attributes": {
+        "media_type": "file",
+        "special_signs": [],
+        "jsonld_download_url": "https://api.dane.gov.pl/resources/270308,przyczyny-niepenosprawnosci-wedug-stanu-na-i-kw2025/jsonld",
+        "has_high_value_data": false,
+        "jsonld_file_size": 34688,
+        "downloads_count": 7,
+        "csv_download_url": "https://api.dane.gov.pl/resources/270308,przyczyny-niepenosprawnosci-wedug-stanu-na-i-kw2025/csv",
+        "contains_protected_data": false,
+        "openness_score": 4,
+        "title": "Przyczyny niepełnosprawności według stanu na I kw.2025.",
+        "download_url": "https://api.dane.gov.pl/resources/270308,przyczyny-niepenosprawnosci-wedug-stanu-na-i-kw2025/file",
+        "link": "https://api.dane.gov.pl/media/resources/20251016/Tab3-OD_Ikw_2025.xls",
+        "file_size": 38400,
+        "modified": "2025-10-16T07:57:27Z",
+        "file_url": "https://api.dane.gov.pl/media/resources/20251016/Tab3-OD_Ikw_2025.xls",
+        "csv_file_url": "https://api.dane.gov.pl/media/resources/20251016/Tab3-OD_Ikw_2025.csv",
+        "files": [
+          {
+            "openness_score": 2,
+            "download_url": "https://api.dane.gov.pl/resources/270308,przyczyny-niepenosprawnosci-wedug-stanu-na-i-kw2025/file",
+            "format": "xls",
+            "file_size": 38400
+          },
+          {
+            "openness_score": 4,
+            "download_url": "https://api.dane.gov.pl/resources/270308,przyczyny-niepenosprawnosci-wedug-stanu-na-i-kw2025/jsonld",
+            "format": "jsonld",
+            "file_size": 34688
+          },
+          {
+            "openness_score": 3,
+            "download_url": "https://api.dane.gov.pl/resources/270308,przyczyny-niepenosprawnosci-wedug-stanu-na-i-kw2025/csv",
+            "format": "csv",
+            "file_size": 2293
+          }
+        ],
+        "description": "<p>Przyczyny niepełnosprawności - osoby powyżej 16-go roku życia</p>",
+        "jsonld_file_url": "https://api.dane.gov.pl/media/resources/20251016/Tab3-OD_Ikw_2025.jsonld",
+        "csv_file_size": 2293,
+        "is_chart_creation_blocked": false,
+        "regions": [
+          {
+            "hierarchy_label": "Poland",
+            "name": "Poland",
+            "region_id": "85633723"
+          }
+        ],
+        "has_high_value_data_from_ec_list": false,
+        "language": "pl",
+        "has_dynamic_data": false,
+        "supplements": [],
+        "verified": "2025-10-16T08:59:04Z",
+        "views_count": 18,
+        "has_research_data": false,
+        "created": "2025-10-16T07:57:27Z",
+        "format": "xls",
+        "data_date": "2025-03-31",
+        "visualization_types": [
+          "table"
+        ]
+      },
+      "relationships": {
+        "institution": {
+          "links": {
+            "related": "https://api.dane.gov.pl/1.4/institutions/30,ministerstwo-rodziny-pracy-i-polityki-spolecznej"
+          },
+          "data": {
+            "type": "institution",
+            "id": "30"
+          }
+        },
+        "tabular_data": {
+          "links": {
+            "related": "https://api.dane.gov.pl/1.4/resources/270308/data"
+          },
+          "data": {
+            "type": "tabular_data",
+            "id": "270308"
+          }
+        },
+        "chart": {
+          "links": {
+            "related": "https://api.dane.gov.pl/1.4/resources/270308/chart"
+          },
+          "data": {
+            "type": "chart",
+            "id": "270308"
+          }
+        },
+        "dataset": {
+          "links": {
+            "related": "https://api.dane.gov.pl/1.4/datasets/4660,osoby-zaliczone-do-stopnia-niepelnosprawnosci-praw"
+          },
+          "data": {
+            "type": "dataset",
+            "id": "4660"
+          }
+        }
+      },
+      "id": "270308",
+      "links": {
+        "self": "https://api.dane.gov.pl/1.4/resources/270308,przyczyny-niepenosprawnosci-wedug-stanu-na-i-kw2025"
+      }
+    },
+    {
+      "type": "resource",
+      "attributes": {
+        "media_type": "file",
+        "special_signs": [],
+        "jsonld_download_url": "https://api.dane.gov.pl/resources/270683,liczba-przyczyn-niepenosprawnosci-wedug-stanu-na-i-kw2025/jsonld",
+        "has_high_value_data": false,
+        "jsonld_file_size": 9027,
+        "downloads_count": 7,
+        "csv_download_url": "https://api.dane.gov.pl/resources/270683,liczba-przyczyn-niepenosprawnosci-wedug-stanu-na-i-kw2025/csv",
+        "contains_protected_data": false,
+        "openness_score": 4,
+        "title": "Liczba przyczyn niepełnosprawności według stanu na I kw.2025.",
+        "download_url": "https://api.dane.gov.pl/resources/270683,liczba-przyczyn-niepenosprawnosci-wedug-stanu-na-i-kw2025/file",
+        "link": "https://api.dane.gov.pl/media/resources/20251016/Tab4-OD_Ikw_2025.xls",
+        "file_size": 35840,
+        "modified": "2025-10-16T13:08:14Z",
+        "file_url": "https://api.dane.gov.pl/media/resources/20251016/Tab4-OD_Ikw_2025.xls",
+        "csv_file_url": "https://api.dane.gov.pl/media/resources/20251016/Tab4-OD_Ikw_2025.csv",
+        "files": [
+          {
+            "openness_score": 2,
+            "download_url": "https://api.dane.gov.pl/resources/270683,liczba-przyczyn-niepenosprawnosci-wedug-stanu-na-i-kw2025/file",
+            "format": "xls",
+            "file_size": 35840
+          },
+          {
+            "openness_score": 4,
+            "download_url": "https://api.dane.gov.pl/resources/270683,liczba-przyczyn-niepenosprawnosci-wedug-stanu-na-i-kw2025/jsonld",
+            "format": "jsonld",
+            "file_size": 9027
+          },
+          {
+            "openness_score": 3,
+            "download_url": "https://api.dane.gov.pl/resources/270683,liczba-przyczyn-niepenosprawnosci-wedug-stanu-na-i-kw2025/csv",
+            "format": "csv",
+            "file_size": 935
+          }
+        ],
+        "description": "<p>Liczba przyczyn niepełnosprawności dla osób powyżej 16-go roku życia.</p>",
+        "jsonld_file_url": "https://api.dane.gov.pl/media/resources/20251016/Tab4-OD_Ikw_2025.jsonld",
+        "csv_file_size": 935,
+        "is_chart_creation_blocked": false,
+        "regions": [
+          {
+            "hierarchy_label": "Poland",
+            "name": "Poland",
+            "region_id": "85633723"
+          }
+        ],
+        "has_high_value_data_from_ec_list": false,
+        "language": "pl",
+        "has_dynamic_data": false,
+        "supplements": [],
+        "verified": "2025-10-16T13:09:07Z",
+        "views_count": 16,
+        "has_research_data": false,
+        "created": "2025-10-16T07:59:55Z",
+        "format": "xls",
+        "data_date": "2025-03-31",
+        "visualization_types": [
+          "table"
+        ]
+      },
+      "relationships": {
+        "institution": {
+          "links": {
+            "related": "https://api.dane.gov.pl/1.4/institutions/30,ministerstwo-rodziny-pracy-i-polityki-spolecznej"
+          },
+          "data": {
+            "type": "institution",
+            "id": "30"
+          }
+        },
+        "tabular_data": {
+          "links": {
+            "related": "https://api.dane.gov.pl/1.4/resources/270683/data"
+          },
+          "data": {
+            "type": "tabular_data",
+            "id": "270683"
+          }
+        },
+        "chart": {
+          "links": {
+            "related": "https://api.dane.gov.pl/1.4/resources/270683/chart"
+          },
+          "data": {
+            "type": "chart",
+            "id": "270683"
+          }
+        },
+        "dataset": {
+          "links": {
+            "related": "https://api.dane.gov.pl/1.4/datasets/4660,osoby-zaliczone-do-stopnia-niepelnosprawnosci-praw"
+          },
+          "data": {
+            "type": "dataset",
+            "id": "4660"
+          }
+        }
+      },
+      "id": "270683",
+      "links": {
+        "self": "https://api.dane.gov.pl/1.4/resources/270683,liczba-przyczyn-niepenosprawnosci-wedug-stanu-na-i-kw2025"
+      }
+    },
+    {
+      "type": "resource",
+      "attributes": {
+        "media_type": "file",
+        "special_signs": [],
+        "jsonld_download_url": "https://api.dane.gov.pl/resources/65299,przyczyny-niepenosprawnosci-wedug-stanu-na-iv-kw2024/jsonld",
+        "has_high_value_data": false,
+        "jsonld_file_size": 34455,
+        "downloads_count": 222,
+        "csv_download_url": "https://api.dane.gov.pl/resources/65299,przyczyny-niepenosprawnosci-wedug-stanu-na-iv-kw2024/csv",
+        "contains_protected_data": false,
+        "openness_score": 4,
+        "title": "Przyczyny niepełnosprawności według stanu na IV kw.2024.",
+        "download_url": "https://api.dane.gov.pl/resources/65299,przyczyny-niepenosprawnosci-wedug-stanu-na-iv-kw2024/file",
+        "link": "https://api.dane.gov.pl/media/resources/20250313/Tab3-IV-2024-OD.xls",
+        "file_size": 38400,
+        "modified": "2025-03-13T12:06:58Z",
+        "file_url": "https://api.dane.gov.pl/media/resources/20250313/Tab3-IV-2024-OD.xls",
+        "csv_file_url": "https://api.dane.gov.pl/media/resources/20250313/Tab3-IV-2024-OD.csv",
+        "files": [
+          {
+            "openness_score": 2,
+            "download_url": "https://api.dane.gov.pl/resources/65299,przyczyny-niepenosprawnosci-wedug-stanu-na-iv-kw2024/file",
+            "format": "xls",
+            "file_size": 38400
+          },
+          {
+            "openness_score": 4,
+            "download_url": "https://api.dane.gov.pl/resources/65299,przyczyny-niepenosprawnosci-wedug-stanu-na-iv-kw2024/jsonld",
+            "format": "jsonld",
+            "file_size": 34455
+          },
+          {
+            "openness_score": 3,
+            "download_url": "https://api.dane.gov.pl/resources/65299,przyczyny-niepenosprawnosci-wedug-stanu-na-iv-kw2024/csv",
+            "format": "csv",
+            "file_size": 2289
+          }
+        ],
+        "description": "<p>Przyczyny niepełnosprawności - osoby powyżej 16-go roku życia</p>",
+        "jsonld_file_url": "https://api.dane.gov.pl/media/resources/20250313/Tab3-IV-2024-OD.jsonld",
+        "csv_file_size": 2289,
+        "is_chart_creation_blocked": false,
+        "regions": [
+          {
+            "hierarchy_label": "Poland",
+            "name": "Poland",
+            "region_id": "85633723"
+          }
+        ],
+        "has_high_value_data_from_ec_list": false,
+        "language": "pl",
+        "has_dynamic_data": false,
+        "supplements": [],
+        "verified": "2025-03-13T12:07:44Z",
+        "views_count": 108,
+        "has_research_data": false,
+        "created": "2025-03-13T12:06:58Z",
+        "format": "xls",
+        "data_date": "2024-12-31",
+        "visualization_types": [
+          "table"
+        ]
+      },
+      "relationships": {
+        "institution": {
+          "links": {
+            "related": "https://api.dane.gov.pl/1.4/institutions/30,ministerstwo-rodziny-pracy-i-polityki-spolecznej"
+          },
+          "data": {
+            "type": "institution",
+            "id": "30"
+          }
+        },
+        "tabular_data": {
+          "links": {
+            "related": "https://api.dane.gov.pl/1.4/resources/65299/data"
+          },
+          "data": {
+            "type": "tabular_data",
+            "id": "65299"
+          }
+        },
+        "chart": {
+          "links": {
+            "related": "https://api.dane.gov.pl/1.4/resources/65299/chart"
+          },
+          "data": {
+            "type": "chart",
+            "id": "65299"
+          }
+        },
+        "dataset": {
+          "links": {
+            "related": "https://api.dane.gov.pl/1.4/datasets/4660,osoby-zaliczone-do-stopnia-niepelnosprawnosci-praw"
+          },
+          "data": {
+            "type": "dataset",
+            "id": "4660"
+          }
+        }
+      },
+      "id": "65299",
+      "links": {
+        "self": "https://api.dane.gov.pl/1.4/resources/65299,przyczyny-niepenosprawnosci-wedug-stanu-na-iv-kw2024"
+      }
+    },
+    {
+      "type": "resource",
+      "attributes": {
+        "media_type": "file",
+        "special_signs": [],
+        "jsonld_download_url": "https://api.dane.gov.pl/resources/273595,liczba-przyczyn-niepenosprawnosci-wedug-stanu-na-ii-kw2025/jsonld",
+        "has_high_value_data": false,
+        "jsonld_file_size": 9085,
+        "downloads_count": 7,
+        "csv_download_url": "https://api.dane.gov.pl/resources/273595,liczba-przyczyn-niepenosprawnosci-wedug-stanu-na-ii-kw2025/csv",
+        "contains_protected_data": false,
+        "openness_score": 4,
+        "title": "Liczba przyczyn niepełnosprawności według stanu na II kw.2025.",
+        "download_url": "https://api.dane.gov.pl/resources/273595,liczba-przyczyn-niepenosprawnosci-wedug-stanu-na-ii-kw2025/file",
+        "link": "https://api.dane.gov.pl/media/resources/20251016/Tab4-OD_IIkw_2025.xls",
+        "file_size": 35840,
+        "modified": "2025-10-16T08:15:47Z",
+        "file_url": "https://api.dane.gov.pl/media/resources/20251016/Tab4-OD_IIkw_2025.xls",
+        "csv_file_url": "https://api.dane.gov.pl/media/resources/20251016/Tab4-OD_IIkw_2025.csv",
+        "files": [
+          {
+            "openness_score": 2,
+            "download_url": "https://api.dane.gov.pl/resources/273595,liczba-przyczyn-niepenosprawnosci-wedug-stanu-na-ii-kw2025/file",
+            "format": "xls",
+            "file_size": 35840
+          },
+          {
+            "openness_score": 4,
+            "download_url": "https://api.dane.gov.pl/resources/273595,liczba-przyczyn-niepenosprawnosci-wedug-stanu-na-ii-kw2025/jsonld",
+            "format": "jsonld",
+            "file_size": 9085
+          },
+          {
+            "openness_score": 3,
+            "download_url": "https://api.dane.gov.pl/resources/273595,liczba-przyczyn-niepenosprawnosci-wedug-stanu-na-ii-kw2025/csv",
+            "format": "csv",
+            "file_size": 935
+          }
+        ],
+        "description": "<p>Liczba przyczyn niepełnosprawności dla osób powyżej 16-go roku życia.</p>",
+        "jsonld_file_url": "https://api.dane.gov.pl/media/resources/20251016/Tab4-OD_IIkw_2025.jsonld",
+        "csv_file_size": 935,
+        "is_chart_creation_blocked": false,
+        "regions": [
+          {
+            "hierarchy_label": "Poland",
+            "name": "Poland",
+            "region_id": "85633723"
+          }
+        ],
+        "has_high_value_data_from_ec_list": false,
+        "language": "pl",
+        "has_dynamic_data": false,
+        "supplements": [],
+        "verified": "2025-10-16T10:31:09Z",
+        "views_count": 14,
+        "has_research_data": false,
+        "created": "2025-10-16T08:15:47Z",
+        "format": "xls",
+        "data_date": "2025-06-30",
+        "visualization_types": [
+          "table"
+        ]
+      },
+      "relationships": {
+        "institution": {
+          "links": {
+            "related": "https://api.dane.gov.pl/1.4/institutions/30,ministerstwo-rodziny-pracy-i-polityki-spolecznej"
+          },
+          "data": {
+            "type": "institution",
+            "id": "30"
+          }
+        },
+        "tabular_data": {
+          "links": {
+            "related": "https://api.dane.gov.pl/1.4/resources/273595/data"
+          },
+          "data": {
+            "type": "tabular_data",
+            "id": "273595"
+          }
+        },
+        "chart": {
+          "links": {
+            "related": "https://api.dane.gov.pl/1.4/resources/273595/chart"
+          },
+          "data": {
+            "type": "chart",
+            "id": "273595"
+          }
+        },
+        "dataset": {
+          "links": {
+            "related": "https://api.dane.gov.pl/1.4/datasets/4660,osoby-zaliczone-do-stopnia-niepelnosprawnosci-praw"
+          },
+          "data": {
+            "type": "dataset",
+            "id": "4660"
+          }
+        }
+      },
+      "id": "273595",
+      "links": {
+        "self": "https://api.dane.gov.pl/1.4/resources/273595,liczba-przyczyn-niepenosprawnosci-wedug-stanu-na-ii-kw2025"
+      }
+    },
+    {
+      "type": "resource",
+      "attributes": {
+        "media_type": "file",
+        "special_signs": [],
+        "jsonld_download_url": "https://api.dane.gov.pl/resources/487526,przyczyny-niepenosprawnosci-wedug-stanu-na-iii-kw2025/jsonld",
+        "has_high_value_data": false,
+        "jsonld_file_size": 35151,
+        "downloads_count": 4,
+        "csv_download_url": "https://api.dane.gov.pl/resources/487526,przyczyny-niepenosprawnosci-wedug-stanu-na-iii-kw2025/csv",
+        "contains_protected_data": false,
+        "openness_score": 4,
+        "title": "Przyczyny niepełnosprawności według stanu na III kw.2025.",
+        "download_url": "https://api.dane.gov.pl/resources/487526,przyczyny-niepenosprawnosci-wedug-stanu-na-iii-kw2025/file",
+        "link": "https://api.dane.gov.pl/media/resources/20251105/Tab3-OD_IIIkw_2025.xls",
+        "file_size": 38400,
+        "modified": "2025-11-05T09:27:24Z",
+        "file_url": "https://api.dane.gov.pl/media/resources/20251105/Tab3-OD_IIIkw_2025.xls",
+        "csv_file_url": "https://api.dane.gov.pl/media/resources/20251105/Tab3-OD_IIIkw_2025.csv",
+        "files": [
+          {
+            "openness_score": 2,
+            "download_url": "https://api.dane.gov.pl/resources/487526,przyczyny-niepenosprawnosci-wedug-stanu-na-iii-kw2025/file",
+            "format": "xls",
+            "file_size": 38400
+          },
+          {
+            "openness_score": 4,
+            "download_url": "https://api.dane.gov.pl/resources/487526,przyczyny-niepenosprawnosci-wedug-stanu-na-iii-kw2025/jsonld",
+            "format": "jsonld",
+            "file_size": 35151
+          },
+          {
+            "openness_score": 3,
+            "download_url": "https://api.dane.gov.pl/resources/487526,przyczyny-niepenosprawnosci-wedug-stanu-na-iii-kw2025/csv",
+            "format": "csv",
+            "file_size": 2298
+          }
+        ],
+        "description": "<p>Przyczyny niepełnosprawności - osoby powyżej 16-go roku życia</p>",
+        "jsonld_file_url": "https://api.dane.gov.pl/media/resources/20251105/Tab3-OD_IIIkw_2025.jsonld",
+        "csv_file_size": 2298,
+        "is_chart_creation_blocked": false,
+        "regions": [
+          {
+            "hierarchy_label": "Poland",
+            "name": "Poland",
+            "region_id": "85633723"
+          }
+        ],
+        "has_high_value_data_from_ec_list": false,
+        "language": "pl",
+        "has_dynamic_data": false,
+        "supplements": [],
+        "verified": "2025-11-05T09:29:25Z",
+        "views_count": 3,
+        "has_research_data": false,
+        "created": "2025-11-05T09:27:24Z",
+        "format": "xls",
+        "data_date": "2025-09-30",
+        "visualization_types": [
+          "table"
+        ]
+      },
+      "relationships": {
+        "institution": {
+          "links": {
+            "related": "https://api.dane.gov.pl/1.4/institutions/30,ministerstwo-rodziny-pracy-i-polityki-spolecznej"
+          },
+          "data": {
+            "type": "institution",
+            "id": "30"
+          }
+        },
+        "tabular_data": {
+          "links": {
+            "related": "https://api.dane.gov.pl/1.4/resources/487526/data"
+          },
+          "data": {
+            "type": "tabular_data",
+            "id": "487526"
+          }
+        },
+        "chart": {
+          "links": {
+            "related": "https://api.dane.gov.pl/1.4/resources/487526/chart"
+          },
+          "data": {
+            "type": "chart",
+            "id": "487526"
+          }
+        },
+        "dataset": {
+          "links": {
+            "related": "https://api.dane.gov.pl/1.4/datasets/4660,osoby-zaliczone-do-stopnia-niepelnosprawnosci-praw"
+          },
+          "data": {
+            "type": "dataset",
+            "id": "4660"
+          }
+        }
+      },
+      "id": "487526",
+      "links": {
+        "self": "https://api.dane.gov.pl/1.4/resources/487526,przyczyny-niepenosprawnosci-wedug-stanu-na-iii-kw2025"
+      }
+    },
+    {
+      "type": "resource",
+      "attributes": {
+        "media_type": "file",
+        "special_signs": [],
+        "jsonld_download_url": "https://api.dane.gov.pl/resources/487528,liczba-przyczyn-niepenosprawnosci-wedug-stanu-na-iii-kw2025/jsonld",
+        "has_high_value_data": false,
+        "jsonld_file_size": 9143,
+        "downloads_count": 3,
+        "csv_download_url": "https://api.dane.gov.pl/resources/487528,liczba-przyczyn-niepenosprawnosci-wedug-stanu-na-iii-kw2025/csv",
+        "contains_protected_data": false,
+        "openness_score": 4,
+        "title": "Liczba przyczyn niepełnosprawności według stanu na III kw.2025.",
+        "download_url": "https://api.dane.gov.pl/resources/487528,liczba-przyczyn-niepenosprawnosci-wedug-stanu-na-iii-kw2025/file",
+        "link": "https://api.dane.gov.pl/media/resources/20251105/Tab4-OD_IIIkw_2025.xls",
+        "file_size": 35840,
+        "modified": "2025-11-05T09:28:04Z",
+        "file_url": "https://api.dane.gov.pl/media/resources/20251105/Tab4-OD_IIIkw_2025.xls",
+        "csv_file_url": "https://api.dane.gov.pl/media/resources/20251105/Tab4-OD_IIIkw_2025.csv",
+        "files": [
+          {
+            "openness_score": 2,
+            "download_url": "https://api.dane.gov.pl/resources/487528,liczba-przyczyn-niepenosprawnosci-wedug-stanu-na-iii-kw2025/file",
+            "format": "xls",
+            "file_size": 35840
+          },
+          {
+            "openness_score": 4,
+            "download_url": "https://api.dane.gov.pl/resources/487528,liczba-przyczyn-niepenosprawnosci-wedug-stanu-na-iii-kw2025/jsonld",
+            "format": "jsonld",
+            "file_size": 9143
+          },
+          {
+            "openness_score": 3,
+            "download_url": "https://api.dane.gov.pl/resources/487528,liczba-przyczyn-niepenosprawnosci-wedug-stanu-na-iii-kw2025/csv",
+            "format": "csv",
+            "file_size": 935
+          }
+        ],
+        "description": "<p>Liczba przyczyn niepełnosprawności dla osób powyżej 16-go roku życia.</p>",
+        "jsonld_file_url": "https://api.dane.gov.pl/media/resources/20251105/Tab4-OD_IIIkw_2025.jsonld",
+        "csv_file_size": 935,
+        "is_chart_creation_blocked": false,
+        "regions": [
+          {
+            "hierarchy_label": "Poland",
+            "name": "Poland",
+            "region_id": "85633723"
+          }
+        ],
+        "has_high_value_data_from_ec_list": false,
+        "language": "pl",
+        "has_dynamic_data": false,
+        "supplements": [],
+        "verified": "2025-11-05T09:30:57Z",
+        "views_count": 4,
+        "has_research_data": false,
+        "created": "2025-11-05T09:28:04Z",
+        "format": "xls",
+        "data_date": "2025-09-30",
+        "visualization_types": [
+          "table"
+        ]
+      },
+      "relationships": {
+        "institution": {
+          "links": {
+            "related": "https://api.dane.gov.pl/1.4/institutions/30,ministerstwo-rodziny-pracy-i-polityki-spolecznej"
+          },
+          "data": {
+            "type": "institution",
+            "id": "30"
+          }
+        },
+        "tabular_data": {
+          "links": {
+            "related": "https://api.dane.gov.pl/1.4/resources/487528/data"
+          },
+          "data": {
+            "type": "tabular_data",
+            "id": "487528"
+          }
+        },
+        "chart": {
+          "links": {
+            "related": "https://api.dane.gov.pl/1.4/resources/487528/chart"
+          },
+          "data": {
+            "type": "chart",
+            "id": "487528"
+          }
+        },
+        "dataset": {
+          "links": {
+            "related": "https://api.dane.gov.pl/1.4/datasets/4660,osoby-zaliczone-do-stopnia-niepelnosprawnosci-praw"
+          },
+          "data": {
+            "type": "dataset",
+            "id": "4660"
+          }
+        }
+      },
+      "id": "487528",
+      "links": {
+        "self": "https://api.dane.gov.pl/1.4/resources/487528,liczba-przyczyn-niepenosprawnosci-wedug-stanu-na-iii-kw2025"
+      }
+    },
+    {
+      "type": "resource",
+      "attributes": {
+        "media_type": "file",
+        "special_signs": [],
+        "jsonld_download_url": "https://api.dane.gov.pl/resources/273348,przyczyny-niepenosprawnosci-wedug-stanu-na-ii-kw2025/jsonld",
+        "has_high_value_data": false,
+        "jsonld_file_size": 34920,
+        "downloads_count": 8,
+        "csv_download_url": "https://api.dane.gov.pl/resources/273348,przyczyny-niepenosprawnosci-wedug-stanu-na-ii-kw2025/csv",
+        "contains_protected_data": false,
+        "openness_score": 4,
+        "title": "Przyczyny niepełnosprawności według stanu na II kw.2025.",
+        "download_url": "https://api.dane.gov.pl/resources/273348,przyczyny-niepenosprawnosci-wedug-stanu-na-ii-kw2025/file",
+        "link": "https://api.dane.gov.pl/media/resources/20251016/Tab3-OD_IIkw_2025.xls",
+        "file_size": 38400,
+        "modified": "2025-10-16T08:14:43Z",
+        "file_url": "https://api.dane.gov.pl/media/resources/20251016/Tab3-OD_IIkw_2025.xls",
+        "csv_file_url": "https://api.dane.gov.pl/media/resources/20251016/Tab3-OD_IIkw_2025.csv",
+        "files": [
+          {
+            "openness_score": 2,
+            "download_url": "https://api.dane.gov.pl/resources/273348,przyczyny-niepenosprawnosci-wedug-stanu-na-ii-kw2025/file",
+            "format": "xls",
+            "file_size": 38400
+          },
+          {
+            "openness_score": 4,
+            "download_url": "https://api.dane.gov.pl/resources/273348,przyczyny-niepenosprawnosci-wedug-stanu-na-ii-kw2025/jsonld",
+            "format": "jsonld",
+            "file_size": 34920
+          },
+          {
+            "openness_score": 3,
+            "download_url": "https://api.dane.gov.pl/resources/273348,przyczyny-niepenosprawnosci-wedug-stanu-na-ii-kw2025/csv",
+            "format": "csv",
+            "file_size": 2296
+          }
+        ],
+        "description": "<p>Przyczyny niepełnosprawności - osoby powyżej 16-go roku życia</p>",
+        "jsonld_file_url": "https://api.dane.gov.pl/media/resources/20251016/Tab3-OD_IIkw_2025.jsonld",
+        "csv_file_size": 2296,
+        "is_chart_creation_blocked": false,
+        "regions": [
+          {
+            "hierarchy_label": "Poland",
+            "name": "Poland",
+            "region_id": "85633723"
+          }
+        ],
+        "has_high_value_data_from_ec_list": false,
+        "language": "pl",
+        "has_dynamic_data": false,
+        "supplements": [],
+        "verified": "2025-10-16T10:19:36Z",
+        "views_count": 21,
+        "has_research_data": false,
+        "created": "2025-10-16T08:14:43Z",
+        "format": "xls",
+        "data_date": "2025-06-30",
+        "visualization_types": [
+          "table"
+        ]
+      },
+      "relationships": {
+        "institution": {
+          "links": {
+            "related": "https://api.dane.gov.pl/1.4/institutions/30,ministerstwo-rodziny-pracy-i-polityki-spolecznej"
+          },
+          "data": {
+            "type": "institution",
+            "id": "30"
+          }
+        },
+        "tabular_data": {
+          "links": {
+            "related": "https://api.dane.gov.pl/1.4/resources/273348/data"
+          },
+          "data": {
+            "type": "tabular_data",
+            "id": "273348"
+          }
+        },
+        "chart": {
+          "links": {
+            "related": "https://api.dane.gov.pl/1.4/resources/273348/chart"
+          },
+          "data": {
+            "type": "chart",
+            "id": "273348"
+          }
+        },
+        "dataset": {
+          "links": {
+            "related": "https://api.dane.gov.pl/1.4/datasets/4660,osoby-zaliczone-do-stopnia-niepelnosprawnosci-praw"
+          },
+          "data": {
+            "type": "dataset",
+            "id": "4660"
+          }
+        }
+      },
+      "id": "273348",
+      "links": {
+        "self": "https://api.dane.gov.pl/1.4/resources/273348,przyczyny-niepenosprawnosci-wedug-stanu-na-ii-kw2025"
+      }
+    },
+    {
+      "type": "resource",
+      "attributes": {
+        "media_type": "file",
+        "special_signs": [],
+        "jsonld_download_url": "https://api.dane.gov.pl/resources/211639,liczba-przyczyn-niepenosprawnosci-wedug-stanu-na-iv-kw2024-aktualizacja/jsonld",
+        "has_high_value_data": false,
+        "jsonld_file_size": 9664,
+        "downloads_count": 10,
+        "csv_download_url": "https://api.dane.gov.pl/resources/211639,liczba-przyczyn-niepenosprawnosci-wedug-stanu-na-iv-kw2024-aktualizacja/csv",
+        "contains_protected_data": false,
+        "openness_score": 4,
+        "title": "Liczba przyczyn niepełnosprawności według stanu na IV kw.2024 - aktualizacja",
+        "download_url": "https://api.dane.gov.pl/resources/211639,liczba-przyczyn-niepenosprawnosci-wedug-stanu-na-iv-kw2024-aktualizacja/file",
+        "link": "https://api.dane.gov.pl/media/resources/20251008/AktualizacjaTab4-OD-2024-IV.xls",
+        "file_size": 35840,
+        "modified": "2025-10-08T07:41:14Z",
+        "file_url": "https://api.dane.gov.pl/media/resources/20251008/AktualizacjaTab4-OD-2024-IV.xls",
+        "csv_file_url": "https://api.dane.gov.pl/media/resources/20251008/AktualizacjaTab4-OD-2024-IV.csv",
+        "files": [
+          {
+            "openness_score": 2,
+            "download_url": "https://api.dane.gov.pl/resources/211639,liczba-przyczyn-niepenosprawnosci-wedug-stanu-na-iv-kw2024-aktualizacja/file",
+            "format": "xls",
+            "file_size": 35840
+          },
+          {
+            "openness_score": 4,
+            "download_url": "https://api.dane.gov.pl/resources/211639,liczba-przyczyn-niepenosprawnosci-wedug-stanu-na-iv-kw2024-aktualizacja/jsonld",
+            "format": "jsonld",
+            "file_size": 9664
+          },
+          {
+            "openness_score": 3,
+            "download_url": "https://api.dane.gov.pl/resources/211639,liczba-przyczyn-niepenosprawnosci-wedug-stanu-na-iv-kw2024-aktualizacja/csv",
+            "format": "csv",
+            "file_size": 934
+          }
+        ],
+        "description": "<p>Liczba przyczyn niepełnosprawności dla osób powyżej 16-go roku życia.</p>\n\n<p>Aktualizacja</p>",
+        "jsonld_file_url": "https://api.dane.gov.pl/media/resources/20251008/AktualizacjaTab4-OD-2024-IV.jsonld",
+        "csv_file_size": 934,
+        "is_chart_creation_blocked": false,
+        "regions": [
+          {
+            "hierarchy_label": "Poland",
+            "name": "Poland",
+            "region_id": "85633723"
+          }
+        ],
+        "has_high_value_data_from_ec_list": false,
+        "language": "pl",
+        "has_dynamic_data": false,
+        "supplements": [],
+        "verified": "2025-10-13T13:44:46Z",
+        "views_count": 26,
+        "has_research_data": false,
+        "created": "2025-10-08T07:41:14Z",
+        "format": "xls",
+        "data_date": "2024-12-31",
+        "visualization_types": [
+          "table"
+        ]
+      },
+      "relationships": {
+        "institution": {
+          "links": {
+            "related": "https://api.dane.gov.pl/1.4/institutions/30,ministerstwo-rodziny-pracy-i-polityki-spolecznej"
+          },
+          "data": {
+            "type": "institution",
+            "id": "30"
+          }
+        },
+        "tabular_data": {
+          "links": {
+            "related": "https://api.dane.gov.pl/1.4/resources/211639/data"
+          },
+          "data": {
+            "type": "tabular_data",
+            "id": "211639"
+          }
+        },
+        "chart": {
+          "links": {
+            "related": "https://api.dane.gov.pl/1.4/resources/211639/chart"
+          },
+          "data": {
+            "type": "chart",
+            "id": "211639"
+          }
+        },
+        "dataset": {
+          "links": {
+            "related": "https://api.dane.gov.pl/1.4/datasets/4660,osoby-zaliczone-do-stopnia-niepelnosprawnosci-praw"
+          },
+          "data": {
+            "type": "dataset",
+            "id": "4660"
+          }
+        }
+      },
+      "id": "211639",
+      "links": {
+        "self": "https://api.dane.gov.pl/1.4/resources/211639,liczba-przyczyn-niepenosprawnosci-wedug-stanu-na-iv-kw2024-aktualizacja"
+      }
+    }
+  ],
+  "links": {
+    "self": "https://api.dane.gov.pl/1.4/datasets/4660/resources?page=1&per_page=100"
+  },
+  "meta": {
+    "server_time": "2025-11-10T22:20:45Z",
+    "aggregations": {},
+    "path": "/1.4/datasets/4660/resources",
+    "count": 14,
+    "language": "en",
+    "params": {
+      "page": "1",
+      "per_page": "100"
+    },
+    "relative_uri": "/1.4/datasets/4660/resources?page=1&per_page=100"
+  }
+}

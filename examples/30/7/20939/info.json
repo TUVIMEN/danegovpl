@@ -1,0 +1,93 @@
+{
+  "data": {
+    "links": {
+      "self": "https://api.dane.gov.pl/1.4/resources/20939,specyfikacja-usugi-udostepniajacej-informacje-ze-sownikow-stor-dla-api-kraz-openapi-3_0"
+    },
+    "relationships": {
+      "institution": {
+        "data": {
+          "id": "30",
+          "type": "institution"
+        },
+        "links": {
+          "related": "https://api.dane.gov.pl/1.4/institutions/30,ministerstwo-rodziny-pracy-i-polityki-spolecznej"
+        }
+      },
+      "dataset": {
+        "data": {
+          "id": "7",
+          "type": "dataset"
+        },
+        "links": {
+          "related": "https://api.dane.gov.pl/1.4/datasets/7,rejestr-podmiotow-prowadzacych-agencje-zatrudnienia"
+        }
+      }
+    },
+    "attributes": {
+      "modified": "2019-12-17T11:37:30Z",
+      "files": [
+        {
+          "download_url": "https://api.dane.gov.pl/resources/20939,specyfikacja-usugi-udostepniajacej-informacje-ze-sownikow-stor-dla-api-kraz-openapi-3_0/file",
+          "compressed_file_format": null,
+          "openness_score": 3,
+          "file_size": 21988,
+          "format": "json"
+        }
+      ],
+      "created": "2019-12-17T11:37:29Z",
+      "link": "https://api.dane.gov.pl/media/resources/20191217/Specyfikacja_us%C5%82ugi_udost%C4%99pniaj%C4%85cej_informacje_ze_S%C5%82ownik%C3%B3w_STOR_dla_API_KRAZ_OpenAPI_3_0.json",
+      "category": "Labour and Social Welfare",
+      "title": "Specyfikacja usługi udostępniającej informacje ze Słowników STOR dla API KRAZ (OpenAPI 3_0)",
+      "openness_score": 3,
+      "format": "json",
+      "file_size": 21988,
+      "special_signs": [],
+      "has_high_value_data": null,
+      "has_dynamic_data": null,
+      "language": "pl",
+      "jsonld_file_size": null,
+      "jsonld_download_url": null,
+      "contains_protected_data": false,
+      "views_count": 839,
+      "has_research_data": null,
+      "downloads_count": 345,
+      "csv_file_url": null,
+      "supplements": [],
+      "download_url": "https://api.dane.gov.pl/resources/20939,specyfikacja-usugi-udostepniajacej-informacje-ze-sownikow-stor-dla-api-kraz-openapi-3_0/file",
+      "is_chart_creation_blocked": false,
+      "jsonld_file_url": null,
+      "file_url": "https://api.dane.gov.pl/media/resources/20191217/Specyfikacja_us%C5%82ugi_udost%C4%99pniaj%C4%85cej_informacje_ze_S%C5%82ownik%C3%B3w_STOR_dla_API_KRAZ_OpenAPI_3_0.json",
+      "has_high_value_data_from_ec_list": null,
+      "description": "<p>Specyfikacja usługi udostępniającej informacje ze Słowników STOR dla API KRAZ (OpenAPI 3_0)</p>",
+      "csv_file_size": null,
+      "csv_download_url": null,
+      "media_type": "file",
+      "verified": "2019-12-17T11:37:38Z",
+      "data_date": "2019-12-11",
+      "regions": [
+        {
+          "region_id": "85633723",
+          "name": "Poland",
+          "is_additional": false,
+          "hierarchy_label": "Poland"
+        }
+      ],
+      "visualization_types": []
+    },
+    "type": "resource",
+    "id": "20939"
+  },
+  "links": {
+    "self": "http://api.dane.gov.pl/1.4/resources/20939"
+  },
+  "jsonapi": {
+    "version": "1.0"
+  },
+  "meta": {
+    "path": "/1.4/resources/20939",
+    "server_time": "2025-11-10T22:20:12Z",
+    "params": {},
+    "language": "en",
+    "relative_uri": "/1.4/resources/20939"
+  }
+}

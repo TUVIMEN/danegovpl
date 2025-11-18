@@ -1,0 +1,85 @@
+{
+  "data": {
+    "links": {
+      "self": "https://api.dane.gov.pl/1.4/resources/15636,wydarzenia-psz-usluga-ws"
+    },
+    "relationships": {
+      "institution": {
+        "data": {
+          "id": "30",
+          "type": "institution"
+        },
+        "links": {
+          "related": "https://api.dane.gov.pl/1.4/institutions/30,ministerstwo-rodziny-pracy-i-polityki-spolecznej"
+        }
+      },
+      "dataset": {
+        "data": {
+          "id": "1454",
+          "type": "dataset"
+        },
+        "links": {
+          "related": "https://api.dane.gov.pl/1.4/datasets/1454,wydarzenia-psz"
+        }
+      }
+    },
+    "attributes": {
+      "modified": "2019-08-18T17:14:56Z",
+      "files": [],
+      "created": "2019-02-19T13:21:53Z",
+      "link": "http://oferty.praca.gov.pl/integration/services/wydarzenie?wsdl",
+      "category": "Labour and Social Welfare",
+      "title": "Wydarzenia PSZ - usługa WS",
+      "openness_score": 4,
+      "format": "xml",
+      "file_size": null,
+      "special_signs": [],
+      "has_high_value_data": null,
+      "has_dynamic_data": null,
+      "language": "pl",
+      "jsonld_file_size": null,
+      "jsonld_download_url": null,
+      "contains_protected_data": false,
+      "views_count": 742,
+      "has_research_data": null,
+      "downloads_count": 3,
+      "csv_file_url": null,
+      "supplements": [],
+      "download_url": "",
+      "is_chart_creation_blocked": false,
+      "jsonld_file_url": null,
+      "file_url": "",
+      "has_high_value_data_from_ec_list": null,
+      "description": "<p style=\"margin-left:0cm; margin-right:0cm\">Usługa pobierania danych Web Service.</p>",
+      "csv_file_size": null,
+      "csv_download_url": null,
+      "media_type": "api",
+      "verified": "2025-10-01T03:41:44Z",
+      "data_date": "2019-02-19",
+      "regions": [
+        {
+          "region_id": "85633723",
+          "name": "Poland",
+          "is_additional": false,
+          "hierarchy_label": "Poland"
+        }
+      ],
+      "visualization_types": []
+    },
+    "type": "resource",
+    "id": "15636"
+  },
+  "links": {
+    "self": "http://api.dane.gov.pl/1.4/resources/15636"
+  },
+  "jsonapi": {
+    "version": "1.0"
+  },
+  "meta": {
+    "path": "/1.4/resources/15636",
+    "server_time": "2025-11-10T22:20:26Z",
+    "params": {},
+    "language": "en",
+    "relative_uri": "/1.4/resources/15636"
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "data": {
+    "links": {
+      "self": "https://api.dane.gov.pl/1.4/datasets/4659,osoby-zaliczone-do-osob-niepelnosprawnych-prawomoc"
+    },
+    "relationships": {
+      "showcases": {
+        "meta": {
+          "count": 0
+        },
+        "links": {
+          "related": "https://api.dane.gov.pl/1.4/datasets/4659,osoby-zaliczone-do-osob-niepelnosprawnych-prawomoc/showcases"
+        }
+      },
+      "resources": {
+        "meta": {
+          "count": 14
+        },
+        "links": {
+          "related": "https://api.dane.gov.pl/1.4/datasets/4659,osoby-zaliczone-do-osob-niepelnosprawnych-prawomoc/resources"
+        }
+      },
+      "institution": {
+        "data": {
+          "id": "30",
+          "type": "institution"
+        },
+        "links": {
+          "related": "https://api.dane.gov.pl/1.4/institutions/30,ministerstwo-rodziny-pracy-i-polityki-spolecznej"
+        }
+      }
+    },
+    "attributes": {
+      "modified": "2025-01-24T09:45:07Z",
+      "license_condition_personal_data": null,
+      "created": "2025-01-03T11:52:11Z",
+      "source": null,
+      "category": null,
+      "image_url": "",
+      "title": "Osoby zaliczone do osób niepełnosprawnych prawomocnym orzeczeniem lub wyrokiem sądu - (osoby do lat 16)",
+      "license_name": "CC0 1.0",
+      "is_promoted": false,
+      "license_chosen": null,
+      "current_condition_descriptions": {},
+      "formats": [
+        "csv",
+        "jsonld",
+        "xls"
+      ],
+      "license_description": "",
+      "openness_scores": [
+        4
+      ],
+      "url": "",
+      "has_high_value_data": false,
+      "has_dynamic_data": false,
+      "views_count": 753,
+      "license_condition_original": null,
+      "license_condition_timestamp": null,
+      "has_research_data": false,
+      "downloads_count": 752,
+      "categories": [
+        {
+          "code": "SOCI",
+          "id": "146",
+          "title": "Population and society"
+        },
+        {
+          "code": "HEAL",
+          "id": "147",
+          "title": "Health"
+        }
+      ],
+      "supplements": [],
+      "update_frequency": "Quarterly",
+      "types": [
+        "file"
+      ],
+      "keywords": [],
+      "archived_resources_files_url": "https://api.dane.gov.pl/datasets/4659,osoby-zaliczone-do-osob-niepelnosprawnych-prawomoc/resources/files/download",
+      "license_condition_custom_description": "",
+      "slug": "osoby-zaliczone-do-osob-niepelnosprawnych-prawomoc",
+      "notes": "<p>Osoby zaliczone do osób niepełnosprawnych prawomocnym orzeczeniem lub wyrokiem sądu z uwzględnieniem przyczyny niepełnosprawności, wieku oraz płci</p>",
+      "has_high_value_data_from_ec_list": false,
+      "license_condition_default_cc40": false,
+      "verified": "2025-11-05T09:26:05Z",
+      "license_condition_db_or_copyrighted": "",
+      "regions": [
+        {
+          "region_id": "85633723",
+          "name": "Poland",
+          "is_additional": false,
+          "hierarchy_label": "Poland"
+        }
+      ],
+      "image_alt": "",
+      "visualization_types": [
+        "table"
+      ]
+    },
+    "type": "dataset",
+    "id": "4659"
+  },
+  "links": {
+    "self": "http://api.dane.gov.pl/1.4/datasets/4659"
+  },
+  "jsonapi": {
+    "version": "1.0"
+  },
+  "meta": {
+    "path": "/1.4/datasets/4659",
+    "server_time": "2025-11-10T22:20:42Z",
+    "params": {},
+    "language": "en",
+    "relative_uri": "/1.4/datasets/4659"
+  }
+}

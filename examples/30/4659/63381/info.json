@@ -1,0 +1,127 @@
+{
+  "jsonapi": {
+    "version": "1.0"
+  },
+  "data": {
+    "type": "resource",
+    "attributes": {
+      "media_type": "file",
+      "special_signs": [],
+      "jsonld_download_url": "https://api.dane.gov.pl/resources/63381,liczba-przyczyn-niepenosprawnosci-wedug-stanu-na-ii-kw2024/jsonld",
+      "has_high_value_data": false,
+      "jsonld_file_size": 4150,
+      "downloads_count": 131,
+      "csv_download_url": "https://api.dane.gov.pl/resources/63381,liczba-przyczyn-niepenosprawnosci-wedug-stanu-na-ii-kw2024/csv",
+      "contains_protected_data": false,
+      "openness_score": 4,
+      "title": "Liczba przyczyn niepełnosprawności według stanu na II kw.2024.",
+      "download_url": "https://api.dane.gov.pl/resources/63381,liczba-przyczyn-niepenosprawnosci-wedug-stanu-na-ii-kw2024/file",
+      "link": "https://api.dane.gov.pl/media/resources/20250103/Tab2-OD.xls",
+      "file_size": 34816,
+      "modified": "2025-01-24T11:18:22Z",
+      "file_url": "https://api.dane.gov.pl/media/resources/20250103/Tab2-OD.xls",
+      "csv_file_url": "https://api.dane.gov.pl/media/resources/20250103/Tab2-OD.csv",
+      "files": [
+        {
+          "openness_score": 2,
+          "compressed_file_format": null,
+          "download_url": "https://api.dane.gov.pl/resources/63381,liczba-przyczyn-niepenosprawnosci-wedug-stanu-na-ii-kw2024/file",
+          "format": "xls",
+          "file_size": 34816
+        },
+        {
+          "openness_score": 3,
+          "compressed_file_format": null,
+          "download_url": "https://api.dane.gov.pl/resources/63381,liczba-przyczyn-niepenosprawnosci-wedug-stanu-na-ii-kw2024/csv",
+          "format": "csv",
+          "file_size": 281
+        },
+        {
+          "openness_score": 4,
+          "compressed_file_format": null,
+          "download_url": "https://api.dane.gov.pl/resources/63381,liczba-przyczyn-niepenosprawnosci-wedug-stanu-na-ii-kw2024/jsonld",
+          "format": "jsonld",
+          "file_size": 4150
+        }
+      ],
+      "description": "<p>Liczba przyczyn niepełnosprawności dla osób poniżej 16-go roku życia.</p>",
+      "jsonld_file_url": "https://api.dane.gov.pl/media/resources/20250103/Tab2-OD.jsonld",
+      "csv_file_size": 281,
+      "is_chart_creation_blocked": false,
+      "regions": [
+        {
+          "hierarchy_label": "Poland",
+          "name": "Poland",
+          "is_additional": false,
+          "region_id": "85633723"
+        }
+      ],
+      "has_high_value_data_from_ec_list": false,
+      "language": "pl",
+      "has_dynamic_data": false,
+      "supplements": [],
+      "verified": "2025-01-24T11:19:12Z",
+      "category": null,
+      "views_count": 114,
+      "has_research_data": false,
+      "created": "2025-01-03T12:13:03Z",
+      "format": "xls",
+      "data_date": "2024-06-30",
+      "visualization_types": [
+        "table"
+      ]
+    },
+    "relationships": {
+      "institution": {
+        "links": {
+          "related": "https://api.dane.gov.pl/1.4/institutions/30,ministerstwo-rodziny-pracy-i-polityki-spolecznej"
+        },
+        "data": {
+          "type": "institution",
+          "id": "30"
+        }
+      },
+      "tabular_data": {
+        "links": {
+          "related": "https://api.dane.gov.pl/1.4/resources/63381/data"
+        },
+        "data": {
+          "type": "tabular_data",
+          "id": "63381"
+        }
+      },
+      "chart": {
+        "links": {
+          "related": "https://api.dane.gov.pl/1.4/resources/63381,liczba-przyczyn-niepenosprawnosci-wedug-stanu-na-ii-kw2024/chart"
+        },
+        "data": {
+          "type": "chart",
+          "id": "63381"
+        }
+      },
+      "dataset": {
+        "links": {
+          "related": "https://api.dane.gov.pl/1.4/datasets/4659,osoby-zaliczone-do-osob-niepelnosprawnych-prawomoc"
+        },
+        "data": {
+          "type": "dataset",
+          "id": "4659"
+        }
+      }
+    },
+    "id": "63381",
+    "links": {
+      "self": "https://api.dane.gov.pl/1.4/resources/63381,liczba-przyczyn-niepenosprawnosci-wedug-stanu-na-ii-kw2024"
+    }
+  },
+  "links": {
+    "self": "http://api.dane.gov.pl/1.4/resources/63381"
+  },
+  "meta": {
+    "server_time": "2025-11-10T22:20:42Z",
+    "path": "/1.4/resources/63381",
+    "language": "en",
+    "params": {},
+    "relative_uri": "/1.4/resources/63381"
+  }
+}

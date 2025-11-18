@@ -1,0 +1,240 @@
+{
+  "jsonapi": {
+    "version": "1.0"
+  },
+  "data": [
+    {
+      "type": "resource",
+      "attributes": {
+        "media_type": "file",
+        "special_signs": [],
+        "jsonld_download_url": null,
+        "has_high_value_data": null,
+        "jsonld_file_size": null,
+        "downloads_count": 82,
+        "csv_download_url": null,
+        "contains_protected_data": false,
+        "openness_score": 1,
+        "title": "Warunki udostępniania informacji o wydarzeniach PSZ upowszechnianych w CBOP",
+        "download_url": "https://api.dane.gov.pl/resources/34233,warunki-udostepniania-informacji-o-wydarzeniach-psz-upowszechnianych-w-cbop/file",
+        "link": "https://api.dane.gov.pl/media/resources/20211109/warunki_udostepniania_wydarzen_cbop.docx",
+        "file_size": 32211,
+        "modified": "2021-11-09T10:02:35Z",
+        "file_url": "https://api.dane.gov.pl/media/resources/20211109/warunki_udostepniania_wydarzen_cbop.docx",
+        "csv_file_url": null,
+        "files": [
+          {
+            "openness_score": 1,
+            "download_url": "https://api.dane.gov.pl/resources/34233,warunki-udostepniania-informacji-o-wydarzeniach-psz-upowszechnianych-w-cbop/file",
+            "format": "docx",
+            "file_size": 32211
+          }
+        ],
+        "description": "<p>Warunki udostępniania informacji o wydarzeniach PSZ upowszechnianych w CBOP</p>",
+        "jsonld_file_url": null,
+        "csv_file_size": null,
+        "is_chart_creation_blocked": false,
+        "regions": [
+          {
+            "hierarchy_label": "Poland",
+            "name": "Poland",
+            "region_id": "85633723"
+          }
+        ],
+        "has_high_value_data_from_ec_list": null,
+        "language": "pl",
+        "has_dynamic_data": null,
+        "supplements": [],
+        "verified": "2021-11-09T10:02:41Z",
+        "views_count": 206,
+        "has_research_data": null,
+        "created": "2021-11-09T10:02:35Z",
+        "format": "docx",
+        "data_date": "2021-11-09",
+        "visualization_types": []
+      },
+      "relationships": {
+        "institution": {
+          "links": {
+            "related": "https://api.dane.gov.pl/1.4/institutions/30,ministerstwo-rodziny-pracy-i-polityki-spolecznej"
+          },
+          "data": {
+            "type": "institution",
+            "id": "30"
+          }
+        },
+        "dataset": {
+          "links": {
+            "related": "https://api.dane.gov.pl/1.4/datasets/1454,wydarzenia-psz"
+          },
+          "data": {
+            "type": "dataset",
+            "id": "1454"
+          }
+        }
+      },
+      "id": "34233",
+      "links": {
+        "self": "https://api.dane.gov.pl/1.4/resources/34233,warunki-udostepniania-informacji-o-wydarzeniach-psz-upowszechnianych-w-cbop"
+      }
+    },
+    {
+      "type": "resource",
+      "attributes": {
+        "media_type": "api",
+        "special_signs": [],
+        "jsonld_download_url": null,
+        "has_high_value_data": null,
+        "jsonld_file_size": null,
+        "downloads_count": 3,
+        "csv_download_url": null,
+        "contains_protected_data": false,
+        "openness_score": 4,
+        "title": "Wydarzenia PSZ - usługa WS",
+        "download_url": "",
+        "link": "http://oferty.praca.gov.pl/integration/services/wydarzenie?wsdl",
+        "file_size": null,
+        "modified": "2019-08-18T17:14:56Z",
+        "file_url": "",
+        "csv_file_url": null,
+        "files": [],
+        "description": "<p style=\"margin-left:0cm; margin-right:0cm\">Usługa pobierania danych Web Service.</p>",
+        "jsonld_file_url": null,
+        "csv_file_size": null,
+        "is_chart_creation_blocked": false,
+        "regions": [
+          {
+            "hierarchy_label": "Poland",
+            "name": "Poland",
+            "region_id": "85633723"
+          }
+        ],
+        "has_high_value_data_from_ec_list": null,
+        "language": "pl",
+        "has_dynamic_data": null,
+        "supplements": [],
+        "verified": "2025-05-01T04:24:31Z",
+        "views_count": 742,
+        "has_research_data": null,
+        "created": "2019-02-19T13:21:53Z",
+        "format": "xml",
+        "data_date": "2019-02-19",
+        "visualization_types": []
+      },
+      "relationships": {
+        "institution": {
+          "links": {
+            "related": "https://api.dane.gov.pl/1.4/institutions/30,ministerstwo-rodziny-pracy-i-polityki-spolecznej"
+          },
+          "data": {
+            "type": "institution",
+            "id": "30"
+          }
+        },
+        "dataset": {
+          "links": {
+            "related": "https://api.dane.gov.pl/1.4/datasets/1454,wydarzenia-psz"
+          },
+          "data": {
+            "type": "dataset",
+            "id": "1454"
+          }
+        }
+      },
+      "id": "15636",
+      "links": {
+        "self": "https://api.dane.gov.pl/1.4/resources/15636,wydarzenia-psz-usluga-ws"
+      }
+    },
+    {
+      "type": "resource",
+      "attributes": {
+        "media_type": "file",
+        "special_signs": [],
+        "jsonld_download_url": null,
+        "has_high_value_data": null,
+        "jsonld_file_size": null,
+        "downloads_count": 227,
+        "csv_download_url": null,
+        "contains_protected_data": false,
+        "openness_score": 1,
+        "title": "Instrukcja pobierania wydarzeń PSZ z CBOP",
+        "download_url": "https://api.dane.gov.pl/resources/28817,instrukcja-pobierania-wydarzen-psz-z-cbop/file",
+        "link": "https://api.dane.gov.pl/media/resources/20210315/instrukcja_pobierania_wydarzen_z_cbop.pdf",
+        "file_size": 290386,
+        "modified": "2021-03-15T12:18:57Z",
+        "file_url": "https://api.dane.gov.pl/media/resources/20210315/instrukcja_pobierania_wydarzen_z_cbop.pdf",
+        "csv_file_url": null,
+        "files": [
+          {
+            "openness_score": 1,
+            "download_url": "https://api.dane.gov.pl/resources/28817,instrukcja-pobierania-wydarzen-psz-z-cbop/file",
+            "format": "pdf",
+            "file_size": 290386
+          }
+        ],
+        "description": "<p>Instrukcja pobierania wydarzeń PSZ z CBOP</p>",
+        "jsonld_file_url": null,
+        "csv_file_size": null,
+        "is_chart_creation_blocked": false,
+        "regions": [
+          {
+            "hierarchy_label": "Poland",
+            "name": "Poland",
+            "region_id": "85633723"
+          }
+        ],
+        "has_high_value_data_from_ec_list": null,
+        "language": "pl",
+        "has_dynamic_data": null,
+        "supplements": [],
+        "verified": "2021-03-15T12:19:05Z",
+        "views_count": 609,
+        "has_research_data": null,
+        "created": "2021-03-15T12:18:57Z",
+        "format": "pdf",
+        "data_date": "2021-03-15",
+        "visualization_types": []
+      },
+      "relationships": {
+        "institution": {
+          "links": {
+            "related": "https://api.dane.gov.pl/1.4/institutions/30,ministerstwo-rodziny-pracy-i-polityki-spolecznej"
+          },
+          "data": {
+            "type": "institution",
+            "id": "30"
+          }
+        },
+        "dataset": {
+          "links": {
+            "related": "https://api.dane.gov.pl/1.4/datasets/1454,wydarzenia-psz"
+          },
+          "data": {
+            "type": "dataset",
+            "id": "1454"
+          }
+        }
+      },
+      "id": "28817",
+      "links": {
+        "self": "https://api.dane.gov.pl/1.4/resources/28817,instrukcja-pobierania-wydarzen-psz-z-cbop"
+      }
+    }
+  ],
+  "links": {
+    "self": "https://api.dane.gov.pl/1.4/datasets/1454/resources?page=1&per_page=100"
+  },
+  "meta": {
+    "server_time": "2025-11-10T22:20:26Z",
+    "aggregations": {},
+    "path": "/1.4/datasets/1454/resources",
+    "count": 3,
+    "language": "en",
+    "params": {
+      "page": "1",
+      "per_page": "100"
+    },
+    "relative_uri": "/1.4/datasets/1454/resources?page=1&per_page=100"
+  }
+}

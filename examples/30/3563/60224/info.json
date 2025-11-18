@@ -1,0 +1,118 @@
+{
+  "data": {
+    "links": {
+      "self": "https://api.dane.gov.pl/1.4/resources/60224,wykaz-podmiotow-ktore-posiadaja-status-uzyskany-przed-wejsciem-w-zycie-ustawy-o-ekonomii-spoecznej-10-05-2024"
+    },
+    "relationships": {
+      "chart": {
+        "data": {
+          "id": "60224",
+          "type": "chart"
+        },
+        "links": {
+          "related": "https://api.dane.gov.pl/1.4/resources/60224,wykaz-podmiotow-ktore-posiadaja-status-uzyskany-przed-wejsciem-w-zycie-ustawy-o-ekonomii-spoecznej-10-05-2024/chart"
+        }
+      },
+      "institution": {
+        "data": {
+          "id": "30",
+          "type": "institution"
+        },
+        "links": {
+          "related": "https://api.dane.gov.pl/1.4/institutions/30,ministerstwo-rodziny-pracy-i-polityki-spolecznej"
+        }
+      },
+      "dataset": {
+        "data": {
+          "id": "3563",
+          "type": "dataset"
+        },
+        "links": {
+          "related": "https://api.dane.gov.pl/1.4/datasets/3563,wykaz-akredytowanych-osrodkow-wsparcia-ekonomii-sp"
+        }
+      }
+    },
+    "attributes": {
+      "modified": "2024-08-20T09:44:41Z",
+      "files": [
+        {
+          "download_url": "https://api.dane.gov.pl/resources/60224,wykaz-podmiotow-ktore-posiadaja-status-uzyskany-przed-wejsciem-w-zycie-ustawy-o-ekonomii-spoecznej-10-05-2024/file",
+          "compressed_file_format": null,
+          "openness_score": 2,
+          "file_size": 50573,
+          "format": "xlsx"
+        },
+        {
+          "download_url": "https://api.dane.gov.pl/resources/60224,wykaz-podmiotow-ktore-posiadaja-status-uzyskany-przed-wejsciem-w-zycie-ustawy-o-ekonomii-spoecznej-10-05-2024/jsonld",
+          "compressed_file_format": null,
+          "openness_score": 4,
+          "file_size": 3748,
+          "format": "jsonld"
+        },
+        {
+          "download_url": "https://api.dane.gov.pl/resources/60224,wykaz-podmiotow-ktore-posiadaja-status-uzyskany-przed-wejsciem-w-zycie-ustawy-o-ekonomii-spoecznej-10-05-2024/csv",
+          "compressed_file_format": null,
+          "openness_score": 3,
+          "file_size": 593,
+          "format": "csv"
+        }
+      ],
+      "created": "2024-08-20T09:39:49Z",
+      "link": "https://api.dane.gov.pl/media/resources/20240820/wykaz_OWES_10_05_2024_AKSES-OD.xlsx",
+      "category": null,
+      "title": "Wykaz podmiotów, które posiadają status uzyskany przed wejściem w życie ustawy o ekonomii społecznej - 10-05-2024",
+      "openness_score": 4,
+      "format": "xlsx",
+      "file_size": 50573,
+      "special_signs": [],
+      "has_high_value_data": false,
+      "has_dynamic_data": false,
+      "language": "pl",
+      "jsonld_file_size": 3748,
+      "jsonld_download_url": "https://api.dane.gov.pl/resources/60224,wykaz-podmiotow-ktore-posiadaja-status-uzyskany-przed-wejsciem-w-zycie-ustawy-o-ekonomii-spoecznej-10-05-2024/jsonld",
+      "contains_protected_data": false,
+      "views_count": 217,
+      "has_research_data": false,
+      "downloads_count": 75,
+      "csv_file_url": "https://api.dane.gov.pl/media/resources/20240820/wykaz_OWES_10_05_2024_AKSES-OD.csv",
+      "supplements": [],
+      "download_url": "https://api.dane.gov.pl/resources/60224,wykaz-podmiotow-ktore-posiadaja-status-uzyskany-przed-wejsciem-w-zycie-ustawy-o-ekonomii-spoecznej-10-05-2024/file",
+      "is_chart_creation_blocked": false,
+      "jsonld_file_url": "https://api.dane.gov.pl/media/resources/20240820/wykaz_OWES_10_05_2024_AKSES-OD.jsonld",
+      "file_url": "https://api.dane.gov.pl/media/resources/20240820/wykaz_OWES_10_05_2024_AKSES-OD.xlsx",
+      "has_high_value_data_from_ec_list": null,
+      "description": "<p>Wykaz zawiera podmioty, które posiadają status uzyskany przed wejściem w życie ustawy o ekonomii społecznej (w okresie przejściowym akredytacja obowiązuje do czasu jej wygaśnięcia).</p>",
+      "csv_file_size": 593,
+      "csv_download_url": "https://api.dane.gov.pl/resources/60224,wykaz-podmiotow-ktore-posiadaja-status-uzyskany-przed-wejsciem-w-zycie-ustawy-o-ekonomii-spoecznej-10-05-2024/csv",
+      "media_type": "file",
+      "verified": "2024-10-27T11:28:55Z",
+      "data_date": "2024-05-10",
+      "regions": [
+        {
+          "region_id": "85633723",
+          "name": "Poland",
+          "is_additional": false,
+          "hierarchy_label": "Poland"
+        }
+      ],
+      "visualization_types": [
+        "table"
+      ]
+    },
+    "type": "resource",
+    "id": "60224"
+  },
+  "links": {
+    "self": "http://api.dane.gov.pl/1.4/resources/60224"
+  },
+  "jsonapi": {
+    "version": "1.0"
+  },
+  "meta": {
+    "path": "/1.4/resources/60224",
+    "server_time": "2025-11-10T22:20:37Z",
+    "params": {},
+    "language": "en",
+    "relative_uri": "/1.4/resources/60224"
+  }
+}

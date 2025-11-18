@@ -1,0 +1,120 @@
+{
+  "jsonapi": {
+    "version": "1.0"
+  },
+  "data": {
+    "type": "resource",
+    "attributes": {
+      "media_type": "file",
+      "special_signs": [],
+      "jsonld_download_url": "https://api.dane.gov.pl/resources/38202,rejestr-organizatorow-turnusow-rehabilitacyjnych-25042022/jsonld",
+      "has_high_value_data": false,
+      "jsonld_file_size": 378107,
+      "downloads_count": 486,
+      "csv_download_url": null,
+      "contains_protected_data": false,
+      "openness_score": 4,
+      "title": "Rejestr organizatorów turnusów rehabilitacyjnych 25.04.2022",
+      "download_url": "https://api.dane.gov.pl/resources/38202,rejestr-organizatorow-turnusow-rehabilitacyjnych-25042022/file",
+      "link": "https://api.dane.gov.pl/media/resources/20220427/Rejestr_Organizator%C3%B3w_25.02.2022-przerobiony_byAiIuF.csv",
+      "file_size": 70593,
+      "modified": "2022-04-27T09:47:15Z",
+      "file_url": "https://api.dane.gov.pl/media/resources/20220427/Rejestr_Organizator%C3%B3w_25.02.2022-przerobiony_byAiIuF.csv",
+      "csv_file_url": null,
+      "files": [
+        {
+          "openness_score": 3,
+          "compressed_file_format": null,
+          "download_url": "https://api.dane.gov.pl/resources/38202,rejestr-organizatorow-turnusow-rehabilitacyjnych-25042022/file",
+          "format": "csv",
+          "file_size": 70593
+        },
+        {
+          "openness_score": 4,
+          "compressed_file_format": null,
+          "download_url": "https://api.dane.gov.pl/resources/38202,rejestr-organizatorow-turnusow-rehabilitacyjnych-25042022/jsonld",
+          "format": "jsonld",
+          "file_size": 378107
+        }
+      ],
+      "description": "<p>Rejestr organizatorów turnusów rehabilitacyjnych 25.04.2022</p>",
+      "jsonld_file_url": "https://api.dane.gov.pl/media/resources/20220427/Rejestr_Organizator%C3%B3w_25.02.2022-przerobiony_byAiIuF.jsonld",
+      "csv_file_size": null,
+      "is_chart_creation_blocked": false,
+      "regions": [
+        {
+          "hierarchy_label": "Poland",
+          "name": "Poland",
+          "is_additional": false,
+          "region_id": "85633723"
+        }
+      ],
+      "has_high_value_data_from_ec_list": null,
+      "language": "pl",
+      "has_dynamic_data": false,
+      "supplements": [],
+      "verified": "2022-04-27T09:47:28Z",
+      "category": "Labour and Social Welfare",
+      "views_count": 989,
+      "has_research_data": null,
+      "created": "2022-04-27T09:46:36Z",
+      "format": "csv",
+      "data_date": "2022-04-27",
+      "visualization_types": [
+        "table"
+      ]
+    },
+    "relationships": {
+      "institution": {
+        "links": {
+          "related": "https://api.dane.gov.pl/1.4/institutions/30,ministerstwo-rodziny-pracy-i-polityki-spolecznej"
+        },
+        "data": {
+          "type": "institution",
+          "id": "30"
+        }
+      },
+      "tabular_data": {
+        "links": {
+          "related": "https://api.dane.gov.pl/1.4/resources/38202/data"
+        },
+        "data": {
+          "type": "tabular_data",
+          "id": "38202"
+        }
+      },
+      "chart": {
+        "links": {
+          "related": "https://api.dane.gov.pl/1.4/resources/38202,rejestr-organizatorow-turnusow-rehabilitacyjnych-25042022/chart"
+        },
+        "data": {
+          "type": "chart",
+          "id": "38202"
+        }
+      },
+      "dataset": {
+        "links": {
+          "related": "https://api.dane.gov.pl/1.4/datasets/2014,rejestr-organizatorow-turnusow-rehabilitacyjnych"
+        },
+        "data": {
+          "type": "dataset",
+          "id": "2014"
+        }
+      }
+    },
+    "id": "38202",
+    "links": {
+      "self": "https://api.dane.gov.pl/1.4/resources/38202,rejestr-organizatorow-turnusow-rehabilitacyjnych-25042022"
+    }
+  },
+  "links": {
+    "self": "http://api.dane.gov.pl/1.4/resources/38202"
+  },
+  "meta": {
+    "server_time": "2025-11-10T22:20:28Z",
+    "path": "/1.4/resources/38202",
+    "language": "en",
+    "params": {},
+    "relative_uri": "/1.4/resources/38202"
+  }
+}

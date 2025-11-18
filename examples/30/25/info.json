@@ -1,0 +1,112 @@
+{
+  "jsonapi": {
+    "version": "1.0"
+  },
+  "data": {
+    "type": "dataset",
+    "attributes": {
+      "url": "http://psz.praca.gov.pl/rynek-pracy/bazy-danych/infodoradca",
+      "has_high_value_data": false,
+      "archived_resources_files_url": null,
+      "downloads_count": 0,
+      "image_alt": "",
+      "slug": "INFOdoradca-plus-Informacje-o-zawodach",
+      "categories": [
+        {
+          "title": "Population and society",
+          "code": "SOCI",
+          "id": "146"
+        }
+      ],
+      "license_condition_personal_data": null,
+      "current_condition_descriptions": {},
+      "openness_scores": [
+        3
+      ],
+      "title": "INFOdoradca+ Informacje o zawodach",
+      "image_url": "",
+      "license_condition_timestamp": null,
+      "license_chosen": null,
+      "license_condition_default_cc40": false,
+      "keywords": [],
+      "update_frequency": "Not applicable",
+      "types": [
+        "website"
+      ],
+      "modified": "2025-01-03T10:13:12Z",
+      "notes": "<p>Udostępnione zasoby bazodanowe zawierają przede wszystkim: opis zawodu, opis kompetencji zawodowych, odniesienie do sytuacji zawodu na rynku pracy i możliwości doskonalenia zawodowego, a także możliwości zatrudnienia osób niepełnosprawnych w zawodzie.</p>",
+      "license_condition_db_or_copyrighted": "",
+      "license_description": "Other (Public Domain)",
+      "license_condition_custom_description": "",
+      "regions": [
+        {
+          "hierarchy_label": "Poland",
+          "name": "Poland",
+          "is_additional": false,
+          "region_id": "85633723"
+        }
+      ],
+      "has_high_value_data_from_ec_list": false,
+      "is_promoted": false,
+      "license_condition_original": null,
+      "has_dynamic_data": false,
+      "supplements": [],
+      "verified": "2019-08-28T09:04:17Z",
+      "category": {
+        "title": "Labour and Social Welfare",
+        "code": "",
+        "id": "5"
+      },
+      "formats": [
+        "html"
+      ],
+      "source": null,
+      "views_count": 1348,
+      "license_name": "CC0 1.0",
+      "created": "2015-05-18T13:22:20Z",
+      "has_research_data": false,
+      "visualization_types": []
+    },
+    "relationships": {
+      "institution": {
+        "links": {
+          "related": "https://api.dane.gov.pl/1.4/institutions/30,ministerstwo-rodziny-pracy-i-polityki-spolecznej"
+        },
+        "data": {
+          "type": "institution",
+          "id": "30"
+        }
+      },
+      "showcases": {
+        "links": {
+          "related": "https://api.dane.gov.pl/1.4/datasets/25,INFOdoradca-plus-Informacje-o-zawodach/showcases"
+        },
+        "meta": {
+          "count": 0
+        }
+      },
+      "resources": {
+        "links": {
+          "related": "https://api.dane.gov.pl/1.4/datasets/25,INFOdoradca-plus-Informacje-o-zawodach/resources"
+        },
+        "meta": {
+          "count": 1
+        }
+      }
+    },
+    "id": "25",
+    "links": {
+      "self": "https://api.dane.gov.pl/1.4/datasets/25,INFOdoradca-plus-Informacje-o-zawodach"
+    }
+  },
+  "links": {
+    "self": "http://api.dane.gov.pl/1.4/datasets/25"
+  },
+  "meta": {
+    "server_time": "2025-11-10T22:20:13Z",
+    "path": "/1.4/datasets/25",
+    "language": "en",
+    "params": {},
+    "relative_uri": "/1.4/datasets/25"
+  }
+}

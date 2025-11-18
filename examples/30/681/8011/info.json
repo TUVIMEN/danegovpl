@@ -1,0 +1,93 @@
+{
+  "data": {
+    "links": {
+      "self": "https://api.dane.gov.pl/1.4/resources/8011,zawody-deficytowe-i-nadwyzkowe-w-2016-roku"
+    },
+    "relationships": {
+      "institution": {
+        "data": {
+          "id": "30",
+          "type": "institution"
+        },
+        "links": {
+          "related": "https://api.dane.gov.pl/1.4/institutions/30,ministerstwo-rodziny-pracy-i-polityki-spolecznej"
+        }
+      },
+      "dataset": {
+        "data": {
+          "id": "681",
+          "type": "dataset"
+        },
+        "links": {
+          "related": "https://api.dane.gov.pl/1.4/datasets/681,monitoring-zawodow-deficytowych-i-nadwyzkowych"
+        }
+      }
+    },
+    "attributes": {
+      "modified": "2019-08-26T19:33:33Z",
+      "files": [
+        {
+          "download_url": "https://api.dane.gov.pl/resources/8011,zawody-deficytowe-i-nadwyzkowe-w-2016-roku/file",
+          "compressed_file_format": null,
+          "openness_score": 1,
+          "file_size": 848317,
+          "format": "pdf"
+        }
+      ],
+      "created": "2017-11-03T12:12:24Z",
+      "link": "https://www.dane.gov.pl/media/resources/20171103/zawody-deficytowe-i-nadwyzkowe-w-2016-roku.pdf",
+      "category": "Labour and Social Welfare",
+      "title": "Zawody deficytowe i nadwyżkowe w 2016 roku",
+      "openness_score": 1,
+      "format": "pdf",
+      "file_size": 848317,
+      "special_signs": [],
+      "has_high_value_data": null,
+      "has_dynamic_data": null,
+      "language": "pl",
+      "jsonld_file_size": null,
+      "jsonld_download_url": null,
+      "contains_protected_data": false,
+      "views_count": 163,
+      "has_research_data": null,
+      "downloads_count": 323,
+      "csv_file_url": null,
+      "supplements": [],
+      "download_url": "https://api.dane.gov.pl/resources/8011,zawody-deficytowe-i-nadwyzkowe-w-2016-roku/file",
+      "is_chart_creation_blocked": false,
+      "jsonld_file_url": null,
+      "file_url": "https://api.dane.gov.pl/media/resources/20171103/zawody-deficytowe-i-nadwyzkowe-w-2016-roku.pdf",
+      "has_high_value_data_from_ec_list": null,
+      "description": "<p></p>\n",
+      "csv_file_size": null,
+      "csv_download_url": null,
+      "media_type": "file",
+      "verified": "2025-10-01T04:23:22Z",
+      "data_date": "2017-11-03",
+      "regions": [
+        {
+          "region_id": "85633723",
+          "name": "Poland",
+          "is_additional": false,
+          "hierarchy_label": "Poland"
+        }
+      ],
+      "visualization_types": []
+    },
+    "type": "resource",
+    "id": "8011"
+  },
+  "links": {
+    "self": "http://api.dane.gov.pl/1.4/resources/8011"
+  },
+  "jsonapi": {
+    "version": "1.0"
+  },
+  "meta": {
+    "path": "/1.4/resources/8011",
+    "server_time": "2025-11-10T22:20:19Z",
+    "params": {},
+    "language": "en",
+    "relative_uri": "/1.4/resources/8011"
+  }
+}

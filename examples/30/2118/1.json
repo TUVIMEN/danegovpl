@@ -1,0 +1,90 @@
+{
+  "data": [
+    {
+      "links": {
+        "self": "https://api.dane.gov.pl/1.4/resources/29659,zintegrowany-system-monitorowania-ekonomii-spoecznej"
+      },
+      "relationships": {
+        "institution": {
+          "data": {
+            "id": "30",
+            "type": "institution"
+          },
+          "links": {
+            "related": "https://api.dane.gov.pl/1.4/institutions/30,ministerstwo-rodziny-pracy-i-polityki-spolecznej"
+          }
+        },
+        "dataset": {
+          "data": {
+            "id": "2118",
+            "type": "dataset"
+          },
+          "links": {
+            "related": "https://api.dane.gov.pl/1.4/datasets/2118,zintegrowany-system-monitorowania-ekonomii-spolecz"
+          }
+        }
+      },
+      "attributes": {
+        "modified": "2025-01-24T13:35:09Z",
+        "files": [],
+        "created": "2021-04-26T06:41:53Z",
+        "link": "https://dane.ekonomiaspoleczna.gov.pl/",
+        "title": "Zintegrowany System Monitorowania Ekonomii Społecznej",
+        "openness_score": 3,
+        "format": "html",
+        "file_size": null,
+        "special_signs": [],
+        "has_high_value_data": false,
+        "has_dynamic_data": false,
+        "language": "pl",
+        "jsonld_file_size": null,
+        "jsonld_download_url": null,
+        "contains_protected_data": false,
+        "views_count": 960,
+        "has_research_data": false,
+        "downloads_count": 0,
+        "csv_file_url": null,
+        "supplements": [],
+        "download_url": "",
+        "is_chart_creation_blocked": false,
+        "jsonld_file_url": null,
+        "file_url": "",
+        "has_high_value_data_from_ec_list": false,
+        "description": "<p>Zintegrowany System Monitorowania Ekonomii Społecznej - dane statystyczne</p>",
+        "csv_file_size": null,
+        "csv_download_url": null,
+        "media_type": "website",
+        "verified": "2025-01-01T04:04:38Z",
+        "data_date": "2021-04-26",
+        "regions": [
+          {
+            "region_id": "85633723",
+            "name": "Poland",
+            "hierarchy_label": "Poland"
+          }
+        ],
+        "visualization_types": []
+      },
+      "type": "resource",
+      "id": "29659"
+    }
+  ],
+  "links": {
+    "self": "https://api.dane.gov.pl/1.4/datasets/2118/resources?page=1&per_page=100"
+  },
+  "jsonapi": {
+    "version": "1.0"
+  },
+  "meta": {
+    "aggregations": {},
+    "count": 1,
+    "path": "/1.4/datasets/2118/resources",
+    "server_time": "2025-11-10T22:20:31Z",
+    "params": {
+      "page": "1",
+      "per_page": "100"
+    },
+    "language": "en",
+    "relative_uri": "/1.4/datasets/2118/resources?page=1&per_page=100"
+  }
+}

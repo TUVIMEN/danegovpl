@@ -1,0 +1,93 @@
+{
+  "jsonapi": {
+    "version": "1.0"
+  },
+  "data": {
+    "type": "resource",
+    "attributes": {
+      "media_type": "file",
+      "special_signs": [],
+      "jsonld_download_url": null,
+      "has_high_value_data": false,
+      "jsonld_file_size": null,
+      "downloads_count": 467,
+      "csv_download_url": null,
+      "contains_protected_data": false,
+      "openness_score": 2,
+      "title": "Baza przedsiębiorstw Społecznych",
+      "download_url": "https://api.dane.gov.pl/resources/40749,baza-przedsiebiorstw-spoecznych/file",
+      "link": "https://api.dane.gov.pl/media/resources/20220817/Baza_PS_stan_na_17_08_2022.xls",
+      "file_size": 1713664,
+      "modified": "2024-01-24T13:52:01Z",
+      "file_url": "https://api.dane.gov.pl/media/resources/20220817/Baza_PS_stan_na_17_08_2022.xls",
+      "csv_file_url": null,
+      "files": [
+        {
+          "openness_score": 2,
+          "compressed_file_format": null,
+          "download_url": "https://api.dane.gov.pl/resources/40749,baza-przedsiebiorstw-spoecznych/file",
+          "format": "xls",
+          "file_size": 1713664
+        }
+      ],
+      "description": "<p>Baza przedsiębiorstw Społecznych</p>",
+      "jsonld_file_url": null,
+      "csv_file_size": null,
+      "is_chart_creation_blocked": false,
+      "regions": [
+        {
+          "hierarchy_label": "Poland",
+          "name": "Poland",
+          "is_additional": false,
+          "region_id": "85633723"
+        }
+      ],
+      "has_high_value_data_from_ec_list": null,
+      "language": "pl",
+      "has_dynamic_data": false,
+      "supplements": [],
+      "verified": "2024-01-24T13:52:22Z",
+      "category": null,
+      "views_count": 417,
+      "has_research_data": false,
+      "created": "2022-08-17T08:51:10Z",
+      "format": "xls",
+      "data_date": "2022-08-17",
+      "visualization_types": []
+    },
+    "relationships": {
+      "institution": {
+        "links": {
+          "related": "https://api.dane.gov.pl/1.4/institutions/30,ministerstwo-rodziny-pracy-i-polityki-spolecznej"
+        },
+        "data": {
+          "type": "institution",
+          "id": "30"
+        }
+      },
+      "dataset": {
+        "links": {
+          "related": "https://api.dane.gov.pl/1.4/datasets/2114,baza-przedsiebiorstw-spolecznych"
+        },
+        "data": {
+          "type": "dataset",
+          "id": "2114"
+        }
+      }
+    },
+    "id": "40749",
+    "links": {
+      "self": "https://api.dane.gov.pl/1.4/resources/40749,baza-przedsiebiorstw-spoecznych"
+    }
+  },
+  "links": {
+    "self": "http://api.dane.gov.pl/1.4/resources/40749"
+  },
+  "meta": {
+    "server_time": "2025-11-10T22:20:30Z",
+    "path": "/1.4/resources/40749",
+    "language": "en",
+    "params": {},
+    "relative_uri": "/1.4/resources/40749"
+  }
+}

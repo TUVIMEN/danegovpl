@@ -1,0 +1,189 @@
+{
+  "data": [
+    {
+      "links": {
+        "self": "https://api.dane.gov.pl/1.4/resources/40749,baza-przedsiebiorstw-spoecznych"
+      },
+      "relationships": {
+        "institution": {
+          "data": {
+            "id": "30",
+            "type": "institution"
+          },
+          "links": {
+            "related": "https://api.dane.gov.pl/1.4/institutions/30,ministerstwo-rodziny-pracy-i-polityki-spolecznej"
+          }
+        },
+        "dataset": {
+          "data": {
+            "id": "2114",
+            "type": "dataset"
+          },
+          "links": {
+            "related": "https://api.dane.gov.pl/1.4/datasets/2114,baza-przedsiebiorstw-spolecznych"
+          }
+        }
+      },
+      "attributes": {
+        "modified": "2024-01-24T13:52:01Z",
+        "files": [
+          {
+            "download_url": "https://api.dane.gov.pl/resources/40749,baza-przedsiebiorstw-spoecznych/file",
+            "openness_score": 2,
+            "file_size": 1713664,
+            "format": "xls"
+          }
+        ],
+        "created": "2022-08-17T08:51:10Z",
+        "link": "https://api.dane.gov.pl/media/resources/20220817/Baza_PS_stan_na_17_08_2022.xls",
+        "title": "Baza przedsiębiorstw Społecznych",
+        "openness_score": 2,
+        "format": "xls",
+        "file_size": 1713664,
+        "special_signs": [],
+        "has_high_value_data": false,
+        "has_dynamic_data": false,
+        "language": "pl",
+        "jsonld_file_size": null,
+        "jsonld_download_url": null,
+        "contains_protected_data": false,
+        "views_count": 417,
+        "has_research_data": false,
+        "downloads_count": 467,
+        "csv_file_url": null,
+        "supplements": [],
+        "download_url": "https://api.dane.gov.pl/resources/40749,baza-przedsiebiorstw-spoecznych/file",
+        "is_chart_creation_blocked": false,
+        "jsonld_file_url": null,
+        "file_url": "https://api.dane.gov.pl/media/resources/20220817/Baza_PS_stan_na_17_08_2022.xls",
+        "has_high_value_data_from_ec_list": null,
+        "description": "<p>Baza przedsiębiorstw Społecznych</p>",
+        "csv_file_size": null,
+        "csv_download_url": null,
+        "media_type": "file",
+        "verified": "2024-01-24T13:52:22Z",
+        "data_date": "2022-08-17",
+        "regions": [
+          {
+            "region_id": "85633723",
+            "name": "Poland",
+            "hierarchy_label": "Poland"
+          }
+        ],
+        "visualization_types": []
+      },
+      "type": "resource",
+      "id": "40749"
+    },
+    {
+      "links": {
+        "self": "https://api.dane.gov.pl/1.4/resources/40748,baza-przedsiebiorstw-spoecznych"
+      },
+      "relationships": {
+        "institution": {
+          "data": {
+            "id": "30",
+            "type": "institution"
+          },
+          "links": {
+            "related": "https://api.dane.gov.pl/1.4/institutions/30,ministerstwo-rodziny-pracy-i-polityki-spolecznej"
+          }
+        },
+        "dataset": {
+          "data": {
+            "id": "2114",
+            "type": "dataset"
+          },
+          "links": {
+            "related": "https://api.dane.gov.pl/1.4/datasets/2114,baza-przedsiebiorstw-spolecznych"
+          }
+        },
+        "tabular_data": {
+          "data": {
+            "id": "40748",
+            "type": "tabular_data"
+          },
+          "links": {
+            "related": "https://api.dane.gov.pl/1.4/resources/40748/data"
+          }
+        }
+      },
+      "attributes": {
+        "modified": "2024-01-24T13:55:16Z",
+        "files": [
+          {
+            "download_url": "https://api.dane.gov.pl/resources/40748,baza-przedsiebiorstw-spoecznych/file",
+            "openness_score": 3,
+            "file_size": 987810,
+            "format": "csv"
+          },
+          {
+            "download_url": "https://api.dane.gov.pl/resources/40748,baza-przedsiebiorstw-spoecznych/jsonld",
+            "openness_score": 4,
+            "file_size": 5968101,
+            "format": "jsonld"
+          }
+        ],
+        "created": "2022-08-17T08:50:42Z",
+        "link": "https://api.dane.gov.pl/media/resources/20220817/Baza_PS_stan_na_17_08_2022.csv",
+        "title": "Baza przedsiębiorstw Społecznych",
+        "openness_score": 4,
+        "format": "csv",
+        "file_size": 987810,
+        "special_signs": [],
+        "has_high_value_data": false,
+        "has_dynamic_data": false,
+        "language": "pl",
+        "jsonld_file_size": 5968101,
+        "jsonld_download_url": "https://api.dane.gov.pl/resources/40748,baza-przedsiebiorstw-spoecznych/jsonld",
+        "contains_protected_data": false,
+        "views_count": 661,
+        "has_research_data": false,
+        "downloads_count": 17421,
+        "csv_file_url": null,
+        "supplements": [],
+        "download_url": "https://api.dane.gov.pl/resources/40748,baza-przedsiebiorstw-spoecznych/file",
+        "is_chart_creation_blocked": false,
+        "jsonld_file_url": "https://api.dane.gov.pl/media/resources/20220817/Baza_PS_stan_na_17_08_2022.jsonld",
+        "file_url": "https://api.dane.gov.pl/media/resources/20220817/Baza_PS_stan_na_17_08_2022.csv",
+        "has_high_value_data_from_ec_list": null,
+        "description": "<p>Baza przedsiębiorstw Społecznych</p>",
+        "csv_file_size": null,
+        "csv_download_url": null,
+        "media_type": "file",
+        "verified": "2024-01-24T13:56:10Z",
+        "data_date": "2022-08-17",
+        "regions": [
+          {
+            "region_id": "85633723",
+            "name": "Poland",
+            "hierarchy_label": "Poland"
+          }
+        ],
+        "visualization_types": [
+          "table"
+        ]
+      },
+      "type": "resource",
+      "id": "40748"
+    }
+  ],
+  "links": {
+    "self": "https://api.dane.gov.pl/1.4/datasets/2114/resources?page=1&per_page=100"
+  },
+  "jsonapi": {
+    "version": "1.0"
+  },
+  "meta": {
+    "aggregations": {},
+    "count": 2,
+    "path": "/1.4/datasets/2114/resources",
+    "server_time": "2025-11-10T22:20:30Z",
+    "params": {
+      "page": "1",
+      "per_page": "100"
+    },
+    "language": "en",
+    "relative_uri": "/1.4/datasets/2114/resources?page=1&per_page=100"
+  }
+}

@@ -1,0 +1,127 @@
+{
+  "data": {
+    "links": {
+      "self": "https://api.dane.gov.pl/1.4/resources/55845,wykaz-podmiotow-ktore-posiadaja-akredytacje-na-mocy-ustawy-o-ekonomi-spoecznej-16-02-2024"
+    },
+    "relationships": {
+      "chart": {
+        "data": {
+          "id": "55845",
+          "type": "chart"
+        },
+        "links": {
+          "related": "https://api.dane.gov.pl/1.4/resources/55845,wykaz-podmiotow-ktore-posiadaja-akredytacje-na-mocy-ustawy-o-ekonomi-spoecznej-16-02-2024/chart"
+        }
+      },
+      "institution": {
+        "data": {
+          "id": "30",
+          "type": "institution"
+        },
+        "links": {
+          "related": "https://api.dane.gov.pl/1.4/institutions/30,ministerstwo-rodziny-pracy-i-polityki-spolecznej"
+        }
+      },
+      "dataset": {
+        "data": {
+          "id": "3563",
+          "type": "dataset"
+        },
+        "links": {
+          "related": "https://api.dane.gov.pl/1.4/datasets/3563,wykaz-akredytowanych-osrodkow-wsparcia-ekonomii-sp"
+        }
+      },
+      "tabular_data": {
+        "data": {
+          "id": "55845",
+          "type": "tabular_data"
+        },
+        "links": {
+          "related": "https://api.dane.gov.pl/1.4/resources/55845/data"
+        }
+      }
+    },
+    "attributes": {
+      "modified": "2025-09-09T12:55:51Z",
+      "files": [
+        {
+          "download_url": "https://api.dane.gov.pl/resources/55845,wykaz-podmiotow-ktore-posiadaja-akredytacje-na-mocy-ustawy-o-ekonomi-spoecznej-16-02-2024/file",
+          "compressed_file_format": null,
+          "openness_score": 2,
+          "file_size": 21043,
+          "format": "xlsx"
+        },
+        {
+          "download_url": "https://api.dane.gov.pl/resources/55845,wykaz-podmiotow-ktore-posiadaja-akredytacje-na-mocy-ustawy-o-ekonomi-spoecznej-16-02-2024/jsonld",
+          "compressed_file_format": null,
+          "openness_score": 4,
+          "file_size": 112567,
+          "format": "jsonld"
+        },
+        {
+          "download_url": "https://api.dane.gov.pl/resources/55845,wykaz-podmiotow-ktore-posiadaja-akredytacje-na-mocy-ustawy-o-ekonomi-spoecznej-16-02-2024/csv",
+          "compressed_file_format": null,
+          "openness_score": 3,
+          "file_size": 17870,
+          "format": "csv"
+        }
+      ],
+      "created": "2024-03-26T14:52:50Z",
+      "link": "https://api.dane.gov.pl/media/resources/20240326/wykaz_OWES_16_02_2024_Ustawa_9ZNsoqS.xlsx",
+      "category": null,
+      "title": "Wykaz podmiotów, które posiadają akredytację na mocy ustawy o ekonomii społecznej - 16-02-2024",
+      "openness_score": 4,
+      "format": "xlsx",
+      "file_size": 21043,
+      "special_signs": [],
+      "has_high_value_data": false,
+      "has_dynamic_data": false,
+      "language": "pl",
+      "jsonld_file_size": 112567,
+      "jsonld_download_url": "https://api.dane.gov.pl/resources/55845,wykaz-podmiotow-ktore-posiadaja-akredytacje-na-mocy-ustawy-o-ekonomi-spoecznej-16-02-2024/jsonld",
+      "contains_protected_data": false,
+      "views_count": 184,
+      "has_research_data": false,
+      "downloads_count": 94,
+      "csv_file_url": "https://api.dane.gov.pl/media/resources/20240326/wykaz_OWES_16_02_2024_Ustawa_9ZNsoqS.csv",
+      "supplements": [],
+      "download_url": "https://api.dane.gov.pl/resources/55845,wykaz-podmiotow-ktore-posiadaja-akredytacje-na-mocy-ustawy-o-ekonomi-spoecznej-16-02-2024/file",
+      "is_chart_creation_blocked": false,
+      "jsonld_file_url": "https://api.dane.gov.pl/media/resources/20240326/wykaz_OWES_16_02_2024_Ustawa_9ZNsoqS.jsonld",
+      "file_url": "https://api.dane.gov.pl/media/resources/20240326/wykaz_OWES_16_02_2024_Ustawa_9ZNsoqS.xlsx",
+      "has_high_value_data_from_ec_list": false,
+      "description": "<p>Wykaz podmiotów, które posiadają akredytację na mocy ustawy o ekonomii społecznej.</p>",
+      "csv_file_size": 17870,
+      "csv_download_url": "https://api.dane.gov.pl/resources/55845,wykaz-podmiotow-ktore-posiadaja-akredytacje-na-mocy-ustawy-o-ekonomi-spoecznej-16-02-2024/csv",
+      "media_type": "file",
+      "verified": "2024-10-16T10:34:16Z",
+      "data_date": "2024-02-16",
+      "regions": [
+        {
+          "region_id": "85633723",
+          "name": "Poland",
+          "is_additional": false,
+          "hierarchy_label": "Poland"
+        }
+      ],
+      "visualization_types": [
+        "table"
+      ]
+    },
+    "type": "resource",
+    "id": "55845"
+  },
+  "links": {
+    "self": "http://api.dane.gov.pl/1.4/resources/55845"
+  },
+  "jsonapi": {
+    "version": "1.0"
+  },
+  "meta": {
+    "path": "/1.4/resources/55845",
+    "server_time": "2025-11-10T22:20:35Z",
+    "params": {},
+    "language": "en",
+    "relative_uri": "/1.4/resources/55845"
+  }
+}

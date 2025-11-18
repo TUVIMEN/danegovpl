@@ -1,0 +1,93 @@
+{
+  "data": {
+    "links": {
+      "self": "https://api.dane.gov.pl/1.4/resources/28975,warunki-udostepniania-informacji-o-instytucjach-szkoleniowych-z-ris"
+    },
+    "relationships": {
+      "institution": {
+        "data": {
+          "id": "30",
+          "type": "institution"
+        },
+        "links": {
+          "related": "https://api.dane.gov.pl/1.4/institutions/30,ministerstwo-rodziny-pracy-i-polityki-spolecznej"
+        }
+      },
+      "dataset": {
+        "data": {
+          "id": "345",
+          "type": "dataset"
+        },
+        "links": {
+          "related": "https://api.dane.gov.pl/1.4/datasets/345,rejestr-instytucji-szkoleniowych"
+        }
+      }
+    },
+    "attributes": {
+      "modified": "2021-03-24T09:49:31Z",
+      "files": [
+        {
+          "download_url": "https://api.dane.gov.pl/resources/28975,warunki-udostepniania-informacji-o-instytucjach-szkoleniowych-z-ris/file",
+          "compressed_file_format": null,
+          "openness_score": 1,
+          "file_size": 32750,
+          "format": "docx"
+        }
+      ],
+      "created": "2021-03-24T09:49:31Z",
+      "link": "https://api.dane.gov.pl/media/resources/20210324/Warunki_udost%C4%99pniania_informacji_o_instytucjach_szkoleniowych_z_RIS.DOCX",
+      "category": "Labour and Social Welfare",
+      "title": "Warunki udostępniania informacji o instytucjach szkoleniowych z RIS",
+      "openness_score": 1,
+      "format": "docx",
+      "file_size": 32750,
+      "special_signs": [],
+      "has_high_value_data": null,
+      "has_dynamic_data": null,
+      "language": "pl",
+      "jsonld_file_size": null,
+      "jsonld_download_url": null,
+      "contains_protected_data": false,
+      "views_count": 803,
+      "has_research_data": null,
+      "downloads_count": 398,
+      "csv_file_url": null,
+      "supplements": [],
+      "download_url": "https://api.dane.gov.pl/resources/28975,warunki-udostepniania-informacji-o-instytucjach-szkoleniowych-z-ris/file",
+      "is_chart_creation_blocked": false,
+      "jsonld_file_url": null,
+      "file_url": "https://api.dane.gov.pl/media/resources/20210324/Warunki_udost%C4%99pniania_informacji_o_instytucjach_szkoleniowych_z_RIS.DOCX",
+      "has_high_value_data_from_ec_list": null,
+      "description": "<p>Warunki udostępniania informacji o instytucjach szkoleniowych z RIS</p>",
+      "csv_file_size": null,
+      "csv_download_url": null,
+      "media_type": "file",
+      "verified": "2021-03-24T09:50:34Z",
+      "data_date": "2021-03-24",
+      "regions": [
+        {
+          "region_id": "85633723",
+          "name": "Poland",
+          "is_additional": false,
+          "hierarchy_label": "Poland"
+        }
+      ],
+      "visualization_types": []
+    },
+    "type": "resource",
+    "id": "28975"
+  },
+  "links": {
+    "self": "http://api.dane.gov.pl/1.4/resources/28975"
+  },
+  "jsonapi": {
+    "version": "1.0"
+  },
+  "meta": {
+    "path": "/1.4/resources/28975",
+    "server_time": "2025-11-10T22:20:15Z",
+    "params": {},
+    "language": "en",
+    "relative_uri": "/1.4/resources/28975"
+  }
+}

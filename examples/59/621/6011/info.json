@@ -1,0 +1,93 @@
+{
+  "data": {
+    "links": {
+      "self": "https://api.dane.gov.pl/1.4/resources/6011,zbior-numeracji-adresowej-w-formacie-csv"
+    },
+    "relationships": {
+      "institution": {
+        "data": {
+          "id": "59",
+          "type": "institution"
+        },
+        "links": {
+          "related": "https://api.dane.gov.pl/1.4/institutions/59,urzad-gminy-w-pabianicach"
+        }
+      },
+      "dataset": {
+        "data": {
+          "id": "621",
+          "type": "dataset"
+        },
+        "links": {
+          "related": "https://api.dane.gov.pl/1.4/datasets/621,zbior-danych-numeracji-adresowej-gminy-pabianice"
+        }
+      }
+    },
+    "attributes": {
+      "modified": "2019-06-22T09:10:54Z",
+      "files": [
+        {
+          "download_url": "https://api.dane.gov.pl/resources/6011,zbior-numeracji-adresowej-w-formacie-csv/file",
+          "compressed_file_format": null,
+          "openness_score": 3,
+          "file_size": 177453,
+          "format": "csv"
+        }
+      ],
+      "created": "2016-11-18T14:00:36Z",
+      "link": "http://pabianice.punktyadresowe.pl/system/csv_public.php",
+      "category": "Public Administration",
+      "title": "Zbiór numeracji adresowej w formacie CSV",
+      "openness_score": 3,
+      "format": "csv",
+      "file_size": 177453,
+      "special_signs": [],
+      "has_high_value_data": null,
+      "has_dynamic_data": null,
+      "language": "pl",
+      "jsonld_file_size": null,
+      "jsonld_download_url": null,
+      "contains_protected_data": false,
+      "views_count": 443,
+      "has_research_data": null,
+      "downloads_count": 90,
+      "csv_file_url": null,
+      "supplements": [],
+      "download_url": "https://api.dane.gov.pl/resources/6011,zbior-numeracji-adresowej-w-formacie-csv/file",
+      "is_chart_creation_blocked": false,
+      "jsonld_file_url": null,
+      "file_url": "https://api.dane.gov.pl/media/resources/20161118/punkty.csv",
+      "has_high_value_data_from_ec_list": null,
+      "description": "<p>Usługa zwracająca kompletny i aktualny (na moment pobrania) zbiór numeracji adresowej w postaci pliku CSV</p>\n",
+      "csv_file_size": null,
+      "csv_download_url": null,
+      "media_type": "file",
+      "verified": "2025-10-01T06:21:20Z",
+      "data_date": "2016-11-18",
+      "regions": [
+        {
+          "region_id": "85633723",
+          "name": "Poland",
+          "is_additional": false,
+          "hierarchy_label": "Poland"
+        }
+      ],
+      "visualization_types": []
+    },
+    "type": "resource",
+    "id": "6011"
+  },
+  "links": {
+    "self": "http://api.dane.gov.pl/1.4/resources/6011"
+  },
+  "jsonapi": {
+    "version": "1.0"
+  },
+  "meta": {
+    "path": "/1.4/resources/6011",
+    "server_time": "2025-11-10T20:41:34Z",
+    "params": {},
+    "language": "en",
+    "relative_uri": "/1.4/resources/6011"
+  }
+}

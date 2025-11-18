@@ -1,0 +1,127 @@
+{
+  "data": {
+    "links": {
+      "self": "https://api.dane.gov.pl/1.4/resources/60221,wykaz-podmiotow-ktore-posiadaja-akredytacje-na-mocy-ustawy-o-ekonomi-spoecznej-09-08-2024"
+    },
+    "relationships": {
+      "chart": {
+        "data": {
+          "id": "60221",
+          "type": "chart"
+        },
+        "links": {
+          "related": "https://api.dane.gov.pl/1.4/resources/60221,wykaz-podmiotow-ktore-posiadaja-akredytacje-na-mocy-ustawy-o-ekonomi-spoecznej-09-08-2024/chart"
+        }
+      },
+      "institution": {
+        "data": {
+          "id": "30",
+          "type": "institution"
+        },
+        "links": {
+          "related": "https://api.dane.gov.pl/1.4/institutions/30,ministerstwo-rodziny-pracy-i-polityki-spolecznej"
+        }
+      },
+      "dataset": {
+        "data": {
+          "id": "3563",
+          "type": "dataset"
+        },
+        "links": {
+          "related": "https://api.dane.gov.pl/1.4/datasets/3563,wykaz-akredytowanych-osrodkow-wsparcia-ekonomii-sp"
+        }
+      },
+      "tabular_data": {
+        "data": {
+          "id": "60221",
+          "type": "tabular_data"
+        },
+        "links": {
+          "related": "https://api.dane.gov.pl/1.4/resources/60221/data"
+        }
+      }
+    },
+    "attributes": {
+      "modified": "2025-09-09T12:51:10Z",
+      "files": [
+        {
+          "download_url": "https://api.dane.gov.pl/resources/60221,wykaz-podmiotow-ktore-posiadaja-akredytacje-na-mocy-ustawy-o-ekonomi-spoecznej-09-08-2024/file",
+          "compressed_file_format": null,
+          "openness_score": 2,
+          "file_size": 63992,
+          "format": "xlsx"
+        },
+        {
+          "download_url": "https://api.dane.gov.pl/resources/60221,wykaz-podmiotow-ktore-posiadaja-akredytacje-na-mocy-ustawy-o-ekonomi-spoecznej-09-08-2024/jsonld",
+          "compressed_file_format": null,
+          "openness_score": 4,
+          "file_size": 109540,
+          "format": "jsonld"
+        },
+        {
+          "download_url": "https://api.dane.gov.pl/resources/60221,wykaz-podmiotow-ktore-posiadaja-akredytacje-na-mocy-ustawy-o-ekonomi-spoecznej-09-08-2024/csv",
+          "compressed_file_format": null,
+          "openness_score": 3,
+          "file_size": 17816,
+          "format": "csv"
+        }
+      ],
+      "created": "2024-08-20T08:52:52Z",
+      "link": "https://api.dane.gov.pl/media/resources/20240820/wykaz_OWES_09_08_2024_Ustawa_OD.xlsx",
+      "category": null,
+      "title": "Wykaz podmiotów, które posiadają akredytację na mocy ustawy o ekonomii społecznej - 09-08-2024",
+      "openness_score": 4,
+      "format": "xlsx",
+      "file_size": 63992,
+      "special_signs": [],
+      "has_high_value_data": false,
+      "has_dynamic_data": false,
+      "language": "pl",
+      "jsonld_file_size": 109540,
+      "jsonld_download_url": "https://api.dane.gov.pl/resources/60221,wykaz-podmiotow-ktore-posiadaja-akredytacje-na-mocy-ustawy-o-ekonomi-spoecznej-09-08-2024/jsonld",
+      "contains_protected_data": false,
+      "views_count": 161,
+      "has_research_data": false,
+      "downloads_count": 80,
+      "csv_file_url": "https://api.dane.gov.pl/media/resources/20240820/wykaz_OWES_09_08_2024_Ustawa_OD.csv",
+      "supplements": [],
+      "download_url": "https://api.dane.gov.pl/resources/60221,wykaz-podmiotow-ktore-posiadaja-akredytacje-na-mocy-ustawy-o-ekonomi-spoecznej-09-08-2024/file",
+      "is_chart_creation_blocked": false,
+      "jsonld_file_url": "https://api.dane.gov.pl/media/resources/20240820/wykaz_OWES_09_08_2024_Ustawa_OD.jsonld",
+      "file_url": "https://api.dane.gov.pl/media/resources/20240820/wykaz_OWES_09_08_2024_Ustawa_OD.xlsx",
+      "has_high_value_data_from_ec_list": false,
+      "description": "<p>Wykaz podmiotów, które posiadają akredytację na mocy ustawy o ekonomii społecznej.</p>",
+      "csv_file_size": 17816,
+      "csv_download_url": "https://api.dane.gov.pl/resources/60221,wykaz-podmiotow-ktore-posiadaja-akredytacje-na-mocy-ustawy-o-ekonomi-spoecznej-09-08-2024/csv",
+      "media_type": "file",
+      "verified": "2024-10-27T11:26:55Z",
+      "data_date": "2024-08-09",
+      "regions": [
+        {
+          "region_id": "85633723",
+          "name": "Poland",
+          "is_additional": false,
+          "hierarchy_label": "Poland"
+        }
+      ],
+      "visualization_types": [
+        "table"
+      ]
+    },
+    "type": "resource",
+    "id": "60221"
+  },
+  "links": {
+    "self": "http://api.dane.gov.pl/1.4/resources/60221"
+  },
+  "jsonapi": {
+    "version": "1.0"
+  },
+  "meta": {
+    "path": "/1.4/resources/60221",
+    "server_time": "2025-11-10T22:20:40Z",
+    "params": {},
+    "language": "en",
+    "relative_uri": "/1.4/resources/60221"
+  }
+}

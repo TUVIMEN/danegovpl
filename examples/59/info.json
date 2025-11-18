@@ -1,0 +1,62 @@
+{
+  "jsonapi": {
+    "version": "1.0"
+  },
+  "data": {
+    "type": "institution",
+    "attributes": {
+      "electronic_delivery_address": null,
+      "city": "Pabianice",
+      "street_type": "ul.",
+      "slug": "urzad-gminy-w-pabianicach",
+      "street": "Torowa",
+      "email": "gmina@pabianice.gmina.pl",
+      "fax": "0048422139660",
+      "title": "Urząd Gminy w Pabianicach",
+      "image_url": "/media/images/organizations/20161118/2016-11-18-134912.044796herb-Gmina-pabianice.jpg",
+      "website": "http://www.pabianice.gmina.pl/",
+      "flat_number": null,
+      "epuap": "http://epuap.gov.pl/wps/portal/strefa-klienta/katalog-spraw/profil-urzedu/UrzadGminyPabianice/",
+      "street_number": "21",
+      "modified": "2018-09-11 12:05:57.779821+00:00",
+      "notes": "",
+      "description": "",
+      "regon": "000543551",
+      "postal_code": "95-200",
+      "sources": [],
+      "abbreviation": null,
+      "tel": "0048422139660",
+      "institution_type": "local",
+      "created": "2016-11-18 13:49:12.098986+00:00"
+    },
+    "relationships": {
+      "datasets": {
+        "links": {
+          "related": "https://api.dane.gov.pl/1.4/institutions/59,urzad-gminy-w-pabianicach/datasets"
+        },
+        "meta": {
+          "count": 1
+        }
+      },
+      "resources": {
+        "meta": {
+          "count": 3
+        }
+      }
+    },
+    "id": "59",
+    "links": {
+      "self": "https://api.dane.gov.pl/1.4/institutions/59,urzad-gminy-w-pabianicach"
+    }
+  },
+  "links": {
+    "self": "http://api.dane.gov.pl/1.4/institutions/59"
+  },
+  "meta": {
+    "server_time": "2025-11-10T20:41:33Z",
+    "path": "/1.4/institutions/59",
+    "language": "en",
+    "params": {},
+    "relative_uri": "/1.4/institutions/59"
+  }
+}

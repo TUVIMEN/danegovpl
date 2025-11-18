@@ -1,0 +1,93 @@
+{
+  "data": {
+    "links": {
+      "self": "https://api.dane.gov.pl/1.4/resources/8027,bezrobotni-oferty-pracy-oraz-mierniki-stosowane-w-monitoringu-w-i-polroczu-2015-roku-wedlug-elementarnych-grup-zawodow"
+    },
+    "relationships": {
+      "institution": {
+        "data": {
+          "id": "30",
+          "type": "institution"
+        },
+        "links": {
+          "related": "https://api.dane.gov.pl/1.4/institutions/30,ministerstwo-rodziny-pracy-i-polityki-spolecznej"
+        }
+      },
+      "dataset": {
+        "data": {
+          "id": "681",
+          "type": "dataset"
+        },
+        "links": {
+          "related": "https://api.dane.gov.pl/1.4/datasets/681,monitoring-zawodow-deficytowych-i-nadwyzkowych"
+        }
+      }
+    },
+    "attributes": {
+      "modified": "2017-12-06T10:41:18Z",
+      "files": [
+        {
+          "download_url": "https://api.dane.gov.pl/resources/8027,bezrobotni-oferty-pracy-oraz-mierniki-stosowane-w-monitoringu-w-i-polroczu-2015-roku-wedlug-elementarnych-grup-zawodow/file",
+          "compressed_file_format": null,
+          "openness_score": 3,
+          "file_size": 58172,
+          "format": "csv"
+        }
+      ],
+      "created": "2017-12-06T10:41:18Z",
+      "link": "https://www.dane.gov.pl/media/resources/20171206/Bezrobotni-oferty-pracy-oraz-mierniki-stosowane-w-monitoringu-w-I-poroczu-2015-wg-elem-grup-zaw.csv",
+      "category": "Labour and Social Welfare",
+      "title": "Bezrobotni, oferty pracy oraz mierniki stosowane w monitoringu w I półroczu 2015 roku według elementarnych grup zawodów",
+      "openness_score": 3,
+      "format": "csv",
+      "file_size": 58172,
+      "special_signs": [],
+      "has_high_value_data": null,
+      "has_dynamic_data": null,
+      "language": "pl",
+      "jsonld_file_size": null,
+      "jsonld_download_url": null,
+      "contains_protected_data": false,
+      "views_count": 508,
+      "has_research_data": null,
+      "downloads_count": 245,
+      "csv_file_url": null,
+      "supplements": [],
+      "download_url": "https://api.dane.gov.pl/resources/8027,bezrobotni-oferty-pracy-oraz-mierniki-stosowane-w-monitoringu-w-i-polroczu-2015-roku-wedlug-elementarnych-grup-zawodow/file",
+      "is_chart_creation_blocked": false,
+      "jsonld_file_url": null,
+      "file_url": "https://api.dane.gov.pl/media/resources/20171206/Bezrobotni-oferty-pracy-oraz-mierniki-stosowane-w-monitoringu-w-I-poroczu-2015-wg-elem-grup-zaw.csv",
+      "has_high_value_data_from_ec_list": null,
+      "description": "<p></p>\n",
+      "csv_file_size": null,
+      "csv_download_url": null,
+      "media_type": "file",
+      "verified": "2025-10-01T04:06:23Z",
+      "data_date": "2017-12-06",
+      "regions": [
+        {
+          "region_id": "85633723",
+          "name": "Poland",
+          "is_additional": false,
+          "hierarchy_label": "Poland"
+        }
+      ],
+      "visualization_types": []
+    },
+    "type": "resource",
+    "id": "8027"
+  },
+  "links": {
+    "self": "http://api.dane.gov.pl/1.4/resources/8027"
+  },
+  "jsonapi": {
+    "version": "1.0"
+  },
+  "meta": {
+    "path": "/1.4/resources/8027",
+    "server_time": "2025-11-10T22:20:21Z",
+    "params": {},
+    "language": "en",
+    "relative_uri": "/1.4/resources/8027"
+  }
+}

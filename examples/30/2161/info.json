@@ -1,0 +1,108 @@
+{
+  "data": {
+    "links": {
+      "self": "https://api.dane.gov.pl/1.4/datasets/2161,instrukcja-api-si-kdr"
+    },
+    "relationships": {
+      "showcases": {
+        "meta": {
+          "count": 0
+        },
+        "links": {
+          "related": "https://api.dane.gov.pl/1.4/datasets/2161,instrukcja-api-si-kdr/showcases"
+        }
+      },
+      "resources": {
+        "meta": {
+          "count": 1
+        },
+        "links": {
+          "related": "https://api.dane.gov.pl/1.4/datasets/2161,instrukcja-api-si-kdr/resources"
+        }
+      },
+      "institution": {
+        "data": {
+          "id": "30",
+          "type": "institution"
+        },
+        "links": {
+          "related": "https://api.dane.gov.pl/1.4/institutions/30,ministerstwo-rodziny-pracy-i-polityki-spolecznej"
+        }
+      }
+    },
+    "attributes": {
+      "modified": "2024-12-23T13:01:32Z",
+      "license_condition_personal_data": null,
+      "created": "2021-06-25T08:53:36Z",
+      "source": null,
+      "category": null,
+      "image_url": "",
+      "title": "Instrukcja API- SI KDR",
+      "license_name": "CC0 1.0",
+      "is_promoted": false,
+      "license_chosen": null,
+      "current_condition_descriptions": {},
+      "formats": [
+        "docx"
+      ],
+      "license_description": "",
+      "openness_scores": [
+        1
+      ],
+      "url": "",
+      "has_high_value_data": false,
+      "has_dynamic_data": false,
+      "views_count": 762,
+      "license_condition_original": null,
+      "license_condition_timestamp": null,
+      "has_research_data": false,
+      "downloads_count": 808,
+      "categories": [
+        {
+          "code": "SOCI",
+          "id": "146",
+          "title": "Population and society"
+        }
+      ],
+      "supplements": [],
+      "update_frequency": "Not applicable",
+      "types": [
+        "file"
+      ],
+      "keywords": [],
+      "archived_resources_files_url": "https://api.dane.gov.pl/datasets/2161,instrukcja-api-si-kdr/resources/files/download",
+      "license_condition_custom_description": "",
+      "slug": "instrukcja-api-si-kdr",
+      "notes": "<p>Instrukcja API- SI KDR</p>",
+      "has_high_value_data_from_ec_list": false,
+      "license_condition_default_cc40": false,
+      "verified": "2021-06-25T08:53:36Z",
+      "license_condition_db_or_copyrighted": "",
+      "regions": [
+        {
+          "region_id": "85633723",
+          "name": "Poland",
+          "is_additional": false,
+          "hierarchy_label": "Poland"
+        }
+      ],
+      "image_alt": "",
+      "visualization_types": []
+    },
+    "type": "dataset",
+    "id": "2161"
+  },
+  "links": {
+    "self": "http://api.dane.gov.pl/1.4/datasets/2161"
+  },
+  "jsonapi": {
+    "version": "1.0"
+  },
+  "meta": {
+    "path": "/1.4/datasets/2161",
+    "server_time": "2025-11-10T22:20:31Z",
+    "params": {},
+    "language": "en",
+    "relative_uri": "/1.4/datasets/2161"
+  }
+}

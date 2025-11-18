@@ -1,0 +1,85 @@
+{
+  "jsonapi": {
+    "version": "1.0"
+  },
+  "data": {
+    "type": "resource",
+    "attributes": {
+      "media_type": "website",
+      "special_signs": [],
+      "jsonld_download_url": null,
+      "has_high_value_data": false,
+      "jsonld_file_size": null,
+      "downloads_count": 0,
+      "csv_download_url": null,
+      "contains_protected_data": false,
+      "openness_score": 3,
+      "title": "Statystyki pomocy społecznej - strona internetowa",
+      "download_url": "",
+      "link": "https://www.gov.pl/web/rodzina/statystyki-pomocy-spolecznej",
+      "file_size": null,
+      "modified": "2025-01-08T13:11:36Z",
+      "file_url": "",
+      "csv_file_url": null,
+      "files": [],
+      "description": "<p>Statystyki pomocy społecznej - strona internetowa</p>",
+      "jsonld_file_url": null,
+      "csv_file_size": null,
+      "is_chart_creation_blocked": false,
+      "regions": [
+        {
+          "hierarchy_label": "Poland",
+          "name": "Poland",
+          "is_additional": false,
+          "region_id": "85633723"
+        }
+      ],
+      "has_high_value_data_from_ec_list": false,
+      "language": "pl",
+      "has_dynamic_data": false,
+      "supplements": [],
+      "verified": "2025-10-01T06:26:00Z",
+      "category": null,
+      "views_count": 404,
+      "has_research_data": false,
+      "created": "2022-07-26T09:58:53Z",
+      "format": "html",
+      "data_date": "2022-07-26",
+      "visualization_types": []
+    },
+    "relationships": {
+      "institution": {
+        "links": {
+          "related": "https://api.dane.gov.pl/1.4/institutions/30,ministerstwo-rodziny-pracy-i-polityki-spolecznej"
+        },
+        "data": {
+          "type": "institution",
+          "id": "30"
+        }
+      },
+      "dataset": {
+        "links": {
+          "related": "https://api.dane.gov.pl/1.4/datasets/2804,statystyki-pomocy-spolecznej"
+        },
+        "data": {
+          "type": "dataset",
+          "id": "2804"
+        }
+      }
+    },
+    "id": "40336",
+    "links": {
+      "self": "https://api.dane.gov.pl/1.4/resources/40336,statystyki-pomocy-spoecznej-strona-internetowa"
+    }
+  },
+  "links": {
+    "self": "http://api.dane.gov.pl/1.4/resources/40336"
+  },
+  "meta": {
+    "server_time": "2025-11-10T22:20:33Z",
+    "path": "/1.4/resources/40336",
+    "language": "en",
+    "params": {},
+    "relative_uri": "/1.4/resources/40336"
+  }
+}

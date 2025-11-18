@@ -1,0 +1,93 @@
+{
+  "jsonapi": {
+    "version": "1.0"
+  },
+  "data": {
+    "type": "resource",
+    "attributes": {
+      "media_type": "file",
+      "special_signs": [],
+      "jsonld_download_url": null,
+      "has_high_value_data": null,
+      "jsonld_file_size": null,
+      "downloads_count": 300,
+      "csv_download_url": null,
+      "contains_protected_data": false,
+      "openness_score": 1,
+      "title": "Zawody deficytowe i nadwyżkowe w 2015 roku",
+      "download_url": "https://api.dane.gov.pl/resources/8014,zawody-deficytowe-i-nadwyzkowe-w-2015-roku/file",
+      "link": "https://www.dane.gov.pl/media/resources/20170201/zawody-deficytowe-i-nadwyzkowe-w-2015-roku.pdf",
+      "file_size": 796681,
+      "modified": "2019-08-26T19:33:35Z",
+      "file_url": "https://api.dane.gov.pl/media/resources/20170201/zawody-deficytowe-i-nadwyzkowe-w-2015-roku.pdf",
+      "csv_file_url": null,
+      "files": [
+        {
+          "openness_score": 1,
+          "compressed_file_format": null,
+          "download_url": "https://api.dane.gov.pl/resources/8014,zawody-deficytowe-i-nadwyzkowe-w-2015-roku/file",
+          "format": "pdf",
+          "file_size": 796681
+        }
+      ],
+      "description": "<p></p>\n",
+      "jsonld_file_url": null,
+      "csv_file_size": null,
+      "is_chart_creation_blocked": false,
+      "regions": [
+        {
+          "hierarchy_label": "Poland",
+          "name": "Poland",
+          "is_additional": false,
+          "region_id": "85633723"
+        }
+      ],
+      "has_high_value_data_from_ec_list": null,
+      "language": "pl",
+      "has_dynamic_data": null,
+      "supplements": [],
+      "verified": "2025-10-01T03:53:07Z",
+      "category": "Labour and Social Welfare",
+      "views_count": 209,
+      "has_research_data": null,
+      "created": "2017-02-01T11:32:59Z",
+      "format": "pdf",
+      "data_date": "2017-02-01",
+      "visualization_types": []
+    },
+    "relationships": {
+      "institution": {
+        "links": {
+          "related": "https://api.dane.gov.pl/1.4/institutions/30,ministerstwo-rodziny-pracy-i-polityki-spolecznej"
+        },
+        "data": {
+          "type": "institution",
+          "id": "30"
+        }
+      },
+      "dataset": {
+        "links": {
+          "related": "https://api.dane.gov.pl/1.4/datasets/681,monitoring-zawodow-deficytowych-i-nadwyzkowych"
+        },
+        "data": {
+          "type": "dataset",
+          "id": "681"
+        }
+      }
+    },
+    "id": "8014",
+    "links": {
+      "self": "https://api.dane.gov.pl/1.4/resources/8014,zawody-deficytowe-i-nadwyzkowe-w-2015-roku"
+    }
+  },
+  "links": {
+    "self": "http://api.dane.gov.pl/1.4/resources/8014"
+  },
+  "meta": {
+    "server_time": "2025-11-10T22:20:19Z",
+    "path": "/1.4/resources/8014",
+    "language": "en",
+    "params": {},
+    "relative_uri": "/1.4/resources/8014"
+  }
+}

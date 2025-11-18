@@ -1,0 +1,120 @@
+{
+  "jsonapi": {
+    "version": "1.0"
+  },
+  "data": {
+    "type": "dataset",
+    "attributes": {
+      "url": "http://mz.praca.gov.pl/Puls2/MZ/lista/wyswietl.do?id=MZ0020S&menuNazwa=mz_main&menuId=170308",
+      "has_high_value_data": false,
+      "archived_resources_files_url": "https://api.dane.gov.pl/datasets/681,monitoring-zawodow-deficytowych-i-nadwyzkowych/resources/files/download",
+      "downloads_count": 14264,
+      "image_alt": "",
+      "slug": "monitoring-zawodow-deficytowych-i-nadwyzkowych",
+      "categories": [
+        {
+          "title": "Population and society",
+          "code": "SOCI",
+          "id": "146"
+        }
+      ],
+      "license_condition_personal_data": null,
+      "current_condition_descriptions": {},
+      "openness_scores": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "title": "Monitoring zawodów deficytowych i nadwyżkowych",
+      "image_url": "",
+      "license_condition_timestamp": null,
+      "license_chosen": null,
+      "license_condition_default_cc40": true,
+      "keywords": [],
+      "update_frequency": "Every half year",
+      "types": [
+        "file"
+      ],
+      "modified": "2025-01-03T10:17:31Z",
+      "notes": "<p>Aplikacja zawiera wyniki monitoringu zawodów nadwyżkowych i deficytowych realizowanego przez Publiczne Służby Zatrudnienia. Stanowił źródło informacji o poziomie bezrobocia i popycie na pracę według różnych grup zawodów w poszczególnych obszarach terytorialnych kraju. </p>\n\n<p>W związku z decyzją o połączeniu Monitoringu Zawodów Deficytowych i Nadwyżkowych  (MZDiN) z Barometrem Zawodów (BZ) w jedno wspólne badanie mające na celu monitorowanie zawodów deficytowych i nadwyżkowych wymóg prowadzenia przez urzędy pracy MZDiN obowiązywał do zakończenia prac nad opracowaniem wyników za 2019 r.<br>\nPocząwszy od 2020 roku badaniem zlecanym przez ministra ds. pracy dotyczącym analiz rynku pracy pod kątem zawodów deficytowych i nadwyżkowych jest Barometr Zawodów. <br>\n </p>",
+      "license_condition_db_or_copyrighted": "",
+      "license_description": "Other (Public Domain)",
+      "license_condition_custom_description": "",
+      "regions": [
+        {
+          "hierarchy_label": "Poland",
+          "name": "Poland",
+          "is_additional": false,
+          "region_id": "85633723"
+        }
+      ],
+      "has_high_value_data_from_ec_list": false,
+      "is_promoted": false,
+      "license_condition_original": null,
+      "has_dynamic_data": false,
+      "supplements": [],
+      "verified": "2023-01-13T08:57:27Z",
+      "category": {
+        "title": "Labour and Social Welfare",
+        "code": "",
+        "id": "5"
+      },
+      "formats": [
+        "csv",
+        "jsonld",
+        "pdf",
+        "xlsx"
+      ],
+      "source": null,
+      "views_count": 39511,
+      "license_name": "CC BY 4.0",
+      "created": "2015-05-18T13:22:05Z",
+      "has_research_data": false,
+      "visualization_types": [
+        "table"
+      ]
+    },
+    "relationships": {
+      "institution": {
+        "links": {
+          "related": "https://api.dane.gov.pl/1.4/institutions/30,ministerstwo-rodziny-pracy-i-polityki-spolecznej"
+        },
+        "data": {
+          "type": "institution",
+          "id": "30"
+        }
+      },
+      "showcases": {
+        "links": {
+          "related": "https://api.dane.gov.pl/1.4/datasets/681,monitoring-zawodow-deficytowych-i-nadwyzkowych/showcases"
+        },
+        "meta": {
+          "count": 0
+        }
+      },
+      "resources": {
+        "links": {
+          "related": "https://api.dane.gov.pl/1.4/datasets/681,monitoring-zawodow-deficytowych-i-nadwyzkowych/resources"
+        },
+        "meta": {
+          "count": 46
+        }
+      }
+    },
+    "id": "681",
+    "links": {
+      "self": "https://api.dane.gov.pl/1.4/datasets/681,monitoring-zawodow-deficytowych-i-nadwyzkowych"
+    }
+  },
+  "links": {
+    "self": "http://api.dane.gov.pl/1.4/datasets/681"
+  },
+  "meta": {
+    "server_time": "2025-11-10T22:20:17Z",
+    "path": "/1.4/datasets/681",
+    "language": "en",
+    "params": {},
+    "relative_uri": "/1.4/datasets/681"
+  }
+}

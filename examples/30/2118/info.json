@@ -1,0 +1,108 @@
+{
+  "jsonapi": {
+    "version": "1.0"
+  },
+  "data": {
+    "type": "dataset",
+    "attributes": {
+      "url": "https://dane.ekonomiaspoleczna.gov.pl/",
+      "has_high_value_data": false,
+      "archived_resources_files_url": null,
+      "downloads_count": 0,
+      "image_alt": "",
+      "slug": "zintegrowany-system-monitorowania-ekonomii-spolecz",
+      "categories": [
+        {
+          "title": "Population and society",
+          "code": "SOCI",
+          "id": "146"
+        }
+      ],
+      "license_condition_personal_data": null,
+      "current_condition_descriptions": {},
+      "openness_scores": [
+        3
+      ],
+      "title": "Zintegrowany System Monitorowania Ekonomii Społecznej",
+      "image_url": "",
+      "license_condition_timestamp": null,
+      "license_chosen": null,
+      "license_condition_default_cc40": false,
+      "keywords": [],
+      "update_frequency": "Not applicable",
+      "types": [
+        "website"
+      ],
+      "modified": "2024-12-23T13:02:39Z",
+      "notes": "<p>Zintegrowany System Monitorowania Ekonomii Społecznej- dane statystyczne</p>",
+      "license_condition_db_or_copyrighted": "",
+      "license_description": "",
+      "license_condition_custom_description": "",
+      "regions": [
+        {
+          "hierarchy_label": "Poland",
+          "name": "Poland",
+          "is_additional": false,
+          "region_id": "85633723"
+        }
+      ],
+      "has_high_value_data_from_ec_list": false,
+      "is_promoted": false,
+      "license_condition_original": null,
+      "has_dynamic_data": false,
+      "supplements": [],
+      "verified": "2021-04-26T06:41:53Z",
+      "category": null,
+      "formats": [
+        "html"
+      ],
+      "source": null,
+      "views_count": 960,
+      "license_name": "CC0 1.0",
+      "created": "2021-04-26T06:41:53Z",
+      "has_research_data": false,
+      "visualization_types": []
+    },
+    "relationships": {
+      "institution": {
+        "links": {
+          "related": "https://api.dane.gov.pl/1.4/institutions/30,ministerstwo-rodziny-pracy-i-polityki-spolecznej"
+        },
+        "data": {
+          "type": "institution",
+          "id": "30"
+        }
+      },
+      "showcases": {
+        "links": {
+          "related": "https://api.dane.gov.pl/1.4/datasets/2118,zintegrowany-system-monitorowania-ekonomii-spolecz/showcases"
+        },
+        "meta": {
+          "count": 0
+        }
+      },
+      "resources": {
+        "links": {
+          "related": "https://api.dane.gov.pl/1.4/datasets/2118,zintegrowany-system-monitorowania-ekonomii-spolecz/resources"
+        },
+        "meta": {
+          "count": 1
+        }
+      }
+    },
+    "id": "2118",
+    "links": {
+      "self": "https://api.dane.gov.pl/1.4/datasets/2118,zintegrowany-system-monitorowania-ekonomii-spolecz"
+    }
+  },
+  "links": {
+    "self": "http://api.dane.gov.pl/1.4/datasets/2118"
+  },
+  "meta": {
+    "server_time": "2025-11-10T22:20:31Z",
+    "path": "/1.4/datasets/2118",
+    "language": "en",
+    "params": {},
+    "relative_uri": "/1.4/datasets/2118"
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "data": [
+    {
+      "links": {
+        "self": "https://api.dane.gov.pl/1.4/resources/19123,kwalifikacje"
+      },
+      "relationships": {
+        "institution": {
+          "data": {
+            "id": "30",
+            "type": "institution"
+          },
+          "links": {
+            "related": "https://api.dane.gov.pl/1.4/institutions/30,ministerstwo-rodziny-pracy-i-polityki-spolecznej"
+          }
+        },
+        "dataset": {
+          "data": {
+            "id": "25",
+            "type": "dataset"
+          },
+          "links": {
+            "related": "https://api.dane.gov.pl/1.4/datasets/25,INFOdoradca-plus-Informacje-o-zawodach"
+          }
+        }
+      },
+      "attributes": {
+        "modified": "2019-09-02T20:51:16Z",
+        "files": [],
+        "created": "2019-08-28T09:04:17Z",
+        "link": "http://psz.praca.gov.pl/rynek-pracy/bazy-danych/infodoradca",
+        "title": "Kwalifikacje",
+        "openness_score": 3,
+        "format": "html",
+        "file_size": null,
+        "special_signs": [],
+        "has_high_value_data": null,
+        "has_dynamic_data": null,
+        "language": "pl",
+        "jsonld_file_size": null,
+        "jsonld_download_url": null,
+        "contains_protected_data": false,
+        "views_count": 1040,
+        "has_research_data": null,
+        "downloads_count": 0,
+        "csv_file_url": null,
+        "supplements": [],
+        "download_url": "",
+        "is_chart_creation_blocked": false,
+        "jsonld_file_url": null,
+        "file_url": "",
+        "has_high_value_data_from_ec_list": null,
+        "description": "<p>Kwalifikacje</p>",
+        "csv_file_size": null,
+        "csv_download_url": null,
+        "media_type": "website",
+        "verified": "2025-01-01T04:02:26Z",
+        "data_date": "2019-08-19",
+        "regions": [
+          {
+            "region_id": "85633723",
+            "name": "Poland",
+            "hierarchy_label": "Poland"
+          }
+        ],
+        "visualization_types": []
+      },
+      "type": "resource",
+      "id": "19123"
+    }
+  ],
+  "links": {
+    "self": "https://api.dane.gov.pl/1.4/datasets/25/resources?page=1&per_page=100"
+  },
+  "jsonapi": {
+    "version": "1.0"
+  },
+  "meta": {
+    "aggregations": {},
+    "count": 1,
+    "path": "/1.4/datasets/25/resources",
+    "server_time": "2025-11-10T22:20:13Z",
+    "params": {
+      "page": "1",
+      "per_page": "100"
+    },
+    "language": "en",
+    "relative_uri": "/1.4/datasets/25/resources?page=1&per_page=100"
+  }
+}

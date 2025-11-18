@@ -1,0 +1,119 @@
+{
+  "jsonapi": {
+    "version": "1.0"
+  },
+  "data": {
+    "type": "dataset",
+    "attributes": {
+      "url": "https://empatia.mpips.gov.pl/web/piu/dla-swiadczeniobiorcow/turnusy/wyszukiwarka-organizatorow",
+      "has_high_value_data": false,
+      "archived_resources_files_url": "https://api.dane.gov.pl/datasets/2014,rejestr-organizatorow-turnusow-rehabilitacyjnych/resources/files/download",
+      "downloads_count": 1654,
+      "image_alt": "",
+      "slug": "rejestr-organizatorow-turnusow-rehabilitacyjnych",
+      "categories": [
+        {
+          "title": "Population and society",
+          "code": "SOCI",
+          "id": "146"
+        }
+      ],
+      "license_condition_personal_data": null,
+      "current_condition_descriptions": {},
+      "openness_scores": [
+        3,
+        4
+      ],
+      "title": "Rejestr organizatorów turnusów rehabilitacyjnych",
+      "image_url": "",
+      "license_condition_timestamp": null,
+      "license_chosen": null,
+      "license_condition_default_cc40": false,
+      "keywords": [],
+      "update_frequency": "Not applicable",
+      "types": [
+        "file",
+        "website"
+      ],
+      "modified": "2025-04-22T08:35:01Z",
+      "notes": "<h1>Rejestr organizatorów turnusów rehabilitacyjnych</h1>",
+      "license_condition_db_or_copyrighted": "",
+      "license_description": "",
+      "license_condition_custom_description": "",
+      "regions": [
+        {
+          "hierarchy_label": "Poland",
+          "name": "Poland",
+          "is_additional": false,
+          "region_id": "85633723"
+        }
+      ],
+      "has_high_value_data_from_ec_list": false,
+      "is_promoted": false,
+      "license_condition_original": null,
+      "has_dynamic_data": false,
+      "supplements": [],
+      "verified": "2025-10-16T12:02:51Z",
+      "category": {
+        "title": "Labour and Social Welfare",
+        "code": "",
+        "id": "5"
+      },
+      "formats": [
+        "csv",
+        "html",
+        "jsonld",
+        "xls"
+      ],
+      "source": null,
+      "views_count": 8349,
+      "license_name": "CC0 1.0",
+      "created": "2020-09-22T12:53:12Z",
+      "has_research_data": false,
+      "visualization_types": [
+        "table"
+      ]
+    },
+    "relationships": {
+      "institution": {
+        "links": {
+          "related": "https://api.dane.gov.pl/1.4/institutions/30,ministerstwo-rodziny-pracy-i-polityki-spolecznej"
+        },
+        "data": {
+          "type": "institution",
+          "id": "30"
+        }
+      },
+      "showcases": {
+        "links": {
+          "related": "https://api.dane.gov.pl/1.4/datasets/2014,rejestr-organizatorow-turnusow-rehabilitacyjnych/showcases"
+        },
+        "meta": {
+          "count": 0
+        }
+      },
+      "resources": {
+        "links": {
+          "related": "https://api.dane.gov.pl/1.4/datasets/2014,rejestr-organizatorow-turnusow-rehabilitacyjnych/resources"
+        },
+        "meta": {
+          "count": 4
+        }
+      }
+    },
+    "id": "2014",
+    "links": {
+      "self": "https://api.dane.gov.pl/1.4/datasets/2014,rejestr-organizatorow-turnusow-rehabilitacyjnych"
+    }
+  },
+  "links": {
+    "self": "http://api.dane.gov.pl/1.4/datasets/2014"
+  },
+  "meta": {
+    "server_time": "2025-11-10T22:20:27Z",
+    "path": "/1.4/datasets/2014",
+    "language": "en",
+    "params": {},
+    "relative_uri": "/1.4/datasets/2014"
+  }
+}

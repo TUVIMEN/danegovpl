@@ -1,0 +1,113 @@
+{
+  "data": {
+    "links": {
+      "self": "https://api.dane.gov.pl/1.4/datasets/2114,baza-przedsiebiorstw-spolecznych"
+    },
+    "relationships": {
+      "showcases": {
+        "meta": {
+          "count": 0
+        },
+        "links": {
+          "related": "https://api.dane.gov.pl/1.4/datasets/2114,baza-przedsiebiorstw-spolecznych/showcases"
+        }
+      },
+      "resources": {
+        "meta": {
+          "count": 2
+        },
+        "links": {
+          "related": "https://api.dane.gov.pl/1.4/datasets/2114,baza-przedsiebiorstw-spolecznych/resources"
+        }
+      },
+      "institution": {
+        "data": {
+          "id": "30",
+          "type": "institution"
+        },
+        "links": {
+          "related": "https://api.dane.gov.pl/1.4/institutions/30,ministerstwo-rodziny-pracy-i-polityki-spolecznej"
+        }
+      }
+    },
+    "attributes": {
+      "modified": "2024-12-23T13:04:58Z",
+      "license_condition_personal_data": null,
+      "created": "2021-04-22T08:08:01Z",
+      "source": null,
+      "category": null,
+      "image_url": "",
+      "title": "Baza przedsiębiorstw Społecznych - dane archiwalne",
+      "license_name": "CC0 1.0",
+      "is_promoted": false,
+      "license_chosen": null,
+      "current_condition_descriptions": {},
+      "formats": [
+        "csv",
+        "jsonld",
+        "xls"
+      ],
+      "license_description": "",
+      "openness_scores": [
+        2,
+        4
+      ],
+      "url": "http://www.bazaps.ekonomiaspoleczna.gov.pl/",
+      "has_high_value_data": false,
+      "has_dynamic_data": false,
+      "views_count": 2226,
+      "license_condition_original": null,
+      "license_condition_timestamp": null,
+      "has_research_data": false,
+      "downloads_count": 18163,
+      "categories": [
+        {
+          "code": "SOCI",
+          "id": "146",
+          "title": "Population and society"
+        }
+      ],
+      "supplements": [],
+      "update_frequency": "Not applicable",
+      "types": [
+        "file"
+      ],
+      "keywords": [],
+      "archived_resources_files_url": "https://api.dane.gov.pl/datasets/2114,baza-przedsiebiorstw-spolecznych/resources/files/download",
+      "license_condition_custom_description": "",
+      "slug": "baza-przedsiebiorstw-spolecznych",
+      "notes": "<p>Baza w której znajdują się wszystkie przedsiębiorstwa społeczne z całego kraju.</p>\n\n<p>Dane archiwalne.</p>",
+      "has_high_value_data_from_ec_list": false,
+      "license_condition_default_cc40": false,
+      "verified": "2022-08-17T08:51:10Z",
+      "license_condition_db_or_copyrighted": "",
+      "regions": [
+        {
+          "region_id": "85633723",
+          "name": "Poland",
+          "is_additional": false,
+          "hierarchy_label": "Poland"
+        }
+      ],
+      "image_alt": "",
+      "visualization_types": [
+        "table"
+      ]
+    },
+    "type": "dataset",
+    "id": "2114"
+  },
+  "links": {
+    "self": "http://api.dane.gov.pl/1.4/datasets/2114"
+  },
+  "jsonapi": {
+    "version": "1.0"
+  },
+  "meta": {
+    "path": "/1.4/datasets/2114",
+    "server_time": "2025-11-10T22:20:30Z",
+    "params": {},
+    "language": "en",
+    "relative_uri": "/1.4/datasets/2114"
+  }
+}

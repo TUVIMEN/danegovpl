@@ -1,0 +1,112 @@
+{
+  "data": {
+    "links": {
+      "self": "https://api.dane.gov.pl/1.4/datasets/548,klasyfikacja-zawodow-i-specjalnosci"
+    },
+    "relationships": {
+      "showcases": {
+        "meta": {
+          "count": 0
+        },
+        "links": {
+          "related": "https://api.dane.gov.pl/1.4/datasets/548,klasyfikacja-zawodow-i-specjalnosci/showcases"
+        }
+      },
+      "resources": {
+        "meta": {
+          "count": 1
+        },
+        "links": {
+          "related": "https://api.dane.gov.pl/1.4/datasets/548,klasyfikacja-zawodow-i-specjalnosci/resources"
+        }
+      },
+      "institution": {
+        "data": {
+          "id": "30",
+          "type": "institution"
+        },
+        "links": {
+          "related": "https://api.dane.gov.pl/1.4/institutions/30,ministerstwo-rodziny-pracy-i-polityki-spolecznej"
+        }
+      }
+    },
+    "attributes": {
+      "modified": "2025-01-03T10:16:08Z",
+      "license_condition_personal_data": null,
+      "created": "2015-05-18T13:22:20Z",
+      "source": null,
+      "category": {
+        "code": "",
+        "id": "5",
+        "title": "Labour and Social Welfare"
+      },
+      "image_url": "",
+      "title": "Klasyfikacja zawodów i specjalności",
+      "license_name": "CC0 1.0",
+      "is_promoted": false,
+      "license_chosen": null,
+      "current_condition_descriptions": {},
+      "formats": [
+        "html"
+      ],
+      "license_description": "Other (Public Domain)",
+      "openness_scores": [
+        3
+      ],
+      "url": "http://psz.praca.gov.pl/rynek-pracy/bazy-danych/klasyfikacja-zawodow-i-specjalnosci/wyszukiwarka-opisow-zawodow",
+      "has_high_value_data": false,
+      "has_dynamic_data": false,
+      "views_count": 1601,
+      "license_condition_original": null,
+      "license_condition_timestamp": null,
+      "has_research_data": false,
+      "downloads_count": 2,
+      "categories": [
+        {
+          "code": "SOCI",
+          "id": "146",
+          "title": "Population and society"
+        }
+      ],
+      "supplements": [],
+      "update_frequency": "Yearly",
+      "types": [
+        "website"
+      ],
+      "keywords": [],
+      "archived_resources_files_url": null,
+      "license_condition_custom_description": "",
+      "slug": "klasyfikacja-zawodow-i-specjalnosci",
+      "notes": "<p>Zgodnie z art. 36 ust. 8 ustawy z dnia 20 kwietnia 2004 r. o promocji zatrudnienia i instytucjach rynku pracy, klasyfikację zawodów i specjalności dla potrzeb rynku pracy oraz zakres jej stosowania określa w drodze rozporządzenia minister właściwy do spraw pracy.</p>",
+      "has_high_value_data_from_ec_list": false,
+      "license_condition_default_cc40": false,
+      "verified": "2017-03-17T11:23:51Z",
+      "license_condition_db_or_copyrighted": "",
+      "regions": [
+        {
+          "region_id": "85633723",
+          "name": "Poland",
+          "is_additional": false,
+          "hierarchy_label": "Poland"
+        }
+      ],
+      "image_alt": "",
+      "visualization_types": []
+    },
+    "type": "dataset",
+    "id": "548"
+  },
+  "links": {
+    "self": "http://api.dane.gov.pl/1.4/datasets/548"
+  },
+  "jsonapi": {
+    "version": "1.0"
+  },
+  "meta": {
+    "path": "/1.4/datasets/548",
+    "server_time": "2025-11-10T22:20:16Z",
+    "params": {},
+    "language": "en",
+    "relative_uri": "/1.4/datasets/548"
+  }
+}

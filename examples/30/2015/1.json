@@ -1,0 +1,298 @@
+{
+  "jsonapi": {
+    "version": "1.0"
+  },
+  "data": [
+    {
+      "type": "resource",
+      "attributes": {
+        "media_type": "website",
+        "special_signs": [],
+        "jsonld_download_url": null,
+        "has_high_value_data": false,
+        "jsonld_file_size": null,
+        "downloads_count": 0,
+        "csv_download_url": null,
+        "contains_protected_data": false,
+        "openness_score": 3,
+        "title": "Rejestr ośrodków turnusów rehabilitacyjnych",
+        "download_url": "",
+        "link": "https://empatia.gov.pl/rejestr-osrodkow-turnusow-rehabilitacyjnych",
+        "file_size": null,
+        "modified": "2025-10-16T12:04:17Z",
+        "file_url": "",
+        "csv_file_url": null,
+        "files": [],
+        "description": "<p>Rejestr ośrodków turnusów rehabilitacyjnych</p>",
+        "jsonld_file_url": null,
+        "csv_file_size": null,
+        "is_chart_creation_blocked": false,
+        "regions": [
+          {
+            "hierarchy_label": "Poland",
+            "name": "Poland",
+            "region_id": "85633723"
+          }
+        ],
+        "has_high_value_data_from_ec_list": false,
+        "language": "pl",
+        "has_dynamic_data": false,
+        "supplements": [],
+        "verified": "2025-10-16T12:25:26Z",
+        "views_count": 12,
+        "has_research_data": false,
+        "created": "2025-10-16T12:04:17Z",
+        "format": "html",
+        "data_date": "2025-10-16",
+        "visualization_types": []
+      },
+      "relationships": {
+        "institution": {
+          "links": {
+            "related": "https://api.dane.gov.pl/1.4/institutions/30,ministerstwo-rodziny-pracy-i-polityki-spolecznej"
+          },
+          "data": {
+            "type": "institution",
+            "id": "30"
+          }
+        },
+        "dataset": {
+          "links": {
+            "related": "https://api.dane.gov.pl/1.4/datasets/2015,rejestr-osrodkow-turnusow-rehabilitacyjnych"
+          },
+          "data": {
+            "type": "dataset",
+            "id": "2015"
+          }
+        }
+      },
+      "id": "277233",
+      "links": {
+        "self": "https://api.dane.gov.pl/1.4/resources/277233,rejestr-osrodkow-turnusow-rehabilitacyjnych"
+      }
+    },
+    {
+      "type": "resource",
+      "attributes": {
+        "media_type": "file",
+        "special_signs": [],
+        "jsonld_download_url": null,
+        "has_high_value_data": false,
+        "jsonld_file_size": null,
+        "downloads_count": 574,
+        "csv_download_url": "https://api.dane.gov.pl/resources/32058,rejestr-osrodkow-turnusow-rehabilitacyjnych/csv",
+        "contains_protected_data": false,
+        "openness_score": 3,
+        "title": "Rejestr ośrodków turnusów rehabilitacyjnych - 24.08.2021",
+        "download_url": "https://api.dane.gov.pl/resources/32058,rejestr-osrodkow-turnusow-rehabilitacyjnych/file",
+        "link": "https://api.dane.gov.pl/media/resources/20210824/Rejestr_o%C5%9Brodk%C3%B3w_ySXBFZF.xls",
+        "file_size": 207872,
+        "modified": "2025-01-24T13:06:29Z",
+        "file_url": "https://api.dane.gov.pl/media/resources/20210824/Rejestr_o%C5%9Brodk%C3%B3w_ySXBFZF.xls",
+        "csv_file_url": "https://api.dane.gov.pl/media/resources/20210824/Rejestr_o%C5%9Brodk%C3%B3w_ySXBFZF.csv",
+        "files": [
+          {
+            "openness_score": 2,
+            "download_url": "https://api.dane.gov.pl/resources/32058,rejestr-osrodkow-turnusow-rehabilitacyjnych/file",
+            "format": "xls",
+            "file_size": 207872
+          },
+          {
+            "openness_score": 3,
+            "download_url": "https://api.dane.gov.pl/resources/32058,rejestr-osrodkow-turnusow-rehabilitacyjnych/csv",
+            "format": "csv",
+            "file_size": 79900
+          }
+        ],
+        "description": "<p>Rejestr ośrodków turnusów rehabilitacyjnych</p>",
+        "jsonld_file_url": null,
+        "csv_file_size": 79900,
+        "is_chart_creation_blocked": false,
+        "regions": [
+          {
+            "hierarchy_label": "Poland",
+            "name": "Poland",
+            "region_id": "85633723"
+          }
+        ],
+        "has_high_value_data_from_ec_list": false,
+        "language": "pl",
+        "has_dynamic_data": false,
+        "supplements": [],
+        "verified": "2021-08-24T06:53:28Z",
+        "views_count": 3639,
+        "has_research_data": false,
+        "created": "2021-08-24T06:50:50Z",
+        "format": "xls",
+        "data_date": "2021-08-24",
+        "visualization_types": [
+          "table"
+        ]
+      },
+      "relationships": {
+        "institution": {
+          "links": {
+            "related": "https://api.dane.gov.pl/1.4/institutions/30,ministerstwo-rodziny-pracy-i-polityki-spolecznej"
+          },
+          "data": {
+            "type": "institution",
+            "id": "30"
+          }
+        },
+        "tabular_data": {
+          "links": {
+            "related": "https://api.dane.gov.pl/1.4/resources/32058/data"
+          },
+          "data": {
+            "type": "tabular_data",
+            "id": "32058"
+          }
+        },
+        "chart": {
+          "links": {
+            "related": "https://api.dane.gov.pl/1.4/resources/32058/chart"
+          },
+          "data": {
+            "type": "chart",
+            "id": "32058"
+          }
+        },
+        "dataset": {
+          "links": {
+            "related": "https://api.dane.gov.pl/1.4/datasets/2015,rejestr-osrodkow-turnusow-rehabilitacyjnych"
+          },
+          "data": {
+            "type": "dataset",
+            "id": "2015"
+          }
+        }
+      },
+      "id": "32058",
+      "links": {
+        "self": "https://api.dane.gov.pl/1.4/resources/32058,rejestr-osrodkow-turnusow-rehabilitacyjnych"
+      }
+    },
+    {
+      "type": "resource",
+      "attributes": {
+        "media_type": "file",
+        "special_signs": [],
+        "jsonld_download_url": "https://api.dane.gov.pl/resources/63938,rejestr-osrodkow-turnusow-rehabilitacyjnych-24012025/jsonld",
+        "has_high_value_data": false,
+        "jsonld_file_size": 3632127,
+        "downloads_count": 542,
+        "csv_download_url": "https://api.dane.gov.pl/resources/63938,rejestr-osrodkow-turnusow-rehabilitacyjnych-24012025/csv",
+        "contains_protected_data": false,
+        "openness_score": 4,
+        "title": "Rejestr ośrodków turnusów rehabilitacyjnych - 24.01.2025",
+        "download_url": "https://api.dane.gov.pl/resources/63938,rejestr-osrodkow-turnusow-rehabilitacyjnych-24012025/file",
+        "link": "https://api.dane.gov.pl/media/resources/20250124/2025-01-24-14-03-49-OD.xls",
+        "file_size": 699392,
+        "modified": "2025-01-24T13:11:44Z",
+        "file_url": "https://api.dane.gov.pl/media/resources/20250124/2025-01-24-14-03-49-OD.xls",
+        "csv_file_url": "https://api.dane.gov.pl/media/resources/20250124/2025-01-24-14-03-49-OD.csv",
+        "files": [
+          {
+            "openness_score": 2,
+            "download_url": "https://api.dane.gov.pl/resources/63938,rejestr-osrodkow-turnusow-rehabilitacyjnych-24012025/file",
+            "format": "xls",
+            "file_size": 699392
+          },
+          {
+            "openness_score": 4,
+            "download_url": "https://api.dane.gov.pl/resources/63938,rejestr-osrodkow-turnusow-rehabilitacyjnych-24012025/jsonld",
+            "format": "jsonld",
+            "file_size": 3632127
+          },
+          {
+            "openness_score": 3,
+            "download_url": "https://api.dane.gov.pl/resources/63938,rejestr-osrodkow-turnusow-rehabilitacyjnych-24012025/csv",
+            "format": "csv",
+            "file_size": 367767
+          }
+        ],
+        "description": "<p>Rejestr ośrodków turnusów rehabilitacyjnych</p>",
+        "jsonld_file_url": "https://api.dane.gov.pl/media/resources/20250124/2025-01-24-14-03-49-OD.jsonld",
+        "csv_file_size": 367767,
+        "is_chart_creation_blocked": false,
+        "regions": [
+          {
+            "hierarchy_label": "Poland",
+            "name": "Poland",
+            "region_id": "85633723"
+          }
+        ],
+        "has_high_value_data_from_ec_list": false,
+        "language": "pl",
+        "has_dynamic_data": false,
+        "supplements": [],
+        "verified": "2025-01-24T13:15:25Z",
+        "views_count": 402,
+        "has_research_data": false,
+        "created": "2025-01-24T13:08:37Z",
+        "format": "xls",
+        "data_date": "2025-01-24",
+        "visualization_types": [
+          "table"
+        ]
+      },
+      "relationships": {
+        "institution": {
+          "links": {
+            "related": "https://api.dane.gov.pl/1.4/institutions/30,ministerstwo-rodziny-pracy-i-polityki-spolecznej"
+          },
+          "data": {
+            "type": "institution",
+            "id": "30"
+          }
+        },
+        "tabular_data": {
+          "links": {
+            "related": "https://api.dane.gov.pl/1.4/resources/63938/data"
+          },
+          "data": {
+            "type": "tabular_data",
+            "id": "63938"
+          }
+        },
+        "chart": {
+          "links": {
+            "related": "https://api.dane.gov.pl/1.4/resources/63938/chart"
+          },
+          "data": {
+            "type": "chart",
+            "id": "63938"
+          }
+        },
+        "dataset": {
+          "links": {
+            "related": "https://api.dane.gov.pl/1.4/datasets/2015,rejestr-osrodkow-turnusow-rehabilitacyjnych"
+          },
+          "data": {
+            "type": "dataset",
+            "id": "2015"
+          }
+        }
+      },
+      "id": "63938",
+      "links": {
+        "self": "https://api.dane.gov.pl/1.4/resources/63938,rejestr-osrodkow-turnusow-rehabilitacyjnych-24012025"
+      }
+    }
+  ],
+  "links": {
+    "self": "https://api.dane.gov.pl/1.4/datasets/2015/resources?page=1&per_page=100"
+  },
+  "meta": {
+    "server_time": "2025-11-10T22:20:28Z",
+    "aggregations": {},
+    "path": "/1.4/datasets/2015/resources",
+    "count": 3,
+    "language": "en",
+    "params": {
+      "page": "1",
+      "per_page": "100"
+    },
+    "relative_uri": "/1.4/datasets/2015/resources?page=1&per_page=100"
+  }
+}

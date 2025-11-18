@@ -1,0 +1,113 @@
+{
+  "jsonapi": {
+    "version": "1.0"
+  },
+  "data": {
+    "type": "dataset",
+    "attributes": {
+      "url": "https://psz.praca.gov.pl/rynek-pracy/statystyki-i-analizy/bezrobocie-rejestrowane/?p_p_id=122_INSTANCE_cKeX3WeOLhb0&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&p_p_col_id=column-2&p_p_col_count=2&p_r_p_564233524_categoryId=70034&p_r_p_564233524_resetCur=true",
+      "has_high_value_data": false,
+      "archived_resources_files_url": null,
+      "downloads_count": 0,
+      "image_alt": "",
+      "slug": "bezrobocie-rejestrowane-raporty-tematyczne-polrocz",
+      "categories": [
+        {
+          "title": "Population and society",
+          "code": "SOCI",
+          "id": "146"
+        },
+        {
+          "title": "Government and public sector",
+          "code": "GOVE",
+          "id": "148"
+        }
+      ],
+      "license_condition_personal_data": null,
+      "current_condition_descriptions": {},
+      "openness_scores": [
+        3
+      ],
+      "title": "Bezrobocie rejestrowane - raporty tematyczne (półroczne i roczne)",
+      "image_url": "",
+      "license_condition_timestamp": null,
+      "license_chosen": null,
+      "license_condition_default_cc40": false,
+      "keywords": [],
+      "update_frequency": "Every half year",
+      "types": [
+        "website"
+      ],
+      "modified": "2024-12-23T13:00:43Z",
+      "notes": "<p>Bezrobocie rejestrowane - raporty tematyczne (półroczne i roczne)</p>\n\n<p>Różne formaty danych: pdf, xls, doc.</p>",
+      "license_condition_db_or_copyrighted": "",
+      "license_description": "",
+      "license_condition_custom_description": "",
+      "regions": [
+        {
+          "hierarchy_label": "Poland",
+          "name": "Poland",
+          "is_additional": false,
+          "region_id": "85633723"
+        }
+      ],
+      "has_high_value_data_from_ec_list": false,
+      "is_promoted": false,
+      "license_condition_original": null,
+      "has_dynamic_data": false,
+      "supplements": [],
+      "verified": "2022-02-09T12:36:39Z",
+      "category": null,
+      "formats": [
+        "html"
+      ],
+      "source": null,
+      "views_count": 235,
+      "license_name": "CC0 1.0",
+      "created": "2022-02-09T12:36:39Z",
+      "has_research_data": false,
+      "visualization_types": []
+    },
+    "relationships": {
+      "institution": {
+        "links": {
+          "related": "https://api.dane.gov.pl/1.4/institutions/30,ministerstwo-rodziny-pracy-i-polityki-spolecznej"
+        },
+        "data": {
+          "type": "institution",
+          "id": "30"
+        }
+      },
+      "showcases": {
+        "links": {
+          "related": "https://api.dane.gov.pl/1.4/datasets/2650,bezrobocie-rejestrowane-raporty-tematyczne-polrocz/showcases"
+        },
+        "meta": {
+          "count": 0
+        }
+      },
+      "resources": {
+        "links": {
+          "related": "https://api.dane.gov.pl/1.4/datasets/2650,bezrobocie-rejestrowane-raporty-tematyczne-polrocz/resources"
+        },
+        "meta": {
+          "count": 1
+        }
+      }
+    },
+    "id": "2650",
+    "links": {
+      "self": "https://api.dane.gov.pl/1.4/datasets/2650,bezrobocie-rejestrowane-raporty-tematyczne-polrocz"
+    }
+  },
+  "links": {
+    "self": "http://api.dane.gov.pl/1.4/datasets/2650"
+  },
+  "meta": {
+    "server_time": "2025-11-10T22:20:31Z",
+    "path": "/1.4/datasets/2650",
+    "language": "en",
+    "params": {},
+    "relative_uri": "/1.4/datasets/2650"
+  }
+}

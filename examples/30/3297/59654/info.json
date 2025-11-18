@@ -1,0 +1,118 @@
+{
+  "jsonapi": {
+    "version": "1.0"
+  },
+  "data": {
+    "type": "resource",
+    "attributes": {
+      "media_type": "file",
+      "special_signs": [],
+      "jsonld_download_url": "https://api.dane.gov.pl/resources/59654,wykaz-zasobow-chronionych-danych-ministerstwa-rodziny-i-polityki-spoecznej-akt-o-zarzadzaniu-danymi/jsonld",
+      "has_high_value_data": false,
+      "jsonld_file_size": 34124,
+      "downloads_count": 62,
+      "csv_download_url": "https://api.dane.gov.pl/resources/59654,wykaz-zasobow-chronionych-danych-ministerstwa-rodziny-i-polityki-spoecznej-akt-o-zarzadzaniu-danymi/csv",
+      "contains_protected_data": true,
+      "openness_score": 4,
+      "title": "Wykaz zasobów chronionych danych Ministerstwa Rodziny i Polityki Społecznej - Akt o zarządzaniu danymi",
+      "download_url": "https://api.dane.gov.pl/resources/59654,wykaz-zasobow-chronionych-danych-ministerstwa-rodziny-i-polityki-spoecznej-akt-o-zarzadzaniu-danymi/file",
+      "link": "https://api.dane.gov.pl/media/resources/20240730/Wykaz_zasob%C3%B3w_chronionych_danych_MRIPS_XgCQbjv.xlsx",
+      "file_size": 11435,
+      "modified": "2024-07-30T08:43:49Z",
+      "file_url": "https://api.dane.gov.pl/media/resources/20240730/Wykaz_zasob%C3%B3w_chronionych_danych_MRIPS_XgCQbjv.xlsx",
+      "csv_file_url": "https://api.dane.gov.pl/media/resources/20240730/Wykaz_zasob%C3%B3w_chronionych_danych_MRIPS_XgCQbjv.csv",
+      "files": [
+        {
+          "openness_score": 2,
+          "compressed_file_format": null,
+          "download_url": "https://api.dane.gov.pl/resources/59654,wykaz-zasobow-chronionych-danych-ministerstwa-rodziny-i-polityki-spoecznej-akt-o-zarzadzaniu-danymi/file",
+          "format": "xlsx",
+          "file_size": 11435
+        },
+        {
+          "openness_score": 4,
+          "compressed_file_format": null,
+          "download_url": "https://api.dane.gov.pl/resources/59654,wykaz-zasobow-chronionych-danych-ministerstwa-rodziny-i-polityki-spoecznej-akt-o-zarzadzaniu-danymi/jsonld",
+          "format": "jsonld",
+          "file_size": 34124
+        },
+        {
+          "openness_score": 3,
+          "compressed_file_format": null,
+          "download_url": "https://api.dane.gov.pl/resources/59654,wykaz-zasobow-chronionych-danych-ministerstwa-rodziny-i-polityki-spoecznej-akt-o-zarzadzaniu-danymi/csv",
+          "format": "csv",
+          "file_size": 4886
+        }
+      ],
+      "description": "<p>Wykaz zasobów chronionych danych Ministestwa Rodziny i Polityki Społecznej - Akt o zarządzaniu danymi. Dostęp do chronionych danych wymienionych w wykazie jest możliwy wyłącznie na wniosek. Warunki ponownego wykorzystywania zostaną określone indywidualnie w ofercie (po złożeniu wniosku). Format oraz rozmiar danych wskazane w wykazie mogą ulec zmianie. Więcej na temat dostępu do chronionych danych (w tym jak złożyć wniosek) dowiesz się w Punkcie informacyjnym pod adresem: <a href=\"https://dane.gov.pl/pl/knowledgebase/usefulmaterials/ akt-o-zarzadzaniu-danymi-punkt-informacyjny\">https://dane.gov.pl/pl/knowledgebase/usefulmaterials/<br />\r\nakt-o-zarzadzaniu-danymi-punkt-informacyjny</a></p>",
+      "jsonld_file_url": "https://api.dane.gov.pl/media/resources/20240730/Wykaz_zasob%C3%B3w_chronionych_danych_MRIPS_XgCQbjv.jsonld",
+      "csv_file_size": 4886,
+      "is_chart_creation_blocked": false,
+      "regions": [
+        {
+          "hierarchy_label": "Poland",
+          "name": "Poland",
+          "is_additional": false,
+          "region_id": "85633723"
+        }
+      ],
+      "has_high_value_data_from_ec_list": null,
+      "language": "pl",
+      "has_dynamic_data": false,
+      "supplements": [],
+      "verified": "2024-10-27T09:35:34Z",
+      "category": null,
+      "views_count": 143,
+      "has_research_data": false,
+      "created": "2024-07-30T08:42:14Z",
+      "format": "xlsx",
+      "data_date": "2024-07-30",
+      "visualization_types": [
+        "table"
+      ]
+    },
+    "relationships": {
+      "institution": {
+        "links": {
+          "related": "https://api.dane.gov.pl/1.4/institutions/30,ministerstwo-rodziny-pracy-i-polityki-spolecznej"
+        },
+        "data": {
+          "type": "institution",
+          "id": "30"
+        }
+      },
+      "chart": {
+        "links": {
+          "related": "https://api.dane.gov.pl/1.4/resources/59654,wykaz-zasobow-chronionych-danych-ministerstwa-rodziny-i-polityki-spoecznej-akt-o-zarzadzaniu-danymi/chart"
+        },
+        "data": {
+          "type": "chart",
+          "id": "59654"
+        }
+      },
+      "dataset": {
+        "links": {
+          "related": "https://api.dane.gov.pl/1.4/datasets/3297,wykaz-zasobow-chronionych-danych-dga-ministerstwo"
+        },
+        "data": {
+          "type": "dataset",
+          "id": "3297"
+        }
+      }
+    },
+    "id": "59654",
+    "links": {
+      "self": "https://api.dane.gov.pl/1.4/resources/59654,wykaz-zasobow-chronionych-danych-ministerstwa-rodziny-i-polityki-spoecznej-akt-o-zarzadzaniu-danymi"
+    }
+  },
+  "links": {
+    "self": "http://api.dane.gov.pl/1.4/resources/59654"
+  },
+  "meta": {
+    "server_time": "2025-11-10T22:20:33Z",
+    "path": "/1.4/resources/59654",
+    "language": "en",
+    "params": {},
+    "relative_uri": "/1.4/resources/59654"
+  }
+}

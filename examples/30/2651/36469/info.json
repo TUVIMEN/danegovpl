@@ -1,0 +1,85 @@
+{
+  "data": {
+    "links": {
+      "self": "https://api.dane.gov.pl/1.4/resources/36469,bezrobocie-rejestrowane-statystyka-publiczna"
+    },
+    "relationships": {
+      "institution": {
+        "data": {
+          "id": "30",
+          "type": "institution"
+        },
+        "links": {
+          "related": "https://api.dane.gov.pl/1.4/institutions/30,ministerstwo-rodziny-pracy-i-polityki-spolecznej"
+        }
+      },
+      "dataset": {
+        "data": {
+          "id": "2651",
+          "type": "dataset"
+        },
+        "links": {
+          "related": "https://api.dane.gov.pl/1.4/datasets/2651,bezrobocie-rejestrowane-statystyka-publiczna"
+        }
+      }
+    },
+    "attributes": {
+      "modified": "2022-02-09T12:38:24Z",
+      "files": [],
+      "created": "2022-02-09T12:38:24Z",
+      "link": "https://psz.praca.gov.pl/rynek-pracy/statystyki-i-analizy/bezrobocie-rejestrowane/?p_p_id=122_INSTANCE_cKeX3WeOLhb0&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&p_p_col_id=column-2&p_p_col_count=2&p_r_p_564233524_resetCur=true&p_r_p_564233524_categoryId=7822338",
+      "category": null,
+      "title": "Bezrobocie rejestrowane - statystyka publiczna",
+      "openness_score": 3,
+      "format": "html",
+      "file_size": null,
+      "special_signs": [],
+      "has_high_value_data": null,
+      "has_dynamic_data": null,
+      "language": "pl",
+      "jsonld_file_size": null,
+      "jsonld_download_url": null,
+      "contains_protected_data": false,
+      "views_count": 736,
+      "has_research_data": null,
+      "downloads_count": 0,
+      "csv_file_url": null,
+      "supplements": [],
+      "download_url": "",
+      "is_chart_creation_blocked": false,
+      "jsonld_file_url": null,
+      "file_url": "",
+      "has_high_value_data_from_ec_list": null,
+      "description": "<p>Bezrobocie rejestrowane - statystyka publiczna</p>",
+      "csv_file_size": null,
+      "csv_download_url": null,
+      "media_type": "website",
+      "verified": "2025-11-01T16:42:00Z",
+      "data_date": "2022-02-09",
+      "regions": [
+        {
+          "region_id": "85633723",
+          "name": "Poland",
+          "is_additional": false,
+          "hierarchy_label": "Poland"
+        }
+      ],
+      "visualization_types": []
+    },
+    "type": "resource",
+    "id": "36469"
+  },
+  "links": {
+    "self": "http://api.dane.gov.pl/1.4/resources/36469"
+  },
+  "jsonapi": {
+    "version": "1.0"
+  },
+  "meta": {
+    "path": "/1.4/resources/36469",
+    "server_time": "2025-11-10T22:20:32Z",
+    "params": {},
+    "language": "en",
+    "relative_uri": "/1.4/resources/36469"
+  }
+}

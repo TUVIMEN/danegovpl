@@ -1,0 +1,118 @@
+{
+  "jsonapi": {
+    "version": "1.0"
+  },
+  "data": {
+    "type": "dataset",
+    "attributes": {
+      "url": null,
+      "has_high_value_data": null,
+      "archived_resources_files_url": "https://api.dane.gov.pl/datasets/2099,si-kdr-wykaz-oddziaow-partnerow-programu/resources/files/download",
+      "downloads_count": 599,
+      "image_alt": "",
+      "slug": "si-kdr-wykaz-oddziaow-partnerow-programu",
+      "categories": [
+        {
+          "title": "Population and society",
+          "code": "SOCI",
+          "id": "146"
+        }
+      ],
+      "license_condition_personal_data": null,
+      "current_condition_descriptions": {},
+      "openness_scores": [
+        3
+      ],
+      "title": "SI KDR - wykaz oddziałów partnerów programu",
+      "image_url": "",
+      "license_condition_timestamp": null,
+      "license_chosen": null,
+      "license_condition_default_cc40": null,
+      "keywords": [],
+      "update_frequency": "Daily",
+      "types": [
+        "file"
+      ],
+      "modified": "2025-11-10T01:54:42Z",
+      "notes": "Zbiór zawiera plik CSV z danymi oddziałów partnerów programu SI KDR.",
+      "license_condition_db_or_copyrighted": null,
+      "license_description": "",
+      "license_condition_custom_description": null,
+      "regions": [
+        {
+          "hierarchy_label": "Poland",
+          "name": "Poland",
+          "is_additional": false,
+          "region_id": "85633723"
+        }
+      ],
+      "has_high_value_data_from_ec_list": null,
+      "is_promoted": false,
+      "license_condition_original": null,
+      "has_dynamic_data": null,
+      "supplements": [],
+      "verified": "2025-11-10T03:33:02Z",
+      "category": {
+        "title": "Labour and Social Welfare",
+        "code": "",
+        "id": "5"
+      },
+      "formats": [
+        "csv"
+      ],
+      "source": {
+        "update_frequency": "every day",
+        "last_import_timestamp": "2025-11-10T03:31:44Z",
+        "url": "https://kdr.mpips.gov.pl/KDR-metadane-partnerzy.xml",
+        "title": "Wykaz oddziałów partnerów programu Karta Dużej Rodziny",
+        "type": "xml"
+      },
+      "views_count": 3596,
+      "license_name": "CC0 1.0",
+      "created": "2021-04-08T03:00:00Z",
+      "has_research_data": null,
+      "visualization_types": []
+    },
+    "relationships": {
+      "institution": {
+        "links": {
+          "related": "https://api.dane.gov.pl/1.4/institutions/30,ministerstwo-rodziny-pracy-i-polityki-spolecznej"
+        },
+        "data": {
+          "type": "institution",
+          "id": "30"
+        }
+      },
+      "showcases": {
+        "links": {
+          "related": "https://api.dane.gov.pl/1.4/datasets/2099,si-kdr-wykaz-oddziaow-partnerow-programu/showcases"
+        },
+        "meta": {
+          "count": 0
+        }
+      },
+      "resources": {
+        "links": {
+          "related": "https://api.dane.gov.pl/1.4/datasets/2099,si-kdr-wykaz-oddziaow-partnerow-programu/resources"
+        },
+        "meta": {
+          "count": 1
+        }
+      }
+    },
+    "id": "2099",
+    "links": {
+      "self": "https://api.dane.gov.pl/1.4/datasets/2099,si-kdr-wykaz-oddziaow-partnerow-programu"
+    }
+  },
+  "links": {
+    "self": "http://api.dane.gov.pl/1.4/datasets/2099"
+  },
+  "meta": {
+    "server_time": "2025-11-10T22:20:29Z",
+    "path": "/1.4/datasets/2099",
+    "language": "en",
+    "params": {},
+    "relative_uri": "/1.4/datasets/2099"
+  }
+}

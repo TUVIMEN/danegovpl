@@ -1,0 +1,120 @@
+{
+  "data": {
+    "links": {
+      "self": "https://api.dane.gov.pl/1.4/resources/32058,rejestr-osrodkow-turnusow-rehabilitacyjnych"
+    },
+    "relationships": {
+      "chart": {
+        "data": {
+          "id": "32058",
+          "type": "chart"
+        },
+        "links": {
+          "related": "https://api.dane.gov.pl/1.4/resources/32058,rejestr-osrodkow-turnusow-rehabilitacyjnych/chart"
+        }
+      },
+      "institution": {
+        "data": {
+          "id": "30",
+          "type": "institution"
+        },
+        "links": {
+          "related": "https://api.dane.gov.pl/1.4/institutions/30,ministerstwo-rodziny-pracy-i-polityki-spolecznej"
+        }
+      },
+      "dataset": {
+        "data": {
+          "id": "2015",
+          "type": "dataset"
+        },
+        "links": {
+          "related": "https://api.dane.gov.pl/1.4/datasets/2015,rejestr-osrodkow-turnusow-rehabilitacyjnych"
+        }
+      },
+      "tabular_data": {
+        "data": {
+          "id": "32058",
+          "type": "tabular_data"
+        },
+        "links": {
+          "related": "https://api.dane.gov.pl/1.4/resources/32058/data"
+        }
+      }
+    },
+    "attributes": {
+      "modified": "2025-01-24T13:06:29Z",
+      "files": [
+        {
+          "download_url": "https://api.dane.gov.pl/resources/32058,rejestr-osrodkow-turnusow-rehabilitacyjnych/file",
+          "compressed_file_format": null,
+          "openness_score": 2,
+          "file_size": 207872,
+          "format": "xls"
+        },
+        {
+          "download_url": "https://api.dane.gov.pl/resources/32058,rejestr-osrodkow-turnusow-rehabilitacyjnych/csv",
+          "compressed_file_format": null,
+          "openness_score": 3,
+          "file_size": 79900,
+          "format": "csv"
+        }
+      ],
+      "created": "2021-08-24T06:50:50Z",
+      "link": "https://api.dane.gov.pl/media/resources/20210824/Rejestr_o%C5%9Brodk%C3%B3w_ySXBFZF.xls",
+      "category": "Labour and Social Welfare",
+      "title": "Rejestr ośrodków turnusów rehabilitacyjnych - 24.08.2021",
+      "openness_score": 3,
+      "format": "xls",
+      "file_size": 207872,
+      "special_signs": [],
+      "has_high_value_data": false,
+      "has_dynamic_data": false,
+      "language": "pl",
+      "jsonld_file_size": null,
+      "jsonld_download_url": null,
+      "contains_protected_data": false,
+      "views_count": 3639,
+      "has_research_data": false,
+      "downloads_count": 574,
+      "csv_file_url": "https://api.dane.gov.pl/media/resources/20210824/Rejestr_o%C5%9Brodk%C3%B3w_ySXBFZF.csv",
+      "supplements": [],
+      "download_url": "https://api.dane.gov.pl/resources/32058,rejestr-osrodkow-turnusow-rehabilitacyjnych/file",
+      "is_chart_creation_blocked": false,
+      "jsonld_file_url": null,
+      "file_url": "https://api.dane.gov.pl/media/resources/20210824/Rejestr_o%C5%9Brodk%C3%B3w_ySXBFZF.xls",
+      "has_high_value_data_from_ec_list": false,
+      "description": "<p>Rejestr ośrodków turnusów rehabilitacyjnych</p>",
+      "csv_file_size": 79900,
+      "csv_download_url": "https://api.dane.gov.pl/resources/32058,rejestr-osrodkow-turnusow-rehabilitacyjnych/csv",
+      "media_type": "file",
+      "verified": "2021-08-24T06:53:28Z",
+      "data_date": "2021-08-24",
+      "regions": [
+        {
+          "region_id": "85633723",
+          "name": "Poland",
+          "is_additional": false,
+          "hierarchy_label": "Poland"
+        }
+      ],
+      "visualization_types": [
+        "table"
+      ]
+    },
+    "type": "resource",
+    "id": "32058"
+  },
+  "links": {
+    "self": "http://api.dane.gov.pl/1.4/resources/32058"
+  },
+  "jsonapi": {
+    "version": "1.0"
+  },
+  "meta": {
+    "path": "/1.4/resources/32058",
+    "server_time": "2025-11-10T22:20:28Z",
+    "params": {},
+    "language": "en",
+    "relative_uri": "/1.4/resources/32058"
+  }
+}

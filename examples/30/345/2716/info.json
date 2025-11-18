@@ -1,0 +1,85 @@
+{
+  "data": {
+    "links": {
+      "self": "https://api.dane.gov.pl/1.4/resources/2716,rejestr-instytucji-szkoleniowych"
+    },
+    "relationships": {
+      "institution": {
+        "data": {
+          "id": "30",
+          "type": "institution"
+        },
+        "links": {
+          "related": "https://api.dane.gov.pl/1.4/institutions/30,ministerstwo-rodziny-pracy-i-polityki-spolecznej"
+        }
+      },
+      "dataset": {
+        "data": {
+          "id": "345",
+          "type": "dataset"
+        },
+        "links": {
+          "related": "https://api.dane.gov.pl/1.4/datasets/345,rejestr-instytucji-szkoleniowych"
+        }
+      }
+    },
+    "attributes": {
+      "modified": "2019-09-01T15:00:38Z",
+      "files": [],
+      "created": "2017-02-01T10:58:40Z",
+      "link": "http://stor.praca.gov.pl/portal/#/ris",
+      "category": "Labour and Social Welfare",
+      "title": "Rejestr Instytucji Szkoleniowych",
+      "openness_score": 3,
+      "format": "html",
+      "file_size": null,
+      "special_signs": [],
+      "has_high_value_data": null,
+      "has_dynamic_data": null,
+      "language": "pl",
+      "jsonld_file_size": null,
+      "jsonld_download_url": null,
+      "contains_protected_data": false,
+      "views_count": 3976,
+      "has_research_data": null,
+      "downloads_count": 0,
+      "csv_file_url": null,
+      "supplements": [],
+      "download_url": "",
+      "is_chart_creation_blocked": false,
+      "jsonld_file_url": null,
+      "file_url": "",
+      "has_high_value_data_from_ec_list": null,
+      "description": "<p>Odnośnik (przekierowanie) do Rejestru Instytucji Szkoleniowych w ramach Systemu Teleinformatyczny Obsługi Rejestrów PSZ (STOR)</p>\n",
+      "csv_file_size": null,
+      "csv_download_url": null,
+      "media_type": "website",
+      "verified": "2025-10-01T03:49:08Z",
+      "data_date": "2017-02-01",
+      "regions": [
+        {
+          "region_id": "85633723",
+          "name": "Poland",
+          "is_additional": false,
+          "hierarchy_label": "Poland"
+        }
+      ],
+      "visualization_types": []
+    },
+    "type": "resource",
+    "id": "2716"
+  },
+  "links": {
+    "self": "http://api.dane.gov.pl/1.4/resources/2716"
+  },
+  "jsonapi": {
+    "version": "1.0"
+  },
+  "meta": {
+    "path": "/1.4/resources/2716",
+    "server_time": "2025-11-10T22:20:15Z",
+    "params": {},
+    "language": "en",
+    "relative_uri": "/1.4/resources/2716"
+  }
+}

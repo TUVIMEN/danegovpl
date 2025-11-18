@@ -1,0 +1,85 @@
+{
+  "data": {
+    "links": {
+      "self": "https://api.dane.gov.pl/1.4/resources/220,rejestr-agencji-zatrudnienia-kraz"
+    },
+    "relationships": {
+      "institution": {
+        "data": {
+          "id": "30",
+          "type": "institution"
+        },
+        "links": {
+          "related": "https://api.dane.gov.pl/1.4/institutions/30,ministerstwo-rodziny-pracy-i-polityki-spolecznej"
+        }
+      },
+      "dataset": {
+        "data": {
+          "id": "7",
+          "type": "dataset"
+        },
+        "links": {
+          "related": "https://api.dane.gov.pl/1.4/datasets/7,rejestr-podmiotow-prowadzacych-agencje-zatrudnienia"
+        }
+      }
+    },
+    "attributes": {
+      "modified": "2019-09-03T20:15:48Z",
+      "files": [],
+      "created": "2016-07-20T12:02:27Z",
+      "link": "http://stor.praca.gov.pl/portal/#/kraz",
+      "category": "Labour and Social Welfare",
+      "title": "Rejestr Agencji Zatrudnienia KRAZ",
+      "openness_score": 3,
+      "format": "html",
+      "file_size": null,
+      "special_signs": [],
+      "has_high_value_data": null,
+      "has_dynamic_data": null,
+      "language": "pl",
+      "jsonld_file_size": null,
+      "jsonld_download_url": null,
+      "contains_protected_data": false,
+      "views_count": 26797,
+      "has_research_data": null,
+      "downloads_count": 0,
+      "csv_file_url": null,
+      "supplements": [],
+      "download_url": "",
+      "is_chart_creation_blocked": false,
+      "jsonld_file_url": null,
+      "file_url": "",
+      "has_high_value_data_from_ec_list": null,
+      "description": "<p>Odnośnik (przekierowanie) do Rejestru Agencji Zatrudnienia w ramach Systemu Teleinformatyczny Obsługi Rejestrów PSZ (STOR). \nRaporty dostępne w formacie PDF.</p>\n",
+      "csv_file_size": null,
+      "csv_download_url": null,
+      "media_type": "website",
+      "verified": "2025-10-01T04:12:35Z",
+      "data_date": "2016-07-20",
+      "regions": [
+        {
+          "region_id": "85633723",
+          "name": "Poland",
+          "is_additional": false,
+          "hierarchy_label": "Poland"
+        }
+      ],
+      "visualization_types": []
+    },
+    "type": "resource",
+    "id": "220"
+  },
+  "links": {
+    "self": "http://api.dane.gov.pl/1.4/resources/220"
+  },
+  "jsonapi": {
+    "version": "1.0"
+  },
+  "meta": {
+    "path": "/1.4/resources/220",
+    "server_time": "2025-11-10T22:20:12Z",
+    "params": {},
+    "language": "en",
+    "relative_uri": "/1.4/resources/220"
+  }
+}

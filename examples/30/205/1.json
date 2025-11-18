@@ -1,0 +1,90 @@
+{
+  "data": [
+    {
+      "links": {
+        "self": "https://api.dane.gov.pl/1.4/resources/2747,statystyki-ustawowe"
+      },
+      "relationships": {
+        "institution": {
+          "data": {
+            "id": "30",
+            "type": "institution"
+          },
+          "links": {
+            "related": "https://api.dane.gov.pl/1.4/institutions/30,ministerstwo-rodziny-pracy-i-polityki-spolecznej"
+          }
+        },
+        "dataset": {
+          "data": {
+            "id": "205",
+            "type": "dataset"
+          },
+          "links": {
+            "related": "https://api.dane.gov.pl/1.4/datasets/205,Bezrobocie_rejestrowane_informacje_miesieczne"
+          }
+        }
+      },
+      "attributes": {
+        "modified": "2022-02-09T12:12:02Z",
+        "files": [],
+        "created": "2017-03-17T11:41:43Z",
+        "link": "http://psz.praca.gov.pl/rynek-pracy/statystyki-i-analizy/bezrobocie-rejestrowane?p_p_id=122_INSTANCE_cKeX3WeOLhb0&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&p_p_col_id=column-2&p_p_col_count=2&p_r_p_564233524_resetCur=true&p_r_p_564233524_categoryId=70032",
+        "title": "Bezrobocie rejestrowane - informacje miesięczne",
+        "openness_score": 3,
+        "format": "html",
+        "file_size": null,
+        "special_signs": [],
+        "has_high_value_data": null,
+        "has_dynamic_data": null,
+        "language": "pl",
+        "jsonld_file_size": null,
+        "jsonld_download_url": null,
+        "contains_protected_data": false,
+        "views_count": 954,
+        "has_research_data": null,
+        "downloads_count": 0,
+        "csv_file_url": null,
+        "supplements": [],
+        "download_url": "",
+        "is_chart_creation_blocked": false,
+        "jsonld_file_url": null,
+        "file_url": "",
+        "has_high_value_data_from_ec_list": null,
+        "description": "<p>Bezrobocie rejestrowane - informacje miesięczne</p>\r\n\r\n<p>Różne formaty danych: pdf, xls, html.</p>",
+        "csv_file_size": null,
+        "csv_download_url": null,
+        "media_type": "website",
+        "verified": "2025-01-01T04:08:27Z",
+        "data_date": "2017-03-17",
+        "regions": [
+          {
+            "region_id": "85633723",
+            "name": "Poland",
+            "hierarchy_label": "Poland"
+          }
+        ],
+        "visualization_types": []
+      },
+      "type": "resource",
+      "id": "2747"
+    }
+  ],
+  "links": {
+    "self": "https://api.dane.gov.pl/1.4/datasets/205/resources?page=1&per_page=100"
+  },
+  "jsonapi": {
+    "version": "1.0"
+  },
+  "meta": {
+    "aggregations": {},
+    "count": 1,
+    "path": "/1.4/datasets/205/resources",
+    "server_time": "2025-11-10T22:20:14Z",
+    "params": {
+      "page": "1",
+      "per_page": "100"
+    },
+    "language": "en",
+    "relative_uri": "/1.4/datasets/205/resources?page=1&per_page=100"
+  }
+}

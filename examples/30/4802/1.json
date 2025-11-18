@@ -1,0 +1,172 @@
+{
+  "jsonapi": {
+    "version": "1.0"
+  },
+  "data": [
+    {
+      "type": "resource",
+      "attributes": {
+        "media_type": "file",
+        "special_signs": [],
+        "jsonld_download_url": null,
+        "has_high_value_data": null,
+        "jsonld_file_size": null,
+        "downloads_count": 10,
+        "csv_download_url": null,
+        "contains_protected_data": false,
+        "openness_score": 3,
+        "title": "Rejestr Żłobków - lista instytucji",
+        "download_url": "https://api.dane.gov.pl/resources/448158,rejestr-zobkow-lista-instytucji/file",
+        "link": "https://rejestrzlobkow.mrips.gov.pl/R_Z-instytucje.csv",
+        "file_size": 3413805,
+        "modified": "2025-11-02T02:00:25Z",
+        "file_url": "https://api.dane.gov.pl/media/resources/20251102/R_Z-instytucje.csv",
+        "csv_file_url": null,
+        "files": [
+          {
+            "openness_score": 3,
+            "download_url": "https://api.dane.gov.pl/resources/448158,rejestr-zobkow-lista-instytucji/file",
+            "format": "csv",
+            "file_size": 3413805
+          }
+        ],
+        "description": "Zbiór zawiera dane instytucji dostępnych w Rejestrze żłobków i klubów dziecięcych.",
+        "jsonld_file_url": null,
+        "csv_file_size": null,
+        "is_chart_creation_blocked": false,
+        "regions": [
+          {
+            "hierarchy_label": "Poland",
+            "name": "Poland",
+            "region_id": "85633723"
+          }
+        ],
+        "has_high_value_data_from_ec_list": null,
+        "language": "pl",
+        "has_dynamic_data": null,
+        "supplements": [],
+        "verified": "2025-11-02T07:34:55Z",
+        "views_count": 5,
+        "has_research_data": null,
+        "created": "2025-11-02T03:27:20Z",
+        "format": "csv",
+        "data_date": "2025-11-02",
+        "visualization_types": []
+      },
+      "relationships": {
+        "institution": {
+          "links": {
+            "related": "https://api.dane.gov.pl/1.4/institutions/30,ministerstwo-rodziny-pracy-i-polityki-spolecznej"
+          },
+          "data": {
+            "type": "institution",
+            "id": "30"
+          }
+        },
+        "dataset": {
+          "links": {
+            "related": "https://api.dane.gov.pl/1.4/datasets/4802,rejestr-zobkow-lista-instytucji"
+          },
+          "data": {
+            "type": "dataset",
+            "id": "4802"
+          }
+        }
+      },
+      "id": "448158",
+      "links": {
+        "self": "https://api.dane.gov.pl/1.4/resources/448158,rejestr-zobkow-lista-instytucji"
+      }
+    },
+    {
+      "type": "resource",
+      "attributes": {
+        "media_type": "file",
+        "special_signs": [],
+        "jsonld_download_url": null,
+        "has_high_value_data": null,
+        "jsonld_file_size": null,
+        "downloads_count": 2,
+        "csv_download_url": null,
+        "contains_protected_data": false,
+        "openness_score": 3,
+        "title": "Rejestr Żłobków - lista instytucji",
+        "download_url": "https://api.dane.gov.pl/resources/545882,rejestr-zobkow-lista-instytucji/file",
+        "link": "https://rejestrzlobkow.mrips.gov.pl/R_Z-instytucje.csv",
+        "file_size": 3416007,
+        "modified": "2025-11-10T02:00:21Z",
+        "file_url": "https://api.dane.gov.pl/media/resources/20251110/R_Z-instytucje_c1202f9b.csv",
+        "csv_file_url": null,
+        "files": [
+          {
+            "openness_score": 3,
+            "download_url": "https://api.dane.gov.pl/resources/545882,rejestr-zobkow-lista-instytucji/file",
+            "format": "csv",
+            "file_size": 3416007
+          }
+        ],
+        "description": "Zbiór zawiera dane instytucji dostępnych w Rejestrze żłobków i klubów dziecięcych.",
+        "jsonld_file_url": null,
+        "csv_file_size": null,
+        "is_chart_creation_blocked": false,
+        "regions": [
+          {
+            "hierarchy_label": "Poland",
+            "name": "Poland",
+            "region_id": "85633723"
+          }
+        ],
+        "has_high_value_data_from_ec_list": null,
+        "language": "pl",
+        "has_dynamic_data": null,
+        "supplements": [],
+        "verified": "2025-11-10T09:45:31Z",
+        "views_count": 1,
+        "has_research_data": null,
+        "created": "2025-11-10T03:37:30Z",
+        "format": "csv",
+        "data_date": "2025-11-10",
+        "visualization_types": []
+      },
+      "relationships": {
+        "institution": {
+          "links": {
+            "related": "https://api.dane.gov.pl/1.4/institutions/30,ministerstwo-rodziny-pracy-i-polityki-spolecznej"
+          },
+          "data": {
+            "type": "institution",
+            "id": "30"
+          }
+        },
+        "dataset": {
+          "links": {
+            "related": "https://api.dane.gov.pl/1.4/datasets/4802,rejestr-zobkow-lista-instytucji"
+          },
+          "data": {
+            "type": "dataset",
+            "id": "4802"
+          }
+        }
+      },
+      "id": "545882",
+      "links": {
+        "self": "https://api.dane.gov.pl/1.4/resources/545882,rejestr-zobkow-lista-instytucji"
+      }
+    }
+  ],
+  "links": {
+    "self": "https://api.dane.gov.pl/1.4/datasets/4802/resources?page=1&per_page=100"
+  },
+  "meta": {
+    "server_time": "2025-11-10T22:20:48Z",
+    "aggregations": {},
+    "path": "/1.4/datasets/4802/resources",
+    "count": 2,
+    "language": "en",
+    "params": {
+      "page": "1",
+      "per_page": "100"
+    },
+    "relative_uri": "/1.4/datasets/4802/resources?page=1&per_page=100"
+  }
+}

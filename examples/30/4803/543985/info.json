@@ -1,0 +1,93 @@
+{
+  "jsonapi": {
+    "version": "1.0"
+  },
+  "data": {
+    "type": "resource",
+    "attributes": {
+      "media_type": "file",
+      "special_signs": [],
+      "jsonld_download_url": null,
+      "has_high_value_data": null,
+      "jsonld_file_size": null,
+      "downloads_count": 3,
+      "csv_download_url": null,
+      "contains_protected_data": false,
+      "openness_score": 3,
+      "title": "Rejestr Żłobków - lista opiekunów dziennych",
+      "download_url": "https://api.dane.gov.pl/resources/543985,rejestr-zobkow-lista-opiekunow-dziennych/file",
+      "link": "https://rejestrzlobkow.mrips.gov.pl/R_Z-opiekunowie.csv",
+      "file_size": 1085318,
+      "modified": "2025-11-10T02:00:27Z",
+      "file_url": "https://api.dane.gov.pl/media/resources/20251110/R_Z-opiekunowie_c3c1727a.csv",
+      "csv_file_url": null,
+      "files": [
+        {
+          "openness_score": 3,
+          "compressed_file_format": null,
+          "download_url": "https://api.dane.gov.pl/resources/543985,rejestr-zobkow-lista-opiekunow-dziennych/file",
+          "format": "csv",
+          "file_size": 1085318
+        }
+      ],
+      "description": "Zbiór zawiera dane dostępne w Rejestrze opiekunów dziennych.",
+      "jsonld_file_url": null,
+      "csv_file_size": null,
+      "is_chart_creation_blocked": false,
+      "regions": [
+        {
+          "hierarchy_label": "Poland",
+          "name": "Poland",
+          "is_additional": false,
+          "region_id": "85633723"
+        }
+      ],
+      "has_high_value_data_from_ec_list": null,
+      "language": "pl",
+      "has_dynamic_data": null,
+      "supplements": [],
+      "verified": "2025-11-10T08:44:07Z",
+      "category": null,
+      "views_count": 0,
+      "has_research_data": null,
+      "created": "2025-11-10T03:31:05Z",
+      "format": "csv",
+      "data_date": "2025-11-10",
+      "visualization_types": []
+    },
+    "relationships": {
+      "institution": {
+        "links": {
+          "related": "https://api.dane.gov.pl/1.4/institutions/30,ministerstwo-rodziny-pracy-i-polityki-spolecznej"
+        },
+        "data": {
+          "type": "institution",
+          "id": "30"
+        }
+      },
+      "dataset": {
+        "links": {
+          "related": "https://api.dane.gov.pl/1.4/datasets/4803,rejestr-zobkow-lista-opiekunow-dziennych"
+        },
+        "data": {
+          "type": "dataset",
+          "id": "4803"
+        }
+      }
+    },
+    "id": "543985",
+    "links": {
+      "self": "https://api.dane.gov.pl/1.4/resources/543985,rejestr-zobkow-lista-opiekunow-dziennych"
+    }
+  },
+  "links": {
+    "self": "http://api.dane.gov.pl/1.4/resources/543985"
+  },
+  "meta": {
+    "server_time": "2025-11-10T22:20:48Z",
+    "path": "/1.4/resources/543985",
+    "language": "en",
+    "params": {},
+    "relative_uri": "/1.4/resources/543985"
+  }
+}

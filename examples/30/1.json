@@ -1,0 +1,2609 @@
+{
+  "data": [
+    {
+      "links": {
+        "self": "https://api.dane.gov.pl/1.4/datasets/7,rejestr-podmiotow-prowadzacych-agencje-zatrudnienia"
+      },
+      "relationships": {
+        "showcases": {
+          "meta": {
+            "count": 0
+          },
+          "links": {
+            "related": "https://api.dane.gov.pl/1.4/datasets/7,rejestr-podmiotow-prowadzacych-agencje-zatrudnienia/showcases"
+          }
+        },
+        "resources": {
+          "meta": {
+            "count": 5
+          },
+          "links": {
+            "related": "https://api.dane.gov.pl/1.4/datasets/7,rejestr-podmiotow-prowadzacych-agencje-zatrudnienia/resources"
+          }
+        },
+        "institution": {
+          "data": {
+            "id": "30",
+            "type": "institution"
+          },
+          "links": {
+            "related": "https://api.dane.gov.pl/1.4/institutions/30,ministerstwo-rodziny-pracy-i-polityki-spolecznej"
+          }
+        }
+      },
+      "attributes": {
+        "modified": "2025-01-03T10:19:15Z",
+        "license_condition_personal_data": null,
+        "created": "2015-05-18T13:22:05Z",
+        "source": {
+          "type": null,
+          "url": null,
+          "last_import_timestamp": null,
+          "title": null,
+          "update_frequency": "[]"
+        },
+        "category": {
+          "id": "5",
+          "title": "Labour and Social Welfare"
+        },
+        "image_url": "",
+        "title": "Rejestr Podmiotów Prowadzących Agencje Zatrudnienia",
+        "license_name": "CC0 1.0",
+        "is_promoted": false,
+        "license_chosen": null,
+        "formats": [
+          "docx",
+          "html",
+          "json",
+          "pdf"
+        ],
+        "license_description": "Other (Public Domain)",
+        "openness_scores": [
+          1,
+          3
+        ],
+        "url": "http://stor.praca.gov.pl/portal/#/kraz",
+        "has_high_value_data": false,
+        "has_dynamic_data": false,
+        "views_count": 26797,
+        "license_condition_original": null,
+        "license_condition_timestamp": null,
+        "has_research_data": false,
+        "downloads_count": 1723,
+        "categories": [
+          {
+            "code": "SOCI",
+            "id": "146",
+            "title": "Population and society"
+          }
+        ],
+        "supplements": [],
+        "update_frequency": "Daily",
+        "types": [
+          "file",
+          "website"
+        ],
+        "keywords": [],
+        "license_condition_custom_description": "",
+        "slug": "rejestr-podmiotow-prowadzacych-agencje-zatrudnienia",
+        "notes": "<p>Rejestr Podmiotów Prowadzących Agencje Zatrudnienia (KRAZ) prowadzony jest zgodnie z ustawą z dnia 20 kwietna 2004 r. o promocji zatrudnienia i instytucjach rynku pracy. Wyszukiwanie agencji zatrudnienia można realizować po województwie lub danych agencji zatrudnienia.</p>",
+        "has_high_value_data_from_ec_list": false,
+        "license_condition_default_cc40": false,
+        "verified": "2022-07-06T14:36:03Z",
+        "resource_modified": "2022-07-06T14:36:03Z",
+        "license_condition_db_or_copyrighted": "",
+        "regions": [
+          {
+            "region_id": "85633723",
+            "name": "Poland",
+            "hierarchy_label": "Poland"
+          }
+        ],
+        "image_alt": "",
+        "visualization_types": []
+      },
+      "type": "dataset",
+      "id": "7"
+    },
+    {
+      "links": {
+        "self": "https://api.dane.gov.pl/1.4/datasets/25,INFOdoradca-plus-Informacje-o-zawodach"
+      },
+      "relationships": {
+        "showcases": {
+          "meta": {
+            "count": 0
+          },
+          "links": {
+            "related": "https://api.dane.gov.pl/1.4/datasets/25,INFOdoradca-plus-Informacje-o-zawodach/showcases"
+          }
+        },
+        "resources": {
+          "meta": {
+            "count": 1
+          },
+          "links": {
+            "related": "https://api.dane.gov.pl/1.4/datasets/25,INFOdoradca-plus-Informacje-o-zawodach/resources"
+          }
+        },
+        "institution": {
+          "data": {
+            "id": "30",
+            "type": "institution"
+          },
+          "links": {
+            "related": "https://api.dane.gov.pl/1.4/institutions/30,ministerstwo-rodziny-pracy-i-polityki-spolecznej"
+          }
+        }
+      },
+      "attributes": {
+        "modified": "2025-01-03T10:13:12Z",
+        "license_condition_personal_data": null,
+        "created": "2015-05-18T13:22:20Z",
+        "source": {
+          "type": null,
+          "url": null,
+          "last_import_timestamp": null,
+          "title": null,
+          "update_frequency": "[]"
+        },
+        "category": {
+          "id": "5",
+          "title": "Labour and Social Welfare"
+        },
+        "image_url": "",
+        "title": "INFOdoradca+ Informacje o zawodach",
+        "license_name": "CC0 1.0",
+        "is_promoted": false,
+        "license_chosen": null,
+        "formats": [
+          "html"
+        ],
+        "license_description": "Other (Public Domain)",
+        "openness_scores": [
+          3
+        ],
+        "url": "http://psz.praca.gov.pl/rynek-pracy/bazy-danych/infodoradca",
+        "has_high_value_data": false,
+        "has_dynamic_data": false,
+        "views_count": 1040,
+        "license_condition_original": null,
+        "license_condition_timestamp": null,
+        "has_research_data": false,
+        "downloads_count": 0,
+        "categories": [
+          {
+            "code": "SOCI",
+            "id": "146",
+            "title": "Population and society"
+          }
+        ],
+        "supplements": [],
+        "update_frequency": "Not applicable",
+        "types": [
+          "website"
+        ],
+        "keywords": [],
+        "license_condition_custom_description": "",
+        "slug": "INFOdoradca-plus-Informacje-o-zawodach",
+        "notes": "<p>Udostępnione zasoby bazodanowe zawierają przede wszystkim: opis zawodu, opis kompetencji zawodowych, odniesienie do sytuacji zawodu na rynku pracy i możliwości doskonalenia zawodowego, a także możliwości zatrudnienia osób niepełnosprawnych w zawodzie.</p>",
+        "has_high_value_data_from_ec_list": false,
+        "license_condition_default_cc40": false,
+        "verified": "2019-08-28T09:04:17Z",
+        "resource_modified": "2019-09-02T20:51:16Z",
+        "license_condition_db_or_copyrighted": "",
+        "regions": [
+          {
+            "region_id": "85633723",
+            "name": "Poland",
+            "hierarchy_label": "Poland"
+          }
+        ],
+        "image_alt": "",
+        "visualization_types": []
+      },
+      "type": "dataset",
+      "id": "25"
+    },
+    {
+      "links": {
+        "self": "https://api.dane.gov.pl/1.4/datasets/167,statystyki-lub-opracowania-dotyczace-cudzoziemcow-pracujacych-w-polsce"
+      },
+      "relationships": {
+        "showcases": {
+          "meta": {
+            "count": 0
+          },
+          "links": {
+            "related": "https://api.dane.gov.pl/1.4/datasets/167,statystyki-lub-opracowania-dotyczace-cudzoziemcow-pracujacych-w-polsce/showcases"
+          }
+        },
+        "resources": {
+          "meta": {
+            "count": 1
+          },
+          "links": {
+            "related": "https://api.dane.gov.pl/1.4/datasets/167,statystyki-lub-opracowania-dotyczace-cudzoziemcow-pracujacych-w-polsce/resources"
+          }
+        },
+        "institution": {
+          "data": {
+            "id": "30",
+            "type": "institution"
+          },
+          "links": {
+            "related": "https://api.dane.gov.pl/1.4/institutions/30,ministerstwo-rodziny-pracy-i-polityki-spolecznej"
+          }
+        }
+      },
+      "attributes": {
+        "modified": "2024-12-23T13:09:39Z",
+        "license_condition_personal_data": null,
+        "created": "2015-05-18T13:22:45Z",
+        "source": {
+          "type": null,
+          "url": null,
+          "last_import_timestamp": null,
+          "title": null,
+          "update_frequency": "[]"
+        },
+        "category": {
+          "id": "5",
+          "title": "Labour and Social Welfare"
+        },
+        "image_url": "",
+        "title": "Statystyki lub opracowania dotyczące cudzoziemców pracujących w Polsce",
+        "license_name": "CC BY 4.0",
+        "is_promoted": false,
+        "license_chosen": null,
+        "formats": [
+          "html"
+        ],
+        "license_description": "Other (Public Domain)",
+        "openness_scores": [
+          3
+        ],
+        "url": "http://psz.praca.gov.pl/rynek-pracy/statystyki-i-analizy/zatrudnianie-cudzoziemcow-w-polsce",
+        "has_high_value_data": false,
+        "has_dynamic_data": false,
+        "views_count": 2115,
+        "license_condition_original": null,
+        "license_condition_timestamp": null,
+        "has_research_data": false,
+        "downloads_count": 0,
+        "categories": [
+          {
+            "code": "SOCI",
+            "id": "146",
+            "title": "Population and society"
+          }
+        ],
+        "supplements": [],
+        "update_frequency": "Every half year",
+        "types": [
+          "website"
+        ],
+        "keywords": [],
+        "license_condition_custom_description": "",
+        "slug": "statystyki-lub-opracowania-dotyczace-cudzoziemcow-pracujacych-w-polsce",
+        "notes": "<p>Statystyki dotyczące cudzoziemców pracujących w Polsce na podstawie wydanych zezwoleń na pracę dla cudzoziemców.</p>",
+        "has_high_value_data_from_ec_list": false,
+        "license_condition_default_cc40": true,
+        "verified": "2018-11-16T08:00:24Z",
+        "resource_modified": "2019-08-19T13:53:31Z",
+        "license_condition_db_or_copyrighted": "",
+        "regions": [
+          {
+            "region_id": "85633723",
+            "name": "Poland",
+            "hierarchy_label": "Poland"
+          }
+        ],
+        "image_alt": "",
+        "visualization_types": []
+      },
+      "type": "dataset",
+      "id": "167"
+    },
+    {
+      "links": {
+        "self": "https://api.dane.gov.pl/1.4/datasets/205,Bezrobocie_rejestrowane_informacje_miesieczne"
+      },
+      "relationships": {
+        "showcases": {
+          "meta": {
+            "count": 0
+          },
+          "links": {
+            "related": "https://api.dane.gov.pl/1.4/datasets/205,Bezrobocie_rejestrowane_informacje_miesieczne/showcases"
+          }
+        },
+        "resources": {
+          "meta": {
+            "count": 1
+          },
+          "links": {
+            "related": "https://api.dane.gov.pl/1.4/datasets/205,Bezrobocie_rejestrowane_informacje_miesieczne/resources"
+          }
+        },
+        "institution": {
+          "data": {
+            "id": "30",
+            "type": "institution"
+          },
+          "links": {
+            "related": "https://api.dane.gov.pl/1.4/institutions/30,ministerstwo-rodziny-pracy-i-polityki-spolecznej"
+          }
+        }
+      },
+      "attributes": {
+        "modified": "2025-01-03T10:16:53Z",
+        "license_condition_personal_data": null,
+        "created": "2015-05-18T13:22:18Z",
+        "source": {
+          "type": null,
+          "url": null,
+          "last_import_timestamp": null,
+          "title": null,
+          "update_frequency": "[]"
+        },
+        "category": {
+          "id": "5",
+          "title": "Labour and Social Welfare"
+        },
+        "image_url": "",
+        "title": "Bezrobocie rejestrowane - informacje miesięczne",
+        "license_name": "CC BY 4.0",
+        "is_promoted": false,
+        "license_chosen": null,
+        "formats": [
+          "html"
+        ],
+        "license_description": "Other (Public Domain)",
+        "openness_scores": [
+          3
+        ],
+        "url": "http://psz.praca.gov.pl/rynek-pracy/statystyki-i-analizy/bezrobocie-rejestrowane?p_p_id=122_INSTANCE_cKeX3WeOLhb0&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&p_p_col_id=column-2&p_p_col_count=2&p_r_p_564233524_resetCur=true&p_r_p_564233524_categoryId=70032",
+        "has_high_value_data": false,
+        "has_dynamic_data": false,
+        "views_count": 954,
+        "license_condition_original": null,
+        "license_condition_timestamp": null,
+        "has_research_data": false,
+        "downloads_count": 0,
+        "categories": [
+          {
+            "code": "SOCI",
+            "id": "146",
+            "title": "Population and society"
+          }
+        ],
+        "supplements": [],
+        "update_frequency": "Monthly",
+        "types": [
+          "website"
+        ],
+        "keywords": [],
+        "license_condition_custom_description": "",
+        "slug": "Bezrobocie_rejestrowane_informacje_miesieczne",
+        "notes": "<p>Bezrobocie rejestrowane - informacje miesięczne </p>",
+        "has_high_value_data_from_ec_list": false,
+        "license_condition_default_cc40": true,
+        "verified": "2017-03-17T11:41:43Z",
+        "resource_modified": "2022-02-09T12:12:02Z",
+        "license_condition_db_or_copyrighted": "",
+        "regions": [
+          {
+            "region_id": "85633723",
+            "name": "Poland",
+            "hierarchy_label": "Poland"
+          }
+        ],
+        "image_alt": "",
+        "visualization_types": []
+      },
+      "type": "dataset",
+      "id": "205"
+    },
+    {
+      "links": {
+        "self": "https://api.dane.gov.pl/1.4/datasets/345,rejestr-instytucji-szkoleniowych"
+      },
+      "relationships": {
+        "showcases": {
+          "meta": {
+            "count": 0
+          },
+          "links": {
+            "related": "https://api.dane.gov.pl/1.4/datasets/345,rejestr-instytucji-szkoleniowych/showcases"
+          }
+        },
+        "resources": {
+          "meta": {
+            "count": 5
+          },
+          "links": {
+            "related": "https://api.dane.gov.pl/1.4/datasets/345,rejestr-instytucji-szkoleniowych/resources"
+          }
+        },
+        "institution": {
+          "data": {
+            "id": "30",
+            "type": "institution"
+          },
+          "links": {
+            "related": "https://api.dane.gov.pl/1.4/institutions/30,ministerstwo-rodziny-pracy-i-polityki-spolecznej"
+          }
+        }
+      },
+      "attributes": {
+        "modified": "2025-01-03T13:22:43Z",
+        "license_condition_personal_data": null,
+        "created": "2015-05-18T13:22:04Z",
+        "source": {
+          "type": null,
+          "url": null,
+          "last_import_timestamp": null,
+          "title": null,
+          "update_frequency": "[]"
+        },
+        "category": {
+          "id": "5",
+          "title": "Labour and Social Welfare"
+        },
+        "image_url": "",
+        "title": "Rejestr Instytucji Szkoleniowych",
+        "license_name": "CC0 1.0",
+        "is_promoted": false,
+        "license_chosen": null,
+        "formats": [
+          "docx",
+          "html",
+          "json",
+          "pdf"
+        ],
+        "license_description": "Other (Public Domain)",
+        "openness_scores": [
+          1,
+          3
+        ],
+        "url": "http://stor.praca.gov.pl/portal/#/ris",
+        "has_high_value_data": false,
+        "has_dynamic_data": false,
+        "views_count": 1209,
+        "license_condition_original": null,
+        "license_condition_timestamp": null,
+        "has_research_data": false,
+        "downloads_count": 886,
+        "categories": [
+          {
+            "code": "SOCI",
+            "id": "146",
+            "title": "Population and society"
+          }
+        ],
+        "supplements": [],
+        "update_frequency": "Daily",
+        "types": [
+          "file",
+          "website"
+        ],
+        "keywords": [],
+        "license_condition_custom_description": "",
+        "slug": "rejestr-instytucji-szkoleniowych",
+        "notes": "<p>Rejestr Instytucji Szkoleniowych (RIS) prowadzony jest zgodnie z ustawą z dnia 20 kwietna 2004 r. o promocji zatrudnienia i instytucjach rynku pracy. Wyszukiwanie instytucji szkoleniowych można realizować m.in. po: danych instytucji, danych oddziału, tematyce lub obszarze szkoleń. Wpis do rejestru jest wymagany od instytucji szkoleniowych ubiegających się o zlecenia na prowadzenie szkoleń osób bezrobotnych i poszukujących pracy, finansowane ze środków publicznych, tj. Fundusz Pracy, Państwowy Fundusz Rehabilitacji Osób Niepełnosprawnych, fundusze pomocowe Unii Europejskiej.</p>",
+        "has_high_value_data_from_ec_list": false,
+        "license_condition_default_cc40": false,
+        "verified": "2021-03-24T09:53:30Z",
+        "resource_modified": "2021-03-24T09:53:30Z",
+        "license_condition_db_or_copyrighted": "",
+        "regions": [
+          {
+            "region_id": "85633723",
+            "name": "Poland",
+            "hierarchy_label": "Poland"
+          }
+        ],
+        "image_alt": "",
+        "visualization_types": []
+      },
+      "type": "dataset",
+      "id": "345"
+    },
+    {
+      "links": {
+        "self": "https://api.dane.gov.pl/1.4/datasets/538,oferty-pracy-psz"
+      },
+      "relationships": {
+        "showcases": {
+          "meta": {
+            "count": 0
+          },
+          "links": {
+            "related": "https://api.dane.gov.pl/1.4/datasets/538,oferty-pracy-psz/showcases"
+          }
+        },
+        "resources": {
+          "meta": {
+            "count": 4
+          },
+          "links": {
+            "related": "https://api.dane.gov.pl/1.4/datasets/538,oferty-pracy-psz/resources"
+          }
+        },
+        "institution": {
+          "data": {
+            "id": "30",
+            "type": "institution"
+          },
+          "links": {
+            "related": "https://api.dane.gov.pl/1.4/institutions/30,ministerstwo-rodziny-pracy-i-polityki-spolecznej"
+          }
+        }
+      },
+      "attributes": {
+        "modified": "2024-12-23T13:08:05Z",
+        "license_condition_personal_data": null,
+        "created": "2018-08-08T06:54:56Z",
+        "source": {
+          "type": null,
+          "url": null,
+          "last_import_timestamp": null,
+          "title": null,
+          "update_frequency": "[]"
+        },
+        "category": {
+          "id": "5",
+          "title": "Labour and Social Welfare"
+        },
+        "image_url": "",
+        "title": "Oferty pracy PSZ",
+        "license_name": "CC BY 4.0",
+        "is_promoted": false,
+        "license_chosen": null,
+        "formats": [
+          "docx",
+          "pdf",
+          "xml"
+        ],
+        "license_description": "Other (Public Domain)",
+        "openness_scores": [
+          1,
+          4
+        ],
+        "url": "https://oferty.praca.gov.pl/portal/index.cbop#/listaOfert",
+        "has_high_value_data": false,
+        "has_dynamic_data": false,
+        "views_count": 1176,
+        "license_condition_original": null,
+        "license_condition_timestamp": null,
+        "has_research_data": false,
+        "downloads_count": 646,
+        "categories": [
+          {
+            "code": "SOCI",
+            "id": "146",
+            "title": "Population and society"
+          }
+        ],
+        "supplements": [],
+        "update_frequency": "Daily",
+        "types": [
+          "api",
+          "file"
+        ],
+        "keywords": [],
+        "license_condition_custom_description": "<p>Zakres odpowiedzialności określono w załączniku pt. \"Warunki udostępniania informacji o ofertach pracy z CBOP\"</p>",
+        "slug": "oferty-pracy-psz",
+        "notes": "<p>Ministerstwo Rodziny i Polityki Społecznej udostępniło usługę WebService umożliwiającą podmiotom zewnętrznym pobieranie drogą elektroniczną, w zautomatyzowany sposób, informacji o ofertach pracy upowszechnianych w Centralnej Bazie Ofert Pracy (CBOP)</p>",
+        "has_high_value_data_from_ec_list": false,
+        "license_condition_default_cc40": true,
+        "verified": "2021-11-09T09:56:29Z",
+        "resource_modified": "2021-11-09T09:57:51Z",
+        "license_condition_db_or_copyrighted": "",
+        "regions": [
+          {
+            "region_id": "85633723",
+            "name": "Poland",
+            "hierarchy_label": "Poland"
+          }
+        ],
+        "image_alt": "",
+        "visualization_types": []
+      },
+      "type": "dataset",
+      "id": "538"
+    },
+    {
+      "links": {
+        "self": "https://api.dane.gov.pl/1.4/datasets/548,klasyfikacja-zawodow-i-specjalnosci"
+      },
+      "relationships": {
+        "showcases": {
+          "meta": {
+            "count": 0
+          },
+          "links": {
+            "related": "https://api.dane.gov.pl/1.4/datasets/548,klasyfikacja-zawodow-i-specjalnosci/showcases"
+          }
+        },
+        "resources": {
+          "meta": {
+            "count": 1
+          },
+          "links": {
+            "related": "https://api.dane.gov.pl/1.4/datasets/548,klasyfikacja-zawodow-i-specjalnosci/resources"
+          }
+        },
+        "institution": {
+          "data": {
+            "id": "30",
+            "type": "institution"
+          },
+          "links": {
+            "related": "https://api.dane.gov.pl/1.4/institutions/30,ministerstwo-rodziny-pracy-i-polityki-spolecznej"
+          }
+        }
+      },
+      "attributes": {
+        "modified": "2025-01-03T10:16:08Z",
+        "license_condition_personal_data": null,
+        "created": "2015-05-18T13:22:20Z",
+        "source": {
+          "type": null,
+          "url": null,
+          "last_import_timestamp": null,
+          "title": null,
+          "update_frequency": "[]"
+        },
+        "category": {
+          "id": "5",
+          "title": "Labour and Social Welfare"
+        },
+        "image_url": "",
+        "title": "Klasyfikacja zawodów i specjalności",
+        "license_name": "CC0 1.0",
+        "is_promoted": false,
+        "license_chosen": null,
+        "formats": [
+          "html"
+        ],
+        "license_description": "Other (Public Domain)",
+        "openness_scores": [
+          3
+        ],
+        "url": "http://psz.praca.gov.pl/rynek-pracy/bazy-danych/klasyfikacja-zawodow-i-specjalnosci/wyszukiwarka-opisow-zawodow",
+        "has_high_value_data": false,
+        "has_dynamic_data": false,
+        "views_count": 1601,
+        "license_condition_original": null,
+        "license_condition_timestamp": null,
+        "has_research_data": false,
+        "downloads_count": 2,
+        "categories": [
+          {
+            "code": "SOCI",
+            "id": "146",
+            "title": "Population and society"
+          }
+        ],
+        "supplements": [],
+        "update_frequency": "Yearly",
+        "types": [
+          "website"
+        ],
+        "keywords": [],
+        "license_condition_custom_description": "",
+        "slug": "klasyfikacja-zawodow-i-specjalnosci",
+        "notes": "<p>Zgodnie z art. 36 ust. 8 ustawy z dnia 20 kwietnia 2004 r. o promocji zatrudnienia i instytucjach rynku pracy, klasyfikację zawodów i specjalności dla potrzeb rynku pracy oraz zakres jej stosowania określa w drodze rozporządzenia minister właściwy do spraw pracy.</p>",
+        "has_high_value_data_from_ec_list": false,
+        "license_condition_default_cc40": false,
+        "verified": "2017-03-17T11:23:51Z",
+        "resource_modified": "2019-08-28T08:42:21Z",
+        "license_condition_db_or_copyrighted": "",
+        "regions": [
+          {
+            "region_id": "85633723",
+            "name": "Poland",
+            "hierarchy_label": "Poland"
+          }
+        ],
+        "image_alt": "",
+        "visualization_types": []
+      },
+      "type": "dataset",
+      "id": "548"
+    },
+    {
+      "links": {
+        "self": "https://api.dane.gov.pl/1.4/datasets/681,monitoring-zawodow-deficytowych-i-nadwyzkowych"
+      },
+      "relationships": {
+        "showcases": {
+          "meta": {
+            "count": 0
+          },
+          "links": {
+            "related": "https://api.dane.gov.pl/1.4/datasets/681,monitoring-zawodow-deficytowych-i-nadwyzkowych/showcases"
+          }
+        },
+        "resources": {
+          "meta": {
+            "count": 46
+          },
+          "links": {
+            "related": "https://api.dane.gov.pl/1.4/datasets/681,monitoring-zawodow-deficytowych-i-nadwyzkowych/resources"
+          }
+        },
+        "institution": {
+          "data": {
+            "id": "30",
+            "type": "institution"
+          },
+          "links": {
+            "related": "https://api.dane.gov.pl/1.4/institutions/30,ministerstwo-rodziny-pracy-i-polityki-spolecznej"
+          }
+        }
+      },
+      "attributes": {
+        "modified": "2025-01-03T10:17:31Z",
+        "license_condition_personal_data": null,
+        "created": "2015-05-18T13:22:05Z",
+        "source": {
+          "type": null,
+          "url": null,
+          "last_import_timestamp": null,
+          "title": null,
+          "update_frequency": "[]"
+        },
+        "category": {
+          "id": "5",
+          "title": "Labour and Social Welfare"
+        },
+        "image_url": "",
+        "title": "Monitoring zawodów deficytowych i nadwyżkowych",
+        "license_name": "CC BY 4.0",
+        "is_promoted": false,
+        "license_chosen": null,
+        "formats": [
+          "csv",
+          "jsonld",
+          "pdf",
+          "xlsx"
+        ],
+        "license_description": "Other (Public Domain)",
+        "openness_scores": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "url": "http://mz.praca.gov.pl/Puls2/MZ/lista/wyswietl.do?id=MZ0020S&menuNazwa=mz_main&menuId=170308",
+        "has_high_value_data": false,
+        "has_dynamic_data": false,
+        "views_count": 2541,
+        "license_condition_original": null,
+        "license_condition_timestamp": null,
+        "has_research_data": false,
+        "downloads_count": 14263,
+        "categories": [
+          {
+            "code": "SOCI",
+            "id": "146",
+            "title": "Population and society"
+          }
+        ],
+        "supplements": [],
+        "update_frequency": "Every half year",
+        "types": [
+          "file"
+        ],
+        "keywords": [],
+        "license_condition_custom_description": "",
+        "slug": "monitoring-zawodow-deficytowych-i-nadwyzkowych",
+        "notes": "<p>Aplikacja zawiera wyniki monitoringu zawodów nadwyżkowych i deficytowych realizowanego przez Publiczne Służby Zatrudnienia. Stanowił źródło informacji o poziomie bezrobocia i popycie na pracę według różnych grup zawodów w poszczególnych obszarach terytorialnych kraju. </p>\n\n<p>W związku z decyzją o połączeniu Monitoringu Zawodów Deficytowych i Nadwyżkowych  (MZDiN) z Barometrem Zawodów (BZ) w jedno wspólne badanie mające na celu monitorowanie zawodów deficytowych i nadwyżkowych wymóg prowadzenia przez urzędy pracy MZDiN obowiązywał do zakończenia prac nad opracowaniem wyników za 2019 r.<br>\nPocząwszy od 2020 roku badaniem zlecanym przez ministra ds. pracy dotyczącym analiz rynku pracy pod kątem zawodów deficytowych i nadwyżkowych jest Barometr Zawodów. <br>\n </p>",
+        "has_high_value_data_from_ec_list": false,
+        "license_condition_default_cc40": true,
+        "verified": "2023-01-13T08:57:27Z",
+        "resource_modified": "2023-01-13T08:57:27Z",
+        "license_condition_db_or_copyrighted": "",
+        "regions": [
+          {
+            "region_id": "85633723",
+            "name": "Poland",
+            "hierarchy_label": "Poland"
+          }
+        ],
+        "image_alt": "",
+        "visualization_types": [
+          "table"
+        ]
+      },
+      "type": "dataset",
+      "id": "681"
+    },
+    {
+      "links": {
+        "self": "https://api.dane.gov.pl/1.4/datasets/1454,wydarzenia-psz"
+      },
+      "relationships": {
+        "showcases": {
+          "meta": {
+            "count": 0
+          },
+          "links": {
+            "related": "https://api.dane.gov.pl/1.4/datasets/1454,wydarzenia-psz/showcases"
+          }
+        },
+        "resources": {
+          "meta": {
+            "count": 4
+          },
+          "links": {
+            "related": "https://api.dane.gov.pl/1.4/datasets/1454,wydarzenia-psz/resources"
+          }
+        },
+        "institution": {
+          "data": {
+            "id": "30",
+            "type": "institution"
+          },
+          "links": {
+            "related": "https://api.dane.gov.pl/1.4/institutions/30,ministerstwo-rodziny-pracy-i-polityki-spolecznej"
+          }
+        }
+      },
+      "attributes": {
+        "modified": "2024-12-23T13:07:29Z",
+        "license_condition_personal_data": null,
+        "created": "2019-02-19T08:29:17Z",
+        "source": {
+          "type": null,
+          "url": null,
+          "last_import_timestamp": null,
+          "title": null,
+          "update_frequency": "[]"
+        },
+        "category": {
+          "id": "5",
+          "title": "Labour and Social Welfare"
+        },
+        "image_url": "",
+        "title": "Wydarzenia PSZ",
+        "license_name": "CC BY 4.0",
+        "is_promoted": false,
+        "license_chosen": null,
+        "formats": [
+          "docx",
+          "pdf",
+          "xml"
+        ],
+        "license_description": "",
+        "openness_scores": [
+          1,
+          4
+        ],
+        "url": "https://oferty.praca.gov.pl/portal/index.cbop#/listaWydarzen",
+        "has_high_value_data": false,
+        "has_dynamic_data": false,
+        "views_count": 742,
+        "license_condition_original": null,
+        "license_condition_timestamp": null,
+        "has_research_data": false,
+        "downloads_count": 227,
+        "categories": [
+          {
+            "code": "SOCI",
+            "id": "146",
+            "title": "Population and society"
+          }
+        ],
+        "supplements": [],
+        "update_frequency": "Daily",
+        "types": [
+          "api",
+          "file"
+        ],
+        "keywords": [],
+        "license_condition_custom_description": "<p>Zakres odpowiedzialności określono w załączniku pt. \" Warunki udostępniania informacji o wydarzeniach PSZ upowszechnianych w CBOP\"</p>",
+        "slug": "wydarzenia-psz",
+        "notes": "<p style=\"margin-left:0cm; margin-right:0cm;\">Ministerstwo Rodziny i Polityki Społecznej udostępniło usługę WebService umożliwiającą podmiotom zewnętrznym pobieranie drogą elektroniczną, w zautomatyzowany sposób, informacji o giełdach pracy, targach pracy, szkoleniach dla bezrobotnych i poszukujących pracy, grupowych poradach zawodowych, informacjach zawodowych, spotkaniach informacyjnych upowszechnianych w Centralnej Bazie Ofert Pracy (CBOP)</p>",
+        "has_high_value_data_from_ec_list": false,
+        "license_condition_default_cc40": true,
+        "verified": "2021-11-09T10:02:35Z",
+        "resource_modified": "2021-11-09T10:03:14Z",
+        "license_condition_db_or_copyrighted": "",
+        "regions": [
+          {
+            "region_id": "85633723",
+            "name": "Poland",
+            "hierarchy_label": "Poland"
+          }
+        ],
+        "image_alt": "",
+        "visualization_types": []
+      },
+      "type": "dataset",
+      "id": "1454"
+    },
+    {
+      "links": {
+        "self": "https://api.dane.gov.pl/1.4/datasets/2014,rejestr-organizatorow-turnusow-rehabilitacyjnych"
+      },
+      "relationships": {
+        "showcases": {
+          "meta": {
+            "count": 0
+          },
+          "links": {
+            "related": "https://api.dane.gov.pl/1.4/datasets/2014,rejestr-organizatorow-turnusow-rehabilitacyjnych/showcases"
+          }
+        },
+        "resources": {
+          "meta": {
+            "count": 7
+          },
+          "links": {
+            "related": "https://api.dane.gov.pl/1.4/datasets/2014,rejestr-organizatorow-turnusow-rehabilitacyjnych/resources"
+          }
+        },
+        "institution": {
+          "data": {
+            "id": "30",
+            "type": "institution"
+          },
+          "links": {
+            "related": "https://api.dane.gov.pl/1.4/institutions/30,ministerstwo-rodziny-pracy-i-polityki-spolecznej"
+          }
+        }
+      },
+      "attributes": {
+        "modified": "2025-04-22T08:35:01Z",
+        "license_condition_personal_data": null,
+        "created": "2020-09-22T12:53:12Z",
+        "source": {
+          "type": null,
+          "url": null,
+          "last_import_timestamp": null,
+          "title": null,
+          "update_frequency": "[]"
+        },
+        "category": {
+          "id": "5",
+          "title": "Labour and Social Welfare"
+        },
+        "image_url": "",
+        "title": "Rejestr organizatorów turnusów rehabilitacyjnych",
+        "license_name": "CC0 1.0",
+        "is_promoted": false,
+        "license_chosen": null,
+        "formats": [
+          "csv",
+          "html",
+          "jsonld",
+          "xls"
+        ],
+        "license_description": "",
+        "openness_scores": [
+          3,
+          4
+        ],
+        "url": "https://empatia.mpips.gov.pl/web/piu/dla-swiadczeniobiorcow/turnusy/wyszukiwarka-organizatorow",
+        "has_high_value_data": false,
+        "has_dynamic_data": false,
+        "views_count": 196,
+        "license_condition_original": null,
+        "license_condition_timestamp": null,
+        "has_research_data": false,
+        "downloads_count": 486,
+        "categories": [
+          {
+            "code": "SOCI",
+            "id": "146",
+            "title": "Population and society"
+          }
+        ],
+        "supplements": [],
+        "update_frequency": "Not applicable",
+        "types": [
+          "file",
+          "website"
+        ],
+        "keywords": [],
+        "license_condition_custom_description": "",
+        "slug": "rejestr-organizatorow-turnusow-rehabilitacyjnych",
+        "notes": "<h1>Rejestr organizatorów turnusów rehabilitacyjnych</h1>",
+        "has_high_value_data_from_ec_list": false,
+        "license_condition_default_cc40": false,
+        "verified": "2025-10-16T12:02:51Z",
+        "resource_modified": "2025-10-16T12:02:51Z",
+        "license_condition_db_or_copyrighted": "",
+        "regions": [
+          {
+            "region_id": "85633723",
+            "name": "Poland",
+            "hierarchy_label": "Poland"
+          }
+        ],
+        "image_alt": "",
+        "visualization_types": [
+          "table"
+        ]
+      },
+      "type": "dataset",
+      "id": "2014"
+    },
+    {
+      "links": {
+        "self": "https://api.dane.gov.pl/1.4/datasets/2015,rejestr-osrodkow-turnusow-rehabilitacyjnych"
+      },
+      "relationships": {
+        "showcases": {
+          "meta": {
+            "count": 0
+          },
+          "links": {
+            "related": "https://api.dane.gov.pl/1.4/datasets/2015,rejestr-osrodkow-turnusow-rehabilitacyjnych/showcases"
+          }
+        },
+        "resources": {
+          "meta": {
+            "count": 4
+          },
+          "links": {
+            "related": "https://api.dane.gov.pl/1.4/datasets/2015,rejestr-osrodkow-turnusow-rehabilitacyjnych/resources"
+          }
+        },
+        "institution": {
+          "data": {
+            "id": "30",
+            "type": "institution"
+          },
+          "links": {
+            "related": "https://api.dane.gov.pl/1.4/institutions/30,ministerstwo-rodziny-pracy-i-polityki-spolecznej"
+          }
+        }
+      },
+      "attributes": {
+        "modified": "2024-12-23T13:06:31Z",
+        "license_condition_personal_data": null,
+        "created": "2020-09-22T12:59:13Z",
+        "source": {
+          "type": null,
+          "url": null,
+          "last_import_timestamp": null,
+          "title": null,
+          "update_frequency": "[]"
+        },
+        "category": {
+          "id": "5",
+          "title": "Labour and Social Welfare"
+        },
+        "image_url": "",
+        "title": "Rejestr ośrodków turnusów rehabilitacyjnych",
+        "license_name": "CC0 1.0",
+        "is_promoted": false,
+        "license_chosen": null,
+        "formats": [
+          "csv",
+          "html",
+          "jsonld",
+          "xls"
+        ],
+        "license_description": "",
+        "openness_scores": [
+          3,
+          4
+        ],
+        "url": "https://empatia.mpips.gov.pl/web/piu/dla-swiadczeniobiorcow/turnusy/wyszukiwarka-osrodkow",
+        "has_high_value_data": false,
+        "has_dynamic_data": false,
+        "views_count": 3639,
+        "license_condition_original": null,
+        "license_condition_timestamp": null,
+        "has_research_data": false,
+        "downloads_count": 542,
+        "categories": [
+          {
+            "code": "SOCI",
+            "id": "146",
+            "title": "Population and society"
+          }
+        ],
+        "supplements": [],
+        "update_frequency": "Not applicable",
+        "types": [
+          "file",
+          "website"
+        ],
+        "keywords": [],
+        "license_condition_custom_description": "",
+        "slug": "rejestr-osrodkow-turnusow-rehabilitacyjnych",
+        "notes": "<p>Rejestr ośrodków turnusów rehabilitacyjnych</p>",
+        "has_high_value_data_from_ec_list": false,
+        "license_condition_default_cc40": false,
+        "verified": "2025-10-16T12:05:17Z",
+        "resource_modified": "2025-10-16T12:05:17Z",
+        "license_condition_db_or_copyrighted": "",
+        "regions": [
+          {
+            "region_id": "85633723",
+            "name": "Poland",
+            "hierarchy_label": "Poland"
+          }
+        ],
+        "image_alt": "",
+        "visualization_types": [
+          "table"
+        ]
+      },
+      "type": "dataset",
+      "id": "2015"
+    },
+    {
+      "links": {
+        "self": "https://api.dane.gov.pl/1.4/datasets/2099,si-kdr-wykaz-oddziaow-partnerow-programu"
+      },
+      "relationships": {
+        "showcases": {
+          "meta": {
+            "count": 0
+          },
+          "links": {
+            "related": "https://api.dane.gov.pl/1.4/datasets/2099,si-kdr-wykaz-oddziaow-partnerow-programu/showcases"
+          }
+        },
+        "resources": {
+          "meta": {
+            "count": 1
+          },
+          "links": {
+            "related": "https://api.dane.gov.pl/1.4/datasets/2099,si-kdr-wykaz-oddziaow-partnerow-programu/resources"
+          }
+        },
+        "institution": {
+          "data": {
+            "id": "30",
+            "type": "institution"
+          },
+          "links": {
+            "related": "https://api.dane.gov.pl/1.4/institutions/30,ministerstwo-rodziny-pracy-i-polityki-spolecznej"
+          }
+        }
+      },
+      "attributes": {
+        "modified": "2025-11-10T01:54:42Z",
+        "license_condition_personal_data": null,
+        "created": "2021-04-08T03:00:00Z",
+        "source": {
+          "type": "xml",
+          "url": "https://kdr.mpips.gov.pl/KDR-metadane-partnerzy.xml",
+          "last_import_timestamp": "2025-11-10T03:31:44Z",
+          "title": "Wykaz oddziałów partnerów programu Karta Dużej Rodziny",
+          "update_frequency": "every day"
+        },
+        "category": {
+          "id": "5",
+          "title": "Labour and Social Welfare"
+        },
+        "image_url": "",
+        "title": "SI KDR - wykaz oddziałów partnerów programu",
+        "license_name": "CC0 1.0",
+        "is_promoted": false,
+        "license_chosen": null,
+        "formats": [
+          "csv"
+        ],
+        "license_description": "",
+        "openness_scores": [
+          3
+        ],
+        "url": null,
+        "has_high_value_data": null,
+        "has_dynamic_data": null,
+        "views_count": 3596,
+        "license_condition_original": null,
+        "license_condition_timestamp": null,
+        "has_research_data": null,
+        "downloads_count": 599,
+        "categories": [
+          {
+            "code": "SOCI",
+            "id": "146",
+            "title": "Population and society"
+          }
+        ],
+        "supplements": [],
+        "update_frequency": "Daily",
+        "types": [
+          "file"
+        ],
+        "keywords": [],
+        "license_condition_custom_description": null,
+        "slug": "si-kdr-wykaz-oddziaow-partnerow-programu",
+        "notes": "Zbiór zawiera plik CSV z danymi oddziałów partnerów programu SI KDR.",
+        "has_high_value_data_from_ec_list": null,
+        "license_condition_default_cc40": null,
+        "verified": "2025-11-10T03:33:02Z",
+        "resource_modified": "2025-11-10T01:54:42Z",
+        "license_condition_db_or_copyrighted": null,
+        "regions": [
+          {
+            "region_id": "85633723",
+            "name": "Poland",
+            "hierarchy_label": "Poland"
+          }
+        ],
+        "image_alt": "",
+        "visualization_types": []
+      },
+      "type": "dataset",
+      "id": "2099"
+    },
+    {
+      "links": {
+        "self": "https://api.dane.gov.pl/1.4/datasets/2114,baza-przedsiebiorstw-spolecznych"
+      },
+      "relationships": {
+        "showcases": {
+          "meta": {
+            "count": 0
+          },
+          "links": {
+            "related": "https://api.dane.gov.pl/1.4/datasets/2114,baza-przedsiebiorstw-spolecznych/showcases"
+          }
+        },
+        "resources": {
+          "meta": {
+            "count": 2
+          },
+          "links": {
+            "related": "https://api.dane.gov.pl/1.4/datasets/2114,baza-przedsiebiorstw-spolecznych/resources"
+          }
+        },
+        "institution": {
+          "data": {
+            "id": "30",
+            "type": "institution"
+          },
+          "links": {
+            "related": "https://api.dane.gov.pl/1.4/institutions/30,ministerstwo-rodziny-pracy-i-polityki-spolecznej"
+          }
+        }
+      },
+      "attributes": {
+        "modified": "2024-12-23T13:04:58Z",
+        "license_condition_personal_data": null,
+        "created": "2021-04-22T08:08:01Z",
+        "source": {
+          "type": null,
+          "url": null,
+          "last_import_timestamp": null,
+          "title": null,
+          "update_frequency": "[]"
+        },
+        "category": {
+          "id": null,
+          "title": "[]"
+        },
+        "image_url": "",
+        "title": "Baza przedsiębiorstw Społecznych - dane archiwalne",
+        "license_name": "CC0 1.0",
+        "is_promoted": false,
+        "license_chosen": null,
+        "formats": [
+          "csv",
+          "jsonld",
+          "xls"
+        ],
+        "license_description": "",
+        "openness_scores": [
+          2,
+          4
+        ],
+        "url": "http://www.bazaps.ekonomiaspoleczna.gov.pl/",
+        "has_high_value_data": false,
+        "has_dynamic_data": false,
+        "views_count": 661,
+        "license_condition_original": null,
+        "license_condition_timestamp": null,
+        "has_research_data": false,
+        "downloads_count": 17421,
+        "categories": [
+          {
+            "code": "SOCI",
+            "id": "146",
+            "title": "Population and society"
+          }
+        ],
+        "supplements": [],
+        "update_frequency": "Not applicable",
+        "types": [
+          "file"
+        ],
+        "keywords": [],
+        "license_condition_custom_description": "",
+        "slug": "baza-przedsiebiorstw-spolecznych",
+        "notes": "<p>Baza w której znajdują się wszystkie przedsiębiorstwa społeczne z całego kraju.</p>\n\n<p>Dane archiwalne.</p>",
+        "has_high_value_data_from_ec_list": false,
+        "license_condition_default_cc40": false,
+        "verified": "2022-08-17T08:51:10Z",
+        "resource_modified": "2024-01-24T13:55:16Z",
+        "license_condition_db_or_copyrighted": "",
+        "regions": [
+          {
+            "region_id": "85633723",
+            "name": "Poland",
+            "hierarchy_label": "Poland"
+          }
+        ],
+        "image_alt": "",
+        "visualization_types": [
+          "table"
+        ]
+      },
+      "type": "dataset",
+      "id": "2114"
+    },
+    {
+      "links": {
+        "self": "https://api.dane.gov.pl/1.4/datasets/2118,zintegrowany-system-monitorowania-ekonomii-spolecz"
+      },
+      "relationships": {
+        "showcases": {
+          "meta": {
+            "count": 0
+          },
+          "links": {
+            "related": "https://api.dane.gov.pl/1.4/datasets/2118,zintegrowany-system-monitorowania-ekonomii-spolecz/showcases"
+          }
+        },
+        "resources": {
+          "meta": {
+            "count": 1
+          },
+          "links": {
+            "related": "https://api.dane.gov.pl/1.4/datasets/2118,zintegrowany-system-monitorowania-ekonomii-spolecz/resources"
+          }
+        },
+        "institution": {
+          "data": {
+            "id": "30",
+            "type": "institution"
+          },
+          "links": {
+            "related": "https://api.dane.gov.pl/1.4/institutions/30,ministerstwo-rodziny-pracy-i-polityki-spolecznej"
+          }
+        }
+      },
+      "attributes": {
+        "modified": "2024-12-23T13:02:39Z",
+        "license_condition_personal_data": null,
+        "created": "2021-04-26T06:41:53Z",
+        "source": {
+          "type": null,
+          "url": null,
+          "last_import_timestamp": null,
+          "title": null,
+          "update_frequency": "[]"
+        },
+        "category": {
+          "id": null,
+          "title": "[]"
+        },
+        "image_url": "",
+        "title": "Zintegrowany System Monitorowania Ekonomii Społecznej",
+        "license_name": "CC0 1.0",
+        "is_promoted": false,
+        "license_chosen": null,
+        "formats": [
+          "html"
+        ],
+        "license_description": "",
+        "openness_scores": [
+          3
+        ],
+        "url": "https://dane.ekonomiaspoleczna.gov.pl/",
+        "has_high_value_data": false,
+        "has_dynamic_data": false,
+        "views_count": 960,
+        "license_condition_original": null,
+        "license_condition_timestamp": null,
+        "has_research_data": false,
+        "downloads_count": 0,
+        "categories": [
+          {
+            "code": "SOCI",
+            "id": "146",
+            "title": "Population and society"
+          }
+        ],
+        "supplements": [],
+        "update_frequency": "Not applicable",
+        "types": [
+          "website"
+        ],
+        "keywords": [],
+        "license_condition_custom_description": "",
+        "slug": "zintegrowany-system-monitorowania-ekonomii-spolecz",
+        "notes": "<p>Zintegrowany System Monitorowania Ekonomii Społecznej- dane statystyczne</p>",
+        "has_high_value_data_from_ec_list": false,
+        "license_condition_default_cc40": false,
+        "verified": "2021-04-26T06:41:53Z",
+        "resource_modified": "2025-01-24T13:35:09Z",
+        "license_condition_db_or_copyrighted": "",
+        "regions": [
+          {
+            "region_id": "85633723",
+            "name": "Poland",
+            "hierarchy_label": "Poland"
+          }
+        ],
+        "image_alt": "",
+        "visualization_types": []
+      },
+      "type": "dataset",
+      "id": "2118"
+    },
+    {
+      "links": {
+        "self": "https://api.dane.gov.pl/1.4/datasets/2161,instrukcja-api-si-kdr"
+      },
+      "relationships": {
+        "showcases": {
+          "meta": {
+            "count": 0
+          },
+          "links": {
+            "related": "https://api.dane.gov.pl/1.4/datasets/2161,instrukcja-api-si-kdr/showcases"
+          }
+        },
+        "resources": {
+          "meta": {
+            "count": 1
+          },
+          "links": {
+            "related": "https://api.dane.gov.pl/1.4/datasets/2161,instrukcja-api-si-kdr/resources"
+          }
+        },
+        "institution": {
+          "data": {
+            "id": "30",
+            "type": "institution"
+          },
+          "links": {
+            "related": "https://api.dane.gov.pl/1.4/institutions/30,ministerstwo-rodziny-pracy-i-polityki-spolecznej"
+          }
+        }
+      },
+      "attributes": {
+        "modified": "2024-12-23T13:01:32Z",
+        "license_condition_personal_data": null,
+        "created": "2021-06-25T08:53:36Z",
+        "source": {
+          "type": null,
+          "url": null,
+          "last_import_timestamp": null,
+          "title": null,
+          "update_frequency": "[]"
+        },
+        "category": {
+          "id": null,
+          "title": "[]"
+        },
+        "image_url": "",
+        "title": "Instrukcja API- SI KDR",
+        "license_name": "CC0 1.0",
+        "is_promoted": false,
+        "license_chosen": null,
+        "formats": [
+          "docx"
+        ],
+        "license_description": "",
+        "openness_scores": [
+          1
+        ],
+        "url": "",
+        "has_high_value_data": false,
+        "has_dynamic_data": false,
+        "views_count": 762,
+        "license_condition_original": null,
+        "license_condition_timestamp": null,
+        "has_research_data": false,
+        "downloads_count": 808,
+        "categories": [
+          {
+            "code": "SOCI",
+            "id": "146",
+            "title": "Population and society"
+          }
+        ],
+        "supplements": [],
+        "update_frequency": "Not applicable",
+        "types": [
+          "file"
+        ],
+        "keywords": [],
+        "license_condition_custom_description": "",
+        "slug": "instrukcja-api-si-kdr",
+        "notes": "<p>Instrukcja API- SI KDR</p>",
+        "has_high_value_data_from_ec_list": false,
+        "license_condition_default_cc40": false,
+        "verified": "2021-06-25T08:53:36Z",
+        "resource_modified": "2025-01-24T13:33:14Z",
+        "license_condition_db_or_copyrighted": "",
+        "regions": [
+          {
+            "region_id": "85633723",
+            "name": "Poland",
+            "hierarchy_label": "Poland"
+          }
+        ],
+        "image_alt": "",
+        "visualization_types": []
+      },
+      "type": "dataset",
+      "id": "2161"
+    },
+    {
+      "links": {
+        "self": "https://api.dane.gov.pl/1.4/datasets/2650,bezrobocie-rejestrowane-raporty-tematyczne-polrocz"
+      },
+      "relationships": {
+        "showcases": {
+          "meta": {
+            "count": 0
+          },
+          "links": {
+            "related": "https://api.dane.gov.pl/1.4/datasets/2650,bezrobocie-rejestrowane-raporty-tematyczne-polrocz/showcases"
+          }
+        },
+        "resources": {
+          "meta": {
+            "count": 1
+          },
+          "links": {
+            "related": "https://api.dane.gov.pl/1.4/datasets/2650,bezrobocie-rejestrowane-raporty-tematyczne-polrocz/resources"
+          }
+        },
+        "institution": {
+          "data": {
+            "id": "30",
+            "type": "institution"
+          },
+          "links": {
+            "related": "https://api.dane.gov.pl/1.4/institutions/30,ministerstwo-rodziny-pracy-i-polityki-spolecznej"
+          }
+        }
+      },
+      "attributes": {
+        "modified": "2024-12-23T13:00:43Z",
+        "license_condition_personal_data": null,
+        "created": "2022-02-09T12:36:39Z",
+        "source": {
+          "type": null,
+          "url": null,
+          "last_import_timestamp": null,
+          "title": null,
+          "update_frequency": "[]"
+        },
+        "category": {
+          "id": null,
+          "title": "[]"
+        },
+        "image_url": "",
+        "title": "Bezrobocie rejestrowane - raporty tematyczne (półroczne i roczne)",
+        "license_name": "CC0 1.0",
+        "is_promoted": false,
+        "license_chosen": null,
+        "formats": [
+          "html"
+        ],
+        "license_description": "",
+        "openness_scores": [
+          3
+        ],
+        "url": "https://psz.praca.gov.pl/rynek-pracy/statystyki-i-analizy/bezrobocie-rejestrowane/?p_p_id=122_INSTANCE_cKeX3WeOLhb0&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&p_p_col_id=column-2&p_p_col_count=2&p_r_p_564233524_categoryId=70034&p_r_p_564233524_resetCur=true",
+        "has_high_value_data": false,
+        "has_dynamic_data": false,
+        "views_count": 235,
+        "license_condition_original": null,
+        "license_condition_timestamp": null,
+        "has_research_data": false,
+        "downloads_count": 0,
+        "categories": [
+          {
+            "code": "SOCI",
+            "id": "146",
+            "title": "Population and society"
+          },
+          {
+            "code": "GOVE",
+            "id": "148",
+            "title": "Government and public sector"
+          }
+        ],
+        "supplements": [],
+        "update_frequency": "Every half year",
+        "types": [
+          "website"
+        ],
+        "keywords": [],
+        "license_condition_custom_description": "",
+        "slug": "bezrobocie-rejestrowane-raporty-tematyczne-polrocz",
+        "notes": "<p>Bezrobocie rejestrowane - raporty tematyczne (półroczne i roczne)</p>\n\n<p>Różne formaty danych: pdf, xls, doc.</p>",
+        "has_high_value_data_from_ec_list": false,
+        "license_condition_default_cc40": false,
+        "verified": "2022-02-09T12:36:39Z",
+        "resource_modified": "2025-01-24T13:26:37Z",
+        "license_condition_db_or_copyrighted": "",
+        "regions": [
+          {
+            "region_id": "85633723",
+            "name": "Poland",
+            "hierarchy_label": "Poland"
+          }
+        ],
+        "image_alt": "",
+        "visualization_types": []
+      },
+      "type": "dataset",
+      "id": "2650"
+    },
+    {
+      "links": {
+        "self": "https://api.dane.gov.pl/1.4/datasets/2651,bezrobocie-rejestrowane-statystyka-publiczna"
+      },
+      "relationships": {
+        "showcases": {
+          "meta": {
+            "count": 0
+          },
+          "links": {
+            "related": "https://api.dane.gov.pl/1.4/datasets/2651,bezrobocie-rejestrowane-statystyka-publiczna/showcases"
+          }
+        },
+        "resources": {
+          "meta": {
+            "count": 1
+          },
+          "links": {
+            "related": "https://api.dane.gov.pl/1.4/datasets/2651,bezrobocie-rejestrowane-statystyka-publiczna/resources"
+          }
+        },
+        "institution": {
+          "data": {
+            "id": "30",
+            "type": "institution"
+          },
+          "links": {
+            "related": "https://api.dane.gov.pl/1.4/institutions/30,ministerstwo-rodziny-pracy-i-polityki-spolecznej"
+          }
+        }
+      },
+      "attributes": {
+        "modified": "2024-12-23T12:56:22Z",
+        "license_condition_personal_data": null,
+        "created": "2022-02-09T12:38:24Z",
+        "source": {
+          "type": null,
+          "url": null,
+          "last_import_timestamp": null,
+          "title": null,
+          "update_frequency": "[]"
+        },
+        "category": {
+          "id": null,
+          "title": "[]"
+        },
+        "image_url": "",
+        "title": "Bezrobocie rejestrowane - statystyka publiczna",
+        "license_name": "CC0 1.0",
+        "is_promoted": false,
+        "license_chosen": null,
+        "formats": [
+          "html"
+        ],
+        "license_description": "",
+        "openness_scores": [
+          3
+        ],
+        "url": "https://psz.praca.gov.pl/rynek-pracy/statystyki-i-analizy/bezrobocie-rejestrowane/?p_p_id=122_INSTANCE_cKeX3WeOLhb0&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&p_p_col_id=column-2&p_p_col_count=2&p_r_p_564233524_resetCur=true&p_r_p_564233524_categoryId=7822338",
+        "has_high_value_data": false,
+        "has_dynamic_data": false,
+        "views_count": 736,
+        "license_condition_original": null,
+        "license_condition_timestamp": null,
+        "has_research_data": false,
+        "downloads_count": 0,
+        "categories": [
+          {
+            "code": "SOCI",
+            "id": "146",
+            "title": "Population and society"
+          },
+          {
+            "code": "GOVE",
+            "id": "148",
+            "title": "Government and public sector"
+          }
+        ],
+        "supplements": [],
+        "update_frequency": "Yearly",
+        "types": [
+          "website"
+        ],
+        "keywords": [],
+        "license_condition_custom_description": "",
+        "slug": "bezrobocie-rejestrowane-statystyka-publiczna",
+        "notes": "<p>Bezrobocie rejestrowane - statystyka publiczna</p>\n\n<p>Różne formaty danych: pdf, xls.</p>",
+        "has_high_value_data_from_ec_list": false,
+        "license_condition_default_cc40": false,
+        "verified": "2022-02-09T12:38:24Z",
+        "resource_modified": "2022-02-09T12:38:24Z",
+        "license_condition_db_or_copyrighted": "",
+        "regions": [
+          {
+            "region_id": "85633723",
+            "name": "Poland",
+            "hierarchy_label": "Poland"
+          }
+        ],
+        "image_alt": "",
+        "visualization_types": []
+      },
+      "type": "dataset",
+      "id": "2651"
+    },
+    {
+      "links": {
+        "self": "https://api.dane.gov.pl/1.4/datasets/2804,statystyki-pomocy-spolecznej"
+      },
+      "relationships": {
+        "showcases": {
+          "meta": {
+            "count": 0
+          },
+          "links": {
+            "related": "https://api.dane.gov.pl/1.4/datasets/2804,statystyki-pomocy-spolecznej/showcases"
+          }
+        },
+        "resources": {
+          "meta": {
+            "count": 1
+          },
+          "links": {
+            "related": "https://api.dane.gov.pl/1.4/datasets/2804,statystyki-pomocy-spolecznej/resources"
+          }
+        },
+        "institution": {
+          "data": {
+            "id": "30",
+            "type": "institution"
+          },
+          "links": {
+            "related": "https://api.dane.gov.pl/1.4/institutions/30,ministerstwo-rodziny-pracy-i-polityki-spolecznej"
+          }
+        }
+      },
+      "attributes": {
+        "modified": "2024-12-23T12:54:57Z",
+        "license_condition_personal_data": null,
+        "created": "2022-07-26T09:53:09Z",
+        "source": {
+          "type": null,
+          "url": null,
+          "last_import_timestamp": null,
+          "title": null,
+          "update_frequency": "[]"
+        },
+        "category": {
+          "id": null,
+          "title": "[]"
+        },
+        "image_url": "",
+        "title": "Statystyki pomocy społecznej",
+        "license_name": "CC0 1.0",
+        "is_promoted": false,
+        "license_chosen": null,
+        "formats": [
+          "html"
+        ],
+        "license_description": "",
+        "openness_scores": [
+          3
+        ],
+        "url": "https://www.gov.pl/web/rodzina/statystyki-pomocy-spolecznej",
+        "has_high_value_data": false,
+        "has_dynamic_data": false,
+        "views_count": 404,
+        "license_condition_original": null,
+        "license_condition_timestamp": null,
+        "has_research_data": false,
+        "downloads_count": 0,
+        "categories": [
+          {
+            "code": "GOVE",
+            "id": "148",
+            "title": "Government and public sector"
+          }
+        ],
+        "supplements": [],
+        "update_frequency": "Yearly",
+        "types": [
+          "website"
+        ],
+        "keywords": [],
+        "license_condition_custom_description": "",
+        "slug": "statystyki-pomocy-spolecznej",
+        "notes": "<p>Statystyki pomocy społecznej</p>",
+        "has_high_value_data_from_ec_list": false,
+        "license_condition_default_cc40": false,
+        "verified": "2022-07-26T09:58:53Z",
+        "resource_modified": "2025-01-08T13:11:36Z",
+        "license_condition_db_or_copyrighted": "",
+        "regions": [
+          {
+            "region_id": "85633723",
+            "name": "Poland",
+            "hierarchy_label": "Poland"
+          }
+        ],
+        "image_alt": "",
+        "visualization_types": []
+      },
+      "type": "dataset",
+      "id": "2804"
+    },
+    {
+      "links": {
+        "self": "https://api.dane.gov.pl/1.4/datasets/3297,wykaz-zasobow-chronionych-danych-dga-ministerstwo"
+      },
+      "relationships": {
+        "showcases": {
+          "meta": {
+            "count": 0
+          },
+          "links": {
+            "related": "https://api.dane.gov.pl/1.4/datasets/3297,wykaz-zasobow-chronionych-danych-dga-ministerstwo/showcases"
+          }
+        },
+        "resources": {
+          "meta": {
+            "count": 2
+          },
+          "links": {
+            "related": "https://api.dane.gov.pl/1.4/datasets/3297,wykaz-zasobow-chronionych-danych-dga-ministerstwo/resources"
+          }
+        },
+        "institution": {
+          "data": {
+            "id": "30",
+            "type": "institution"
+          },
+          "links": {
+            "related": "https://api.dane.gov.pl/1.4/institutions/30,ministerstwo-rodziny-pracy-i-polityki-spolecznej"
+          }
+        }
+      },
+      "attributes": {
+        "modified": "2024-03-19T19:17:33Z",
+        "license_condition_personal_data": null,
+        "created": "2023-08-31T09:04:07Z",
+        "source": {
+          "type": null,
+          "url": null,
+          "last_import_timestamp": null,
+          "title": null,
+          "update_frequency": "[]"
+        },
+        "category": {
+          "id": null,
+          "title": "[]"
+        },
+        "image_url": "",
+        "title": "Wykaz zasobów chronionych danych DGA – Ministerstwo Rodziny i Polityki Społecznej",
+        "license_name": "CC0 1.0",
+        "is_promoted": false,
+        "license_chosen": null,
+        "formats": [
+          "csv",
+          "jsonld",
+          "xlsx"
+        ],
+        "license_description": "",
+        "openness_scores": [
+          4
+        ],
+        "url": "",
+        "has_high_value_data": false,
+        "has_dynamic_data": false,
+        "views_count": 723,
+        "license_condition_original": null,
+        "license_condition_timestamp": null,
+        "has_research_data": false,
+        "downloads_count": 159,
+        "categories": [
+          {
+            "code": "SOCI",
+            "id": "146",
+            "title": "Population and society"
+          },
+          {
+            "code": "GOVE",
+            "id": "148",
+            "title": "Government and public sector"
+          }
+        ],
+        "supplements": [],
+        "update_frequency": "Every half year",
+        "types": [
+          "file"
+        ],
+        "keywords": [],
+        "license_condition_custom_description": "",
+        "slug": "wykaz-zasobow-chronionych-danych-dga-ministerstwo",
+        "notes": "<p>Wykaz zasobów chronionych danych Ministerstwo Rodziny i Polityki Społecznej - Akt o zarządzaniu danymi. Dostęp do chronionych danych wymienionych w wykazie jest możliwy wyłącznie na wniosek. Warunki ponownego wykorzystywania zostaną określone indywidualnie w ofercie (po złożeniu wniosku). Format oraz rozmiar danych wskazane w wykazie mogą ulec zmianie. Więcej na temat dostępu do chronionych danych (w tym jak złożyć wniosek) dowiesz się w Punkcie informacyjnym dostępnym pod adresem:<br />\r\n<a href=\"https://dane.gov.pl/pl/knowledgebase/useful-materials/akt-o-zarzadzaniu-danymipunkt-informacyjny\">https://dane.gov.pl/pl/knowledgebase/useful-materials/akt-o-zarzadzaniu-danymipunkt-informacyjny</a></p>",
+        "has_high_value_data_from_ec_list": null,
+        "license_condition_default_cc40": false,
+        "verified": "2024-07-30T08:42:14Z",
+        "resource_modified": "2024-07-30T08:43:49Z",
+        "license_condition_db_or_copyrighted": "",
+        "regions": [
+          {
+            "region_id": "85633723",
+            "name": "Poland",
+            "hierarchy_label": "Poland"
+          }
+        ],
+        "image_alt": "",
+        "visualization_types": [
+          "table"
+        ]
+      },
+      "type": "dataset",
+      "id": "3297"
+    },
+    {
+      "links": {
+        "self": "https://api.dane.gov.pl/1.4/datasets/3563,wykaz-akredytowanych-osrodkow-wsparcia-ekonomii-sp"
+      },
+      "relationships": {
+        "showcases": {
+          "meta": {
+            "count": 0
+          },
+          "links": {
+            "related": "https://api.dane.gov.pl/1.4/datasets/3563,wykaz-akredytowanych-osrodkow-wsparcia-ekonomii-sp/showcases"
+          }
+        },
+        "resources": {
+          "meta": {
+            "count": 33
+          },
+          "links": {
+            "related": "https://api.dane.gov.pl/1.4/datasets/3563,wykaz-akredytowanych-osrodkow-wsparcia-ekonomii-sp/resources"
+          }
+        },
+        "institution": {
+          "data": {
+            "id": "30",
+            "type": "institution"
+          },
+          "links": {
+            "related": "https://api.dane.gov.pl/1.4/institutions/30,ministerstwo-rodziny-pracy-i-polityki-spolecznej"
+          }
+        }
+      },
+      "attributes": {
+        "modified": "2024-12-23T12:53:29Z",
+        "license_condition_personal_data": null,
+        "created": "2024-01-24T10:10:40Z",
+        "source": {
+          "type": null,
+          "url": null,
+          "last_import_timestamp": null,
+          "title": null,
+          "update_frequency": "[]"
+        },
+        "category": {
+          "id": null,
+          "title": "[]"
+        },
+        "image_url": "",
+        "title": "Wykaz akredytowanych ośrodków wsparcia ekonomii społecznej",
+        "license_name": "CC0 1.0",
+        "is_promoted": false,
+        "license_chosen": null,
+        "formats": [
+          "csv",
+          "jsonld",
+          "xlsx"
+        ],
+        "license_description": "",
+        "openness_scores": [
+          4
+        ],
+        "url": "https://www.ekonomiaspoleczna.gov.pl/co-robimy/akredytacja-i-status-owes/wykaz-akredytowanych-owes/",
+        "has_high_value_data": false,
+        "has_dynamic_data": false,
+        "views_count": 124,
+        "license_condition_original": null,
+        "license_condition_timestamp": null,
+        "has_research_data": false,
+        "downloads_count": 61,
+        "categories": [
+          {
+            "code": "SOCI",
+            "id": "146",
+            "title": "Population and society"
+          }
+        ],
+        "supplements": [],
+        "update_frequency": "Monthly",
+        "types": [
+          "file"
+        ],
+        "keywords": [],
+        "license_condition_custom_description": "",
+        "slug": "wykaz-akredytowanych-osrodkow-wsparcia-ekonomii-sp",
+        "notes": "<p>Wykaz ośrodków wsparcia ekonomii społecznej, które otrzymały akredytację i status ośrodka wsparcia ekonomii społecznej na podstawie:</p>\n\n<ol>\n\t<li>przepisów ustawy z dnia 5 sierpnia 2022 r. o ekonomii społecznej (Dz.U. 2023 r. poz. 1287);</li>\n\t<li>Zarządzenia Ministra Rodziny, Pracy i Polityki Społecznej z dnia 18 kwietnia 2016 r. <em>w sprawie nadania akredytacji AKSES </em>(Dz. Urz. MRPiPS z 2016 r. poz. 21, z 2018 r. poz. 2).</li>\n</ol>",
+        "has_high_value_data_from_ec_list": false,
+        "license_condition_default_cc40": false,
+        "verified": "2025-11-05T09:34:17Z",
+        "resource_modified": "2025-11-05T09:34:17Z",
+        "license_condition_db_or_copyrighted": "",
+        "regions": [
+          {
+            "region_id": "85633723",
+            "name": "Poland",
+            "hierarchy_label": "Poland"
+          }
+        ],
+        "image_alt": "",
+        "visualization_types": [
+          "table"
+        ]
+      },
+      "type": "dataset",
+      "id": "3563"
+    },
+    {
+      "links": {
+        "self": "https://api.dane.gov.pl/1.4/datasets/3565,wykaz-przedsiebiorstw-spolecznych"
+      },
+      "relationships": {
+        "showcases": {
+          "meta": {
+            "count": 0
+          },
+          "links": {
+            "related": "https://api.dane.gov.pl/1.4/datasets/3565,wykaz-przedsiebiorstw-spolecznych/showcases"
+          }
+        },
+        "resources": {
+          "meta": {
+            "count": 1
+          },
+          "links": {
+            "related": "https://api.dane.gov.pl/1.4/datasets/3565,wykaz-przedsiebiorstw-spolecznych/resources"
+          }
+        },
+        "institution": {
+          "data": {
+            "id": "30",
+            "type": "institution"
+          },
+          "links": {
+            "related": "https://api.dane.gov.pl/1.4/institutions/30,ministerstwo-rodziny-pracy-i-polityki-spolecznej"
+          }
+        }
+      },
+      "attributes": {
+        "modified": "2024-12-23T12:52:45Z",
+        "license_condition_personal_data": null,
+        "created": "2024-01-24T14:11:31Z",
+        "source": {
+          "type": null,
+          "url": null,
+          "last_import_timestamp": null,
+          "title": null,
+          "update_frequency": "[]"
+        },
+        "category": {
+          "id": null,
+          "title": "[]"
+        },
+        "image_url": "",
+        "title": "Wykaz przedsiębiorstw społecznych",
+        "license_name": "CC0 1.0",
+        "is_promoted": false,
+        "license_chosen": null,
+        "formats": [
+          "html"
+        ],
+        "license_description": "",
+        "openness_scores": [
+          3
+        ],
+        "url": "",
+        "has_high_value_data": false,
+        "has_dynamic_data": false,
+        "views_count": 363,
+        "license_condition_original": null,
+        "license_condition_timestamp": null,
+        "has_research_data": false,
+        "downloads_count": 0,
+        "categories": [
+          {
+            "code": "SOCI",
+            "id": "146",
+            "title": "Population and society"
+          }
+        ],
+        "supplements": [],
+        "update_frequency": "Not applicable",
+        "types": [
+          "website"
+        ],
+        "keywords": [],
+        "license_condition_custom_description": "",
+        "slug": "wykaz-przedsiebiorstw-spolecznych",
+        "notes": "<p>Wykaz przedsiębiorstw społecznych na podstawie art. 19 ust. 1 ustawy o ekonomii społecznej (Dz. U. 2022 poz. 1812, 2140)</p>",
+        "has_high_value_data_from_ec_list": false,
+        "license_condition_default_cc40": false,
+        "verified": "2024-01-24T14:13:28Z",
+        "resource_modified": "2025-01-08T12:49:30Z",
+        "license_condition_db_or_copyrighted": "",
+        "regions": [
+          {
+            "region_id": "85633723",
+            "name": "Poland",
+            "hierarchy_label": "Poland"
+          }
+        ],
+        "image_alt": "",
+        "visualization_types": []
+      },
+      "type": "dataset",
+      "id": "3565"
+    },
+    {
+      "links": {
+        "self": "https://api.dane.gov.pl/1.4/datasets/4659,osoby-zaliczone-do-osob-niepelnosprawnych-prawomoc"
+      },
+      "relationships": {
+        "showcases": {
+          "meta": {
+            "count": 0
+          },
+          "links": {
+            "related": "https://api.dane.gov.pl/1.4/datasets/4659,osoby-zaliczone-do-osob-niepelnosprawnych-prawomoc/showcases"
+          }
+        },
+        "resources": {
+          "meta": {
+            "count": 14
+          },
+          "links": {
+            "related": "https://api.dane.gov.pl/1.4/datasets/4659,osoby-zaliczone-do-osob-niepelnosprawnych-prawomoc/resources"
+          }
+        },
+        "institution": {
+          "data": {
+            "id": "30",
+            "type": "institution"
+          },
+          "links": {
+            "related": "https://api.dane.gov.pl/1.4/institutions/30,ministerstwo-rodziny-pracy-i-polityki-spolecznej"
+          }
+        }
+      },
+      "attributes": {
+        "modified": "2025-01-24T09:45:07Z",
+        "license_condition_personal_data": null,
+        "created": "2025-01-03T11:52:11Z",
+        "source": {
+          "type": null,
+          "url": null,
+          "last_import_timestamp": null,
+          "title": null,
+          "update_frequency": "[]"
+        },
+        "category": {
+          "id": null,
+          "title": "[]"
+        },
+        "image_url": "",
+        "title": "Osoby zaliczone do osób niepełnosprawnych prawomocnym orzeczeniem lub wyrokiem sądu - (osoby do lat 16)",
+        "license_name": "CC0 1.0",
+        "is_promoted": false,
+        "license_chosen": null,
+        "formats": [
+          "csv",
+          "jsonld",
+          "xls"
+        ],
+        "license_description": "",
+        "openness_scores": [
+          4
+        ],
+        "url": "",
+        "has_high_value_data": false,
+        "has_dynamic_data": false,
+        "views_count": 38,
+        "license_condition_original": null,
+        "license_condition_timestamp": null,
+        "has_research_data": false,
+        "downloads_count": 5,
+        "categories": [
+          {
+            "code": "SOCI",
+            "id": "146",
+            "title": "Population and society"
+          },
+          {
+            "code": "HEAL",
+            "id": "147",
+            "title": "Health"
+          }
+        ],
+        "supplements": [],
+        "update_frequency": "Quarterly",
+        "types": [
+          "file"
+        ],
+        "keywords": [],
+        "license_condition_custom_description": "",
+        "slug": "osoby-zaliczone-do-osob-niepelnosprawnych-prawomoc",
+        "notes": "<p>Osoby zaliczone do osób niepełnosprawnych prawomocnym orzeczeniem lub wyrokiem sądu z uwzględnieniem przyczyny niepełnosprawności, wieku oraz płci</p>",
+        "has_high_value_data_from_ec_list": false,
+        "license_condition_default_cc40": false,
+        "verified": "2025-11-05T09:26:05Z",
+        "resource_modified": "2025-11-05T09:26:05Z",
+        "license_condition_db_or_copyrighted": "",
+        "regions": [
+          {
+            "region_id": "85633723",
+            "name": "Poland",
+            "hierarchy_label": "Poland"
+          }
+        ],
+        "image_alt": "",
+        "visualization_types": [
+          "table"
+        ]
+      },
+      "type": "dataset",
+      "id": "4659"
+    },
+    {
+      "links": {
+        "self": "https://api.dane.gov.pl/1.4/datasets/4660,osoby-zaliczone-do-stopnia-niepelnosprawnosci-praw"
+      },
+      "relationships": {
+        "showcases": {
+          "meta": {
+            "count": 0
+          },
+          "links": {
+            "related": "https://api.dane.gov.pl/1.4/datasets/4660,osoby-zaliczone-do-stopnia-niepelnosprawnosci-praw/showcases"
+          }
+        },
+        "resources": {
+          "meta": {
+            "count": 14
+          },
+          "links": {
+            "related": "https://api.dane.gov.pl/1.4/datasets/4660,osoby-zaliczone-do-stopnia-niepelnosprawnosci-praw/resources"
+          }
+        },
+        "institution": {
+          "data": {
+            "id": "30",
+            "type": "institution"
+          },
+          "links": {
+            "related": "https://api.dane.gov.pl/1.4/institutions/30,ministerstwo-rodziny-pracy-i-polityki-spolecznej"
+          }
+        }
+      },
+      "attributes": {
+        "modified": "2025-01-24T09:54:46Z",
+        "license_condition_personal_data": null,
+        "created": "2025-01-03T11:56:27Z",
+        "source": {
+          "type": null,
+          "url": null,
+          "last_import_timestamp": null,
+          "title": null,
+          "update_frequency": "[]"
+        },
+        "category": {
+          "id": null,
+          "title": "[]"
+        },
+        "image_url": "",
+        "title": "Osoby zaliczone do stopnia niepełnosprawności prawomocnym orzeczeniem (o stopniu niepełnosprawności lub o wskazaniach do ulg i uprawnień) lub wyrokiem sądu - (osoby powyżej 16. roku życia).",
+        "license_name": "CC0 1.0",
+        "is_promoted": false,
+        "license_chosen": null,
+        "formats": [
+          "csv",
+          "jsonld",
+          "xls"
+        ],
+        "license_description": "",
+        "openness_scores": [
+          4
+        ],
+        "url": "",
+        "has_high_value_data": false,
+        "has_dynamic_data": false,
+        "views_count": 26,
+        "license_condition_original": null,
+        "license_condition_timestamp": null,
+        "has_research_data": false,
+        "downloads_count": 3,
+        "categories": [
+          {
+            "code": "SOCI",
+            "id": "146",
+            "title": "Population and society"
+          },
+          {
+            "code": "HEAL",
+            "id": "147",
+            "title": "Health"
+          }
+        ],
+        "supplements": [],
+        "update_frequency": "Quarterly",
+        "types": [
+          "file"
+        ],
+        "keywords": [],
+        "license_condition_custom_description": "",
+        "slug": "osoby-zaliczone-do-stopnia-niepelnosprawnosci-praw",
+        "notes": "<p> Osoby zaliczone do stopnia niepełnosprawności prawomocnym orzeczeniem (o stopniu niepełnosprawności lub o wskazaniach do ulg i uprawnień) lub wyrokiem sądu z uwzględnieniem przyczyny niepełnosprawności, stopnia niepełnosprawności, wieku, płci, wykształcenia oraz zatrudnienia</p>",
+        "has_high_value_data_from_ec_list": false,
+        "license_condition_default_cc40": false,
+        "verified": "2025-11-05T09:28:04Z",
+        "resource_modified": "2025-11-05T09:28:04Z",
+        "license_condition_db_or_copyrighted": "",
+        "regions": [
+          {
+            "region_id": "85633723",
+            "name": "Poland",
+            "hierarchy_label": "Poland"
+          }
+        ],
+        "image_alt": "",
+        "visualization_types": [
+          "table"
+        ]
+      },
+      "type": "dataset",
+      "id": "4660"
+    },
+    {
+      "links": {
+        "self": "https://api.dane.gov.pl/1.4/datasets/4802,rejestr-zobkow-lista-instytucji"
+      },
+      "relationships": {
+        "showcases": {
+          "meta": {
+            "count": 0
+          },
+          "links": {
+            "related": "https://api.dane.gov.pl/1.4/datasets/4802,rejestr-zobkow-lista-instytucji/showcases"
+          }
+        },
+        "resources": {
+          "meta": {
+            "count": 1
+          },
+          "links": {
+            "related": "https://api.dane.gov.pl/1.4/datasets/4802,rejestr-zobkow-lista-instytucji/resources"
+          }
+        },
+        "institution": {
+          "data": {
+            "id": "30",
+            "type": "institution"
+          },
+          "links": {
+            "related": "https://api.dane.gov.pl/1.4/institutions/30,ministerstwo-rodziny-pracy-i-polityki-spolecznej"
+          }
+        }
+      },
+      "attributes": {
+        "modified": "2025-11-10T02:00:21Z",
+        "license_condition_personal_data": null,
+        "created": "2025-04-04T09:35:07Z",
+        "source": {
+          "type": "xml",
+          "url": "https://rejestrzlobkow.mrips.gov.pl/R_Z-metadane-instytucje.xml",
+          "last_import_timestamp": "2025-11-10T03:37:11Z",
+          "title": "Rejestr Żłobków - lista instytucji",
+          "update_frequency": "every day"
+        },
+        "category": {
+          "id": null,
+          "title": "[]"
+        },
+        "image_url": "",
+        "title": "Rejestr Żłobków - lista instytucji",
+        "license_name": "CC0 1.0",
+        "is_promoted": false,
+        "license_chosen": null,
+        "formats": [
+          "csv"
+        ],
+        "license_description": "",
+        "openness_scores": [
+          3
+        ],
+        "url": null,
+        "has_high_value_data": null,
+        "has_dynamic_data": null,
+        "views_count": 957,
+        "license_condition_original": null,
+        "license_condition_timestamp": null,
+        "has_research_data": null,
+        "downloads_count": 2071,
+        "categories": [
+          {
+            "code": "SOCI",
+            "id": "146",
+            "title": "Population and society"
+          }
+        ],
+        "supplements": [],
+        "update_frequency": "Daily",
+        "types": [
+          "file"
+        ],
+        "keywords": [],
+        "license_condition_custom_description": null,
+        "slug": "rejestr-zobkow-lista-instytucji",
+        "notes": "Zbiór zawiera dane instytucji dostępnych w Rejestrze żłobków i klubów dziecięcych.",
+        "has_high_value_data_from_ec_list": null,
+        "license_condition_default_cc40": null,
+        "verified": "2025-11-10T03:37:30Z",
+        "resource_modified": "2025-11-10T02:00:21Z",
+        "license_condition_db_or_copyrighted": null,
+        "regions": [
+          {
+            "region_id": "85633723",
+            "name": "Poland",
+            "hierarchy_label": "Poland"
+          }
+        ],
+        "image_alt": "",
+        "visualization_types": []
+      },
+      "type": "dataset",
+      "id": "4802"
+    },
+    {
+      "links": {
+        "self": "https://api.dane.gov.pl/1.4/datasets/4803,rejestr-zobkow-lista-opiekunow-dziennych"
+      },
+      "relationships": {
+        "showcases": {
+          "meta": {
+            "count": 0
+          },
+          "links": {
+            "related": "https://api.dane.gov.pl/1.4/datasets/4803,rejestr-zobkow-lista-opiekunow-dziennych/showcases"
+          }
+        },
+        "resources": {
+          "meta": {
+            "count": 1
+          },
+          "links": {
+            "related": "https://api.dane.gov.pl/1.4/datasets/4803,rejestr-zobkow-lista-opiekunow-dziennych/resources"
+          }
+        },
+        "institution": {
+          "data": {
+            "id": "30",
+            "type": "institution"
+          },
+          "links": {
+            "related": "https://api.dane.gov.pl/1.4/institutions/30,ministerstwo-rodziny-pracy-i-polityki-spolecznej"
+          }
+        }
+      },
+      "attributes": {
+        "modified": "2025-11-10T02:00:27Z",
+        "license_condition_personal_data": null,
+        "created": "2025-04-04T09:37:57Z",
+        "source": {
+          "type": "xml",
+          "url": "https://rejestrzlobkow.mrips.gov.pl/R_Z-metadane-opiekunowie.xml",
+          "last_import_timestamp": "2025-11-10T03:30:54Z",
+          "title": "Rejestr Żłobków - lista opiekunów dziennych",
+          "update_frequency": "every day"
+        },
+        "category": {
+          "id": null,
+          "title": "[]"
+        },
+        "image_url": "",
+        "title": "Rejestr Żłobków - lista opiekunów dziennych",
+        "license_name": "CC0 1.0",
+        "is_promoted": false,
+        "license_chosen": null,
+        "formats": [
+          "csv"
+        ],
+        "license_description": "",
+        "openness_scores": [
+          3
+        ],
+        "url": null,
+        "has_high_value_data": null,
+        "has_dynamic_data": null,
+        "views_count": 429,
+        "license_condition_original": null,
+        "license_condition_timestamp": null,
+        "has_research_data": null,
+        "downloads_count": 560,
+        "categories": [
+          {
+            "code": "SOCI",
+            "id": "146",
+            "title": "Population and society"
+          }
+        ],
+        "supplements": [],
+        "update_frequency": "Daily",
+        "types": [
+          "file"
+        ],
+        "keywords": [],
+        "license_condition_custom_description": null,
+        "slug": "rejestr-zobkow-lista-opiekunow-dziennych",
+        "notes": "Zbiór zawiera dane dostępne w Rejestrze opiekunów dziennych.",
+        "has_high_value_data_from_ec_list": null,
+        "license_condition_default_cc40": null,
+        "verified": "2025-11-10T03:31:05Z",
+        "resource_modified": "2025-11-10T02:00:27Z",
+        "license_condition_db_or_copyrighted": null,
+        "regions": [
+          {
+            "region_id": "85633723",
+            "name": "Poland",
+            "hierarchy_label": "Poland"
+          }
+        ],
+        "image_alt": "",
+        "visualization_types": []
+      },
+      "type": "dataset",
+      "id": "4803"
+    }
+  ],
+  "links": {
+    "self": "https://api.dane.gov.pl/1.4/institutions/30/datasets?page=1&per_page=100&sort=id"
+  },
+  "jsonapi": {
+    "version": "1.0"
+  },
+  "meta": {
+    "aggregations": {},
+    "count": 25,
+    "path": "/1.4/institutions/30/datasets",
+    "server_time": "2025-11-10T22:20:12Z",
+    "params": {
+      "page": "1",
+      "per_page": "100",
+      "sort": "id"
+    },
+    "language": "en",
+    "relative_uri": "/1.4/institutions/30/datasets?page=1&per_page=100"
+  }
+}

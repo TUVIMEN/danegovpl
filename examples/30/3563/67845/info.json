@@ -1,0 +1,127 @@
+{
+  "jsonapi": {
+    "version": "1.0"
+  },
+  "data": {
+    "type": "resource",
+    "attributes": {
+      "media_type": "file",
+      "special_signs": [],
+      "jsonld_download_url": "https://api.dane.gov.pl/resources/67845,wykaz-podmiotow-ktore-posiadaja-akredytacje-na-mocy-ustawy-o-ekonomi-spoecznej-13-06-2025/jsonld",
+      "has_high_value_data": false,
+      "jsonld_file_size": 99210,
+      "downloads_count": 18,
+      "csv_download_url": "https://api.dane.gov.pl/resources/67845,wykaz-podmiotow-ktore-posiadaja-akredytacje-na-mocy-ustawy-o-ekonomi-spoecznej-13-06-2025/csv",
+      "contains_protected_data": false,
+      "openness_score": 4,
+      "title": "Wykaz podmiotów, które posiadają akredytację na mocy ustawy o ekonomii społecznej - 13-06-2025",
+      "download_url": "https://api.dane.gov.pl/resources/67845,wykaz-podmiotow-ktore-posiadaja-akredytacje-na-mocy-ustawy-o-ekonomi-spoecznej-13-06-2025/file",
+      "link": "https://api.dane.gov.pl/media/resources/20250630/wykaz_OWES_13_06_2025-OD.xlsx",
+      "file_size": 63518,
+      "modified": "2025-09-09T12:42:33Z",
+      "file_url": "https://api.dane.gov.pl/media/resources/20250630/wykaz_OWES_13_06_2025-OD.xlsx",
+      "csv_file_url": "https://api.dane.gov.pl/media/resources/20250630/wykaz_OWES_13_06_2025-OD.csv",
+      "files": [
+        {
+          "openness_score": 2,
+          "compressed_file_format": null,
+          "download_url": "https://api.dane.gov.pl/resources/67845,wykaz-podmiotow-ktore-posiadaja-akredytacje-na-mocy-ustawy-o-ekonomi-spoecznej-13-06-2025/file",
+          "format": "xlsx",
+          "file_size": 63518
+        },
+        {
+          "openness_score": 4,
+          "compressed_file_format": null,
+          "download_url": "https://api.dane.gov.pl/resources/67845,wykaz-podmiotow-ktore-posiadaja-akredytacje-na-mocy-ustawy-o-ekonomi-spoecznej-13-06-2025/jsonld",
+          "format": "jsonld",
+          "file_size": 99210
+        },
+        {
+          "openness_score": 3,
+          "compressed_file_format": null,
+          "download_url": "https://api.dane.gov.pl/resources/67845,wykaz-podmiotow-ktore-posiadaja-akredytacje-na-mocy-ustawy-o-ekonomi-spoecznej-13-06-2025/csv",
+          "format": "csv",
+          "file_size": 16929
+        }
+      ],
+      "description": "<p>Wykaz podmiotów, które posiadają akredytację na mocy ustawy o ekonomi społecznej, plik do pobrania znajduje się poniżej.</p>\n\n<p>Wykaz i mapa Ośrodków Wsparcia Ekonomii Społecznej znajduje się <a href=\"https://www.ekonomiaspoleczna.gov.pl/co-robimy/akredytacja-i-status-owes/wykaz-akredytowanych-owes/\" target=\"_blank\">TUTAJ</a></p>",
+      "jsonld_file_url": "https://api.dane.gov.pl/media/resources/20250630/wykaz_OWES_13_06_2025-OD.jsonld",
+      "csv_file_size": 16929,
+      "is_chart_creation_blocked": false,
+      "regions": [
+        {
+          "hierarchy_label": "Poland",
+          "name": "Poland",
+          "is_additional": false,
+          "region_id": "85633723"
+        }
+      ],
+      "has_high_value_data_from_ec_list": false,
+      "language": "pl",
+      "has_dynamic_data": false,
+      "supplements": [],
+      "verified": "2025-09-09T13:41:13Z",
+      "category": null,
+      "views_count": 137,
+      "has_research_data": false,
+      "created": "2025-06-30T08:47:14Z",
+      "format": "xlsx",
+      "data_date": "2025-06-13",
+      "visualization_types": [
+        "table"
+      ]
+    },
+    "relationships": {
+      "institution": {
+        "links": {
+          "related": "https://api.dane.gov.pl/1.4/institutions/30,ministerstwo-rodziny-pracy-i-polityki-spolecznej"
+        },
+        "data": {
+          "type": "institution",
+          "id": "30"
+        }
+      },
+      "tabular_data": {
+        "links": {
+          "related": "https://api.dane.gov.pl/1.4/resources/67845/data"
+        },
+        "data": {
+          "type": "tabular_data",
+          "id": "67845"
+        }
+      },
+      "chart": {
+        "links": {
+          "related": "https://api.dane.gov.pl/1.4/resources/67845,wykaz-podmiotow-ktore-posiadaja-akredytacje-na-mocy-ustawy-o-ekonomi-spoecznej-13-06-2025/chart"
+        },
+        "data": {
+          "type": "chart",
+          "id": "67845"
+        }
+      },
+      "dataset": {
+        "links": {
+          "related": "https://api.dane.gov.pl/1.4/datasets/3563,wykaz-akredytowanych-osrodkow-wsparcia-ekonomii-sp"
+        },
+        "data": {
+          "type": "dataset",
+          "id": "3563"
+        }
+      }
+    },
+    "id": "67845",
+    "links": {
+      "self": "https://api.dane.gov.pl/1.4/resources/67845,wykaz-podmiotow-ktore-posiadaja-akredytacje-na-mocy-ustawy-o-ekonomi-spoecznej-13-06-2025"
+    }
+  },
+  "links": {
+    "self": "http://api.dane.gov.pl/1.4/resources/67845"
+  },
+  "meta": {
+    "server_time": "2025-11-10T22:20:39Z",
+    "path": "/1.4/resources/67845",
+    "language": "en",
+    "params": {},
+    "relative_uri": "/1.4/resources/67845"
+  }
+}

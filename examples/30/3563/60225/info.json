@@ -1,0 +1,118 @@
+{
+  "jsonapi": {
+    "version": "1.0"
+  },
+  "data": {
+    "type": "resource",
+    "attributes": {
+      "media_type": "file",
+      "special_signs": [],
+      "jsonld_download_url": "https://api.dane.gov.pl/resources/60225,wykaz-podmiotow-ktore-posiadaja-status-uzyskany-przed-wejsciem-w-zycie-ustawy-o-ekonomii-spoecznej-31-05-2024/jsonld",
+      "has_high_value_data": false,
+      "jsonld_file_size": 15786,
+      "downloads_count": 81,
+      "csv_download_url": "https://api.dane.gov.pl/resources/60225,wykaz-podmiotow-ktore-posiadaja-status-uzyskany-przed-wejsciem-w-zycie-ustawy-o-ekonomii-spoecznej-31-05-2024/csv",
+      "contains_protected_data": false,
+      "openness_score": 4,
+      "title": "Wykaz podmiotów, które posiadają status uzyskany przed wejściem w życie ustawy o ekonomii społecznej - 31-05-2024",
+      "download_url": "https://api.dane.gov.pl/resources/60225,wykaz-podmiotow-ktore-posiadaja-status-uzyskany-przed-wejsciem-w-zycie-ustawy-o-ekonomii-spoecznej-31-05-2024/file",
+      "link": "https://api.dane.gov.pl/media/resources/20240820/wykaz_OWES_31_05_2024_AKSES-OD.xlsx",
+      "file_size": 51159,
+      "modified": "2024-08-20T09:40:49Z",
+      "file_url": "https://api.dane.gov.pl/media/resources/20240820/wykaz_OWES_31_05_2024_AKSES-OD.xlsx",
+      "csv_file_url": "https://api.dane.gov.pl/media/resources/20240820/wykaz_OWES_31_05_2024_AKSES-OD.csv",
+      "files": [
+        {
+          "openness_score": 2,
+          "compressed_file_format": null,
+          "download_url": "https://api.dane.gov.pl/resources/60225,wykaz-podmiotow-ktore-posiadaja-status-uzyskany-przed-wejsciem-w-zycie-ustawy-o-ekonomii-spoecznej-31-05-2024/file",
+          "format": "xlsx",
+          "file_size": 51159
+        },
+        {
+          "openness_score": 4,
+          "compressed_file_format": null,
+          "download_url": "https://api.dane.gov.pl/resources/60225,wykaz-podmiotow-ktore-posiadaja-status-uzyskany-przed-wejsciem-w-zycie-ustawy-o-ekonomii-spoecznej-31-05-2024/jsonld",
+          "format": "jsonld",
+          "file_size": 15786
+        },
+        {
+          "openness_score": 3,
+          "compressed_file_format": null,
+          "download_url": "https://api.dane.gov.pl/resources/60225,wykaz-podmiotow-ktore-posiadaja-status-uzyskany-przed-wejsciem-w-zycie-ustawy-o-ekonomii-spoecznej-31-05-2024/csv",
+          "format": "csv",
+          "file_size": 819
+        }
+      ],
+      "description": "<p>Wykaz zawiera podmioty, które posiadają status uzyskany przed wejściem w życie ustawy o ekonomii społecznej (w okresie przejściowym akredytacja obowiązuje do czasu jej wygaśnięcia).</p>",
+      "jsonld_file_url": "https://api.dane.gov.pl/media/resources/20240820/wykaz_OWES_31_05_2024_AKSES-OD.jsonld",
+      "csv_file_size": 819,
+      "is_chart_creation_blocked": false,
+      "regions": [
+        {
+          "hierarchy_label": "Poland",
+          "name": "Poland",
+          "is_additional": false,
+          "region_id": "85633723"
+        }
+      ],
+      "has_high_value_data_from_ec_list": null,
+      "language": "pl",
+      "has_dynamic_data": false,
+      "supplements": [],
+      "verified": "2024-10-27T11:29:36Z",
+      "category": null,
+      "views_count": 134,
+      "has_research_data": false,
+      "created": "2024-08-20T09:40:49Z",
+      "format": "xlsx",
+      "data_date": "2024-05-31",
+      "visualization_types": [
+        "table"
+      ]
+    },
+    "relationships": {
+      "institution": {
+        "links": {
+          "related": "https://api.dane.gov.pl/1.4/institutions/30,ministerstwo-rodziny-pracy-i-polityki-spolecznej"
+        },
+        "data": {
+          "type": "institution",
+          "id": "30"
+        }
+      },
+      "tabular_data": {
+        "links": {
+          "related": "https://api.dane.gov.pl/1.4/resources/60225/data"
+        },
+        "data": {
+          "type": "tabular_data",
+          "id": "60225"
+        }
+      },
+      "dataset": {
+        "links": {
+          "related": "https://api.dane.gov.pl/1.4/datasets/3563,wykaz-akredytowanych-osrodkow-wsparcia-ekonomii-sp"
+        },
+        "data": {
+          "type": "dataset",
+          "id": "3563"
+        }
+      }
+    },
+    "id": "60225",
+    "links": {
+      "self": "https://api.dane.gov.pl/1.4/resources/60225,wykaz-podmiotow-ktore-posiadaja-status-uzyskany-przed-wejsciem-w-zycie-ustawy-o-ekonomii-spoecznej-31-05-2024"
+    }
+  },
+  "links": {
+    "self": "http://api.dane.gov.pl/1.4/resources/60225"
+  },
+  "meta": {
+    "server_time": "2025-11-10T22:20:39Z",
+    "path": "/1.4/resources/60225",
+    "language": "en",
+    "params": {},
+    "relative_uri": "/1.4/resources/60225"
+  }
+}

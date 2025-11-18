@@ -1,0 +1,78 @@
+{
+  "jsonapi": {
+    "version": "1.0"
+  },
+  "data": {
+    "type": "institution",
+    "attributes": {
+      "electronic_delivery_address": null,
+      "city": "Warszawa",
+      "street_type": "ul.",
+      "slug": "ministerstwo-rodziny-pracy-i-polityki-spolecznej",
+      "street": "Nowogrodzka",
+      "email": "info@mrips.gov.pl",
+      "fax": "0048226611336",
+      "title": "Ministerstwo Rodziny, Pracy i Polityki Społecznej",
+      "image_url": "/media/images/organizations/20151208/2015-12-08-110905.895092logomrpipsstr.jpg",
+      "website": "https://www.gov.pl/web/rodzina",
+      "flat_number": null,
+      "epuap": "http://epuap.gov.pl/wps/portal/strefa-klienta/katalog-spraw/profil-urzedu/4g447ytes7",
+      "street_number": "1/3/5",
+      "modified": "2024-01-12 13:01:22.140387+00:00",
+      "notes": "<p>Utworzone w drodze przekształcenia dotychczasowego Ministerstwa Rodziny, Pracy i Polityki Społecznej.</p>",
+      "description": "<p>Utworzone w drodze przekształcenia dotychczasowego Ministerstwa Rodziny, Pracy i Polityki Społecznej.</p>",
+      "regon": "015725935",
+      "postal_code": "00-513",
+      "sources": [
+        {
+          "title": "Rejestr Żłobków - lista instytucji",
+          "source_type": "xml",
+          "url": "https://rejestrzlobkow.mrips.gov.pl/R_Z-metadane-instytucje.xml"
+        },
+        {
+          "title": "Rejestr Żłobków - lista opiekunów dziennych",
+          "source_type": "xml",
+          "url": "https://rejestrzlobkow.mrips.gov.pl/R_Z-metadane-opiekunowie.xml"
+        },
+        {
+          "title": "Wykaz oddziałów partnerów programu Karta Dużej Rodziny",
+          "source_type": "xml",
+          "url": "https://kdr.mpips.gov.pl/KDR-metadane-partnerzy.xml"
+        }
+      ],
+      "abbreviation": "MRPiPS",
+      "tel": "0048226611000",
+      "institution_type": "state",
+      "created": "2015-05-18 15:21:01.679958+00:00"
+    },
+    "relationships": {
+      "datasets": {
+        "links": {
+          "related": "https://api.dane.gov.pl/1.4/institutions/30,ministerstwo-rodziny-pracy-i-polityki-spolecznej/datasets"
+        },
+        "meta": {
+          "count": 25
+        }
+      },
+      "resources": {
+        "meta": {
+          "count": 147
+        }
+      }
+    },
+    "id": "30",
+    "links": {
+      "self": "https://api.dane.gov.pl/1.4/institutions/30,ministerstwo-rodziny-pracy-i-polityki-spolecznej"
+    }
+  },
+  "links": {
+    "self": "http://api.dane.gov.pl/1.4/institutions/30"
+  },
+  "meta": {
+    "server_time": "2025-11-10T22:20:12Z",
+    "path": "/1.4/institutions/30",
+    "language": "en",
+    "params": {},
+    "relative_uri": "/1.4/institutions/30"
+  }
+}

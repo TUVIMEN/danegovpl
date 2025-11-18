@@ -1,0 +1,114 @@
+{
+  "data": {
+    "links": {
+      "self": "https://api.dane.gov.pl/1.4/datasets/4803,rejestr-zobkow-lista-opiekunow-dziennych"
+    },
+    "relationships": {
+      "showcases": {
+        "meta": {
+          "count": 0
+        },
+        "links": {
+          "related": "https://api.dane.gov.pl/1.4/datasets/4803,rejestr-zobkow-lista-opiekunow-dziennych/showcases"
+        }
+      },
+      "resources": {
+        "meta": {
+          "count": 1
+        },
+        "links": {
+          "related": "https://api.dane.gov.pl/1.4/datasets/4803,rejestr-zobkow-lista-opiekunow-dziennych/resources"
+        }
+      },
+      "institution": {
+        "data": {
+          "id": "30",
+          "type": "institution"
+        },
+        "links": {
+          "related": "https://api.dane.gov.pl/1.4/institutions/30,ministerstwo-rodziny-pracy-i-polityki-spolecznej"
+        }
+      }
+    },
+    "attributes": {
+      "modified": "2025-11-10T02:00:27Z",
+      "license_condition_personal_data": null,
+      "created": "2025-04-04T09:37:57Z",
+      "source": {
+        "type": "xml",
+        "url": "https://rejestrzlobkow.mrips.gov.pl/R_Z-metadane-opiekunowie.xml",
+        "last_import_timestamp": "2025-11-10T03:30:54Z",
+        "title": "Rejestr Żłobków - lista opiekunów dziennych",
+        "update_frequency": "every day"
+      },
+      "category": null,
+      "image_url": "",
+      "title": "Rejestr Żłobków - lista opiekunów dziennych",
+      "license_name": "CC0 1.0",
+      "is_promoted": false,
+      "license_chosen": null,
+      "current_condition_descriptions": {},
+      "formats": [
+        "csv"
+      ],
+      "license_description": "",
+      "openness_scores": [
+        3
+      ],
+      "url": null,
+      "has_high_value_data": null,
+      "has_dynamic_data": null,
+      "views_count": 429,
+      "license_condition_original": null,
+      "license_condition_timestamp": null,
+      "has_research_data": null,
+      "downloads_count": 560,
+      "categories": [
+        {
+          "code": "SOCI",
+          "id": "146",
+          "title": "Population and society"
+        }
+      ],
+      "supplements": [],
+      "update_frequency": "Daily",
+      "types": [
+        "file"
+      ],
+      "keywords": [],
+      "archived_resources_files_url": "https://api.dane.gov.pl/datasets/4803,rejestr-zobkow-lista-opiekunow-dziennych/resources/files/download",
+      "license_condition_custom_description": null,
+      "slug": "rejestr-zobkow-lista-opiekunow-dziennych",
+      "notes": "Zbiór zawiera dane dostępne w Rejestrze opiekunów dziennych.",
+      "has_high_value_data_from_ec_list": null,
+      "license_condition_default_cc40": null,
+      "verified": "2025-11-10T03:31:05Z",
+      "license_condition_db_or_copyrighted": null,
+      "regions": [
+        {
+          "region_id": "85633723",
+          "name": "Poland",
+          "is_additional": false,
+          "hierarchy_label": "Poland"
+        }
+      ],
+      "image_alt": "",
+      "visualization_types": []
+    },
+    "type": "dataset",
+    "id": "4803"
+  },
+  "links": {
+    "self": "http://api.dane.gov.pl/1.4/datasets/4803"
+  },
+  "jsonapi": {
+    "version": "1.0"
+  },
+  "meta": {
+    "path": "/1.4/datasets/4803",
+    "server_time": "2025-11-10T22:20:48Z",
+    "params": {},
+    "language": "en",
+    "relative_uri": "/1.4/datasets/4803"
+  }
+}

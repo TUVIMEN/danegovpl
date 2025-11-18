@@ -1,0 +1,264 @@
+{
+  "data": [
+    {
+      "links": {
+        "self": "https://api.dane.gov.pl/1.4/resources/312612,si-kdr-wykaz-oddziaow-partnerow-programu"
+      },
+      "relationships": {
+        "institution": {
+          "data": {
+            "id": "30",
+            "type": "institution"
+          },
+          "links": {
+            "related": "https://api.dane.gov.pl/1.4/institutions/30,ministerstwo-rodziny-pracy-i-polityki-spolecznej"
+          }
+        },
+        "dataset": {
+          "data": {
+            "id": "2099",
+            "type": "dataset"
+          },
+          "links": {
+            "related": "https://api.dane.gov.pl/1.4/datasets/2099,si-kdr-wykaz-oddziaow-partnerow-programu"
+          }
+        }
+      },
+      "attributes": {
+        "modified": "2025-10-21T00:58:20Z",
+        "files": [
+          {
+            "download_url": "https://api.dane.gov.pl/resources/312612,si-kdr-wykaz-oddziaow-partnerow-programu/file",
+            "openness_score": 3,
+            "file_size": 33463073,
+            "format": "csv"
+          }
+        ],
+        "created": "2025-10-21T06:34:41Z",
+        "link": "https://kdr.mpips.gov.pl/KDR-partnerzy.csv",
+        "title": "SI KDR - wykaz oddziałów partnerów programu",
+        "openness_score": 3,
+        "format": "csv",
+        "file_size": 33463073,
+        "special_signs": [],
+        "has_high_value_data": null,
+        "has_dynamic_data": null,
+        "language": "pl",
+        "jsonld_file_size": null,
+        "jsonld_download_url": null,
+        "contains_protected_data": false,
+        "views_count": 0,
+        "has_research_data": null,
+        "downloads_count": 0,
+        "csv_file_url": null,
+        "supplements": [],
+        "download_url": "https://api.dane.gov.pl/resources/312612,si-kdr-wykaz-oddziaow-partnerow-programu/file",
+        "is_chart_creation_blocked": false,
+        "jsonld_file_url": null,
+        "file_url": "https://api.dane.gov.pl/media/resources/20251021/KDR-partnerzy.csv",
+        "has_high_value_data_from_ec_list": null,
+        "description": "Zbiór zawiera plik CSV z danymi oddziałów partnerów programu SI KDR",
+        "csv_file_size": null,
+        "csv_download_url": null,
+        "media_type": "file",
+        "verified": "2025-10-21T07:42:11Z",
+        "data_date": "2025-10-21",
+        "regions": [
+          {
+            "region_id": "85633723",
+            "name": "Poland",
+            "hierarchy_label": "Poland"
+          }
+        ],
+        "visualization_types": []
+      },
+      "type": "resource",
+      "id": "312612"
+    },
+    {
+      "links": {
+        "self": "https://api.dane.gov.pl/1.4/resources/446489,si-kdr-wykaz-oddziaow-partnerow-programu"
+      },
+      "relationships": {
+        "institution": {
+          "data": {
+            "id": "30",
+            "type": "institution"
+          },
+          "links": {
+            "related": "https://api.dane.gov.pl/1.4/institutions/30,ministerstwo-rodziny-pracy-i-polityki-spolecznej"
+          }
+        },
+        "dataset": {
+          "data": {
+            "id": "2099",
+            "type": "dataset"
+          },
+          "links": {
+            "related": "https://api.dane.gov.pl/1.4/datasets/2099,si-kdr-wykaz-oddziaow-partnerow-programu"
+          }
+        },
+        "tabular_data": {
+          "data": {
+            "id": "446489",
+            "type": "tabular_data"
+          },
+          "links": {
+            "related": "https://api.dane.gov.pl/1.4/resources/446489/data"
+          }
+        }
+      },
+      "attributes": {
+        "modified": "2025-11-02T01:55:40Z",
+        "files": [
+          {
+            "download_url": "https://api.dane.gov.pl/resources/446489,si-kdr-wykaz-oddziaow-partnerow-programu/file",
+            "openness_score": 3,
+            "file_size": 33536211,
+            "format": "csv"
+          },
+          {
+            "download_url": "https://api.dane.gov.pl/resources/446489,si-kdr-wykaz-oddziaow-partnerow-programu/jsonld",
+            "openness_score": 4,
+            "file_size": 69641789,
+            "format": "jsonld"
+          }
+        ],
+        "created": "2025-11-02T03:22:20Z",
+        "link": "https://kdr.mpips.gov.pl/KDR-partnerzy.csv",
+        "title": "SI KDR - wykaz oddziałów partnerów programu",
+        "openness_score": 4,
+        "format": "csv",
+        "file_size": 33536211,
+        "special_signs": [],
+        "has_high_value_data": null,
+        "has_dynamic_data": null,
+        "language": "pl",
+        "jsonld_file_size": 69641789,
+        "jsonld_download_url": "https://api.dane.gov.pl/resources/446489,si-kdr-wykaz-oddziaow-partnerow-programu/jsonld",
+        "contains_protected_data": false,
+        "views_count": 0,
+        "has_research_data": null,
+        "downloads_count": 0,
+        "csv_file_url": null,
+        "supplements": [],
+        "download_url": "https://api.dane.gov.pl/resources/446489,si-kdr-wykaz-oddziaow-partnerow-programu/file",
+        "is_chart_creation_blocked": false,
+        "jsonld_file_url": "https://api.dane.gov.pl/media/resources/20251102/KDR-partnerzy.jsonld",
+        "file_url": "https://api.dane.gov.pl/media/resources/20251102/KDR-partnerzy.csv",
+        "has_high_value_data_from_ec_list": null,
+        "description": "Zbiór zawiera plik CSV z danymi oddziałów partnerów programu SI KDR",
+        "csv_file_size": null,
+        "csv_download_url": null,
+        "media_type": "file",
+        "verified": "2025-11-02T06:35:26Z",
+        "data_date": "2025-11-02",
+        "regions": [
+          {
+            "region_id": "85633723",
+            "name": "Poland",
+            "hierarchy_label": "Poland"
+          }
+        ],
+        "visualization_types": [
+          "table"
+        ]
+      },
+      "type": "resource",
+      "id": "446489"
+    },
+    {
+      "links": {
+        "self": "https://api.dane.gov.pl/1.4/resources/544618,si-kdr-wykaz-oddziaow-partnerow-programu"
+      },
+      "relationships": {
+        "institution": {
+          "data": {
+            "id": "30",
+            "type": "institution"
+          },
+          "links": {
+            "related": "https://api.dane.gov.pl/1.4/institutions/30,ministerstwo-rodziny-pracy-i-polityki-spolecznej"
+          }
+        },
+        "dataset": {
+          "data": {
+            "id": "2099",
+            "type": "dataset"
+          },
+          "links": {
+            "related": "https://api.dane.gov.pl/1.4/datasets/2099,si-kdr-wykaz-oddziaow-partnerow-programu"
+          }
+        }
+      },
+      "attributes": {
+        "modified": "2025-11-10T01:54:42Z",
+        "files": [
+          {
+            "download_url": "https://api.dane.gov.pl/resources/544618,si-kdr-wykaz-oddziaow-partnerow-programu/file",
+            "openness_score": 3,
+            "file_size": 33541247,
+            "format": "csv"
+          }
+        ],
+        "created": "2025-11-10T03:33:02Z",
+        "link": "https://kdr.mpips.gov.pl/KDR-partnerzy.csv",
+        "title": "SI KDR - wykaz oddziałów partnerów programu",
+        "openness_score": 3,
+        "format": "csv",
+        "file_size": 33541247,
+        "special_signs": [],
+        "has_high_value_data": null,
+        "has_dynamic_data": null,
+        "language": "pl",
+        "jsonld_file_size": null,
+        "jsonld_download_url": null,
+        "contains_protected_data": false,
+        "views_count": 0,
+        "has_research_data": null,
+        "downloads_count": 0,
+        "csv_file_url": null,
+        "supplements": [],
+        "download_url": "https://api.dane.gov.pl/resources/544618,si-kdr-wykaz-oddziaow-partnerow-programu/file",
+        "is_chart_creation_blocked": false,
+        "jsonld_file_url": null,
+        "file_url": "https://api.dane.gov.pl/media/resources/20251110/KDR-partnerzy_db9c75ac.csv",
+        "has_high_value_data_from_ec_list": null,
+        "description": "Zbiór zawiera plik CSV z danymi oddziałów partnerów programu SI KDR",
+        "csv_file_size": null,
+        "csv_download_url": null,
+        "media_type": "file",
+        "verified": "2025-11-10T09:04:53Z",
+        "data_date": "2025-11-10",
+        "regions": [
+          {
+            "region_id": "85633723",
+            "name": "Poland",
+            "hierarchy_label": "Poland"
+          }
+        ],
+        "visualization_types": []
+      },
+      "type": "resource",
+      "id": "544618"
+    }
+  ],
+  "links": {
+    "self": "https://api.dane.gov.pl/1.4/datasets/2099/resources?page=1&per_page=100"
+  },
+  "jsonapi": {
+    "version": "1.0"
+  },
+  "meta": {
+    "aggregations": {},
+    "count": 3,
+    "path": "/1.4/datasets/2099/resources",
+    "server_time": "2025-11-10T22:20:29Z",
+    "params": {
+      "page": "1",
+      "per_page": "100"
+    },
+    "language": "en",
+    "relative_uri": "/1.4/datasets/2099/resources?page=1&per_page=100"
+  }
+}

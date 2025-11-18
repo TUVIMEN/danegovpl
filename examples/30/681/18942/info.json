@@ -1,0 +1,104 @@
+{
+  "data": {
+    "links": {
+      "self": "https://api.dane.gov.pl/1.4/resources/18942,zawody-deficytowe-i-nadwyzkowe-w-polsce-informacja-sygnalna-za-i-porocze-2019-roku"
+    },
+    "relationships": {
+      "institution": {
+        "data": {
+          "id": "30",
+          "type": "institution"
+        },
+        "links": {
+          "related": "https://api.dane.gov.pl/1.4/institutions/30,ministerstwo-rodziny-pracy-i-polityki-spolecznej"
+        }
+      },
+      "dataset": {
+        "data": {
+          "id": "681",
+          "type": "dataset"
+        },
+        "links": {
+          "related": "https://api.dane.gov.pl/1.4/datasets/681,monitoring-zawodow-deficytowych-i-nadwyzkowych"
+        }
+      },
+      "tabular_data": {
+        "data": {
+          "id": "18942",
+          "type": "tabular_data"
+        },
+        "links": {
+          "related": "https://api.dane.gov.pl/1.4/resources/18942/data"
+        }
+      }
+    },
+    "attributes": {
+      "modified": "2019-09-04T08:50:13Z",
+      "files": [
+        {
+          "download_url": "https://api.dane.gov.pl/resources/18942,zawody-deficytowe-i-nadwyzkowe-w-polsce-informacja-sygnalna-za-i-porocze-2019-roku/file",
+          "compressed_file_format": null,
+          "openness_score": 3,
+          "file_size": 4727,
+          "format": "csv"
+        }
+      ],
+      "created": "2019-08-12T06:08:42Z",
+      "link": "https://api.dane.gov.pl/media/resources/20190812/Inf._sygnalna_-_polroczna_2019_1.csv",
+      "category": "Labour and Social Welfare",
+      "title": "Zawody deficytowe i nadwyżkowe w Polsce. Informacja sygnalna za I półrocze 2019 roku",
+      "openness_score": 3,
+      "format": "csv",
+      "file_size": 4727,
+      "special_signs": [],
+      "has_high_value_data": null,
+      "has_dynamic_data": null,
+      "language": "pl",
+      "jsonld_file_size": null,
+      "jsonld_download_url": null,
+      "contains_protected_data": false,
+      "views_count": 3501,
+      "has_research_data": null,
+      "downloads_count": 541,
+      "csv_file_url": null,
+      "supplements": [],
+      "download_url": "https://api.dane.gov.pl/resources/18942,zawody-deficytowe-i-nadwyzkowe-w-polsce-informacja-sygnalna-za-i-porocze-2019-roku/file",
+      "is_chart_creation_blocked": false,
+      "jsonld_file_url": null,
+      "file_url": "https://api.dane.gov.pl/media/resources/20190812/Inf._sygnalna_-_polroczna_2019_1.csv",
+      "has_high_value_data_from_ec_list": null,
+      "description": "<p>Zawody deficytowe i nadwyżkowe w Polsce. Informacja sygnalna za I półrocze 2019 roku</p>",
+      "csv_file_size": null,
+      "csv_download_url": null,
+      "media_type": "file",
+      "verified": "2019-09-05T07:56:59Z",
+      "data_date": "2019-08-12",
+      "regions": [
+        {
+          "region_id": "85633723",
+          "name": "Poland",
+          "is_additional": false,
+          "hierarchy_label": "Poland"
+        }
+      ],
+      "visualization_types": [
+        "table"
+      ]
+    },
+    "type": "resource",
+    "id": "18942"
+  },
+  "links": {
+    "self": "http://api.dane.gov.pl/1.4/resources/18942"
+  },
+  "jsonapi": {
+    "version": "1.0"
+  },
+  "meta": {
+    "path": "/1.4/resources/18942",
+    "server_time": "2025-11-10T22:20:24Z",
+    "params": {},
+    "language": "en",
+    "relative_uri": "/1.4/resources/18942"
+  }
+}

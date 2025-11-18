@@ -1,0 +1,390 @@
+{
+  "data": [
+    {
+      "links": {
+        "self": "https://api.dane.gov.pl/1.4/resources/220,rejestr-agencji-zatrudnienia-kraz"
+      },
+      "relationships": {
+        "institution": {
+          "data": {
+            "id": "30",
+            "type": "institution"
+          },
+          "links": {
+            "related": "https://api.dane.gov.pl/1.4/institutions/30,ministerstwo-rodziny-pracy-i-polityki-spolecznej"
+          }
+        },
+        "dataset": {
+          "data": {
+            "id": "7",
+            "type": "dataset"
+          },
+          "links": {
+            "related": "https://api.dane.gov.pl/1.4/datasets/7,rejestr-podmiotow-prowadzacych-agencje-zatrudnienia"
+          }
+        }
+      },
+      "attributes": {
+        "modified": "2019-09-03T20:15:48Z",
+        "files": [],
+        "created": "2016-07-20T12:02:27Z",
+        "link": "http://stor.praca.gov.pl/portal/#/kraz",
+        "title": "Rejestr Agencji Zatrudnienia KRAZ",
+        "openness_score": 3,
+        "format": "html",
+        "file_size": null,
+        "special_signs": [],
+        "has_high_value_data": null,
+        "has_dynamic_data": null,
+        "language": "pl",
+        "jsonld_file_size": null,
+        "jsonld_download_url": null,
+        "contains_protected_data": false,
+        "views_count": 26797,
+        "has_research_data": null,
+        "downloads_count": 0,
+        "csv_file_url": null,
+        "supplements": [],
+        "download_url": "",
+        "is_chart_creation_blocked": false,
+        "jsonld_file_url": null,
+        "file_url": "",
+        "has_high_value_data_from_ec_list": null,
+        "description": "<p>Odnośnik (przekierowanie) do Rejestru Agencji Zatrudnienia w ramach Systemu Teleinformatyczny Obsługi Rejestrów PSZ (STOR). \nRaporty dostępne w formacie PDF.</p>\n",
+        "csv_file_size": null,
+        "csv_download_url": null,
+        "media_type": "website",
+        "verified": "2025-01-01T03:43:05Z",
+        "data_date": "2016-07-20",
+        "regions": [
+          {
+            "region_id": "85633723",
+            "name": "Poland",
+            "hierarchy_label": "Poland"
+          }
+        ],
+        "visualization_types": []
+      },
+      "type": "resource",
+      "id": "220"
+    },
+    {
+      "links": {
+        "self": "https://api.dane.gov.pl/1.4/resources/20939,specyfikacja-usugi-udostepniajacej-informacje-ze-sownikow-stor-dla-api-kraz-openapi-3_0"
+      },
+      "relationships": {
+        "institution": {
+          "data": {
+            "id": "30",
+            "type": "institution"
+          },
+          "links": {
+            "related": "https://api.dane.gov.pl/1.4/institutions/30,ministerstwo-rodziny-pracy-i-polityki-spolecznej"
+          }
+        },
+        "dataset": {
+          "data": {
+            "id": "7",
+            "type": "dataset"
+          },
+          "links": {
+            "related": "https://api.dane.gov.pl/1.4/datasets/7,rejestr-podmiotow-prowadzacych-agencje-zatrudnienia"
+          }
+        }
+      },
+      "attributes": {
+        "modified": "2019-12-17T11:37:30Z",
+        "files": [
+          {
+            "download_url": "https://api.dane.gov.pl/resources/20939,specyfikacja-usugi-udostepniajacej-informacje-ze-sownikow-stor-dla-api-kraz-openapi-3_0/file",
+            "openness_score": 3,
+            "file_size": 21988,
+            "format": "json"
+          }
+        ],
+        "created": "2019-12-17T11:37:29Z",
+        "link": "https://api.dane.gov.pl/media/resources/20191217/Specyfikacja_us%C5%82ugi_udost%C4%99pniaj%C4%85cej_informacje_ze_S%C5%82ownik%C3%B3w_STOR_dla_API_KRAZ_OpenAPI_3_0.json",
+        "title": "Specyfikacja usługi udostępniającej informacje ze Słowników STOR dla API KRAZ (OpenAPI 3_0)",
+        "openness_score": 3,
+        "format": "json",
+        "file_size": 21988,
+        "special_signs": [],
+        "has_high_value_data": null,
+        "has_dynamic_data": null,
+        "language": "pl",
+        "jsonld_file_size": null,
+        "jsonld_download_url": null,
+        "contains_protected_data": false,
+        "views_count": 839,
+        "has_research_data": null,
+        "downloads_count": 345,
+        "csv_file_url": null,
+        "supplements": [],
+        "download_url": "https://api.dane.gov.pl/resources/20939,specyfikacja-usugi-udostepniajacej-informacje-ze-sownikow-stor-dla-api-kraz-openapi-3_0/file",
+        "is_chart_creation_blocked": false,
+        "jsonld_file_url": null,
+        "file_url": "https://api.dane.gov.pl/media/resources/20191217/Specyfikacja_us%C5%82ugi_udost%C4%99pniaj%C4%85cej_informacje_ze_S%C5%82ownik%C3%B3w_STOR_dla_API_KRAZ_OpenAPI_3_0.json",
+        "has_high_value_data_from_ec_list": null,
+        "description": "<p>Specyfikacja usługi udostępniającej informacje ze Słowników STOR dla API KRAZ (OpenAPI 3_0)</p>",
+        "csv_file_size": null,
+        "csv_download_url": null,
+        "media_type": "file",
+        "verified": "2019-12-17T11:37:38Z",
+        "data_date": "2019-12-11",
+        "regions": [
+          {
+            "region_id": "85633723",
+            "name": "Poland",
+            "hierarchy_label": "Poland"
+          }
+        ],
+        "visualization_types": []
+      },
+      "type": "resource",
+      "id": "20939"
+    },
+    {
+      "links": {
+        "self": "https://api.dane.gov.pl/1.4/resources/20940,specyfikacja-usugi-udostepniajacej-informacje-o-podmiotach-prowadzacych-agencje-zatrudnienia-z-kraz-openapi-3_0"
+      },
+      "relationships": {
+        "institution": {
+          "data": {
+            "id": "30",
+            "type": "institution"
+          },
+          "links": {
+            "related": "https://api.dane.gov.pl/1.4/institutions/30,ministerstwo-rodziny-pracy-i-polityki-spolecznej"
+          }
+        },
+        "dataset": {
+          "data": {
+            "id": "7",
+            "type": "dataset"
+          },
+          "links": {
+            "related": "https://api.dane.gov.pl/1.4/datasets/7,rejestr-podmiotow-prowadzacych-agencje-zatrudnienia"
+          }
+        }
+      },
+      "attributes": {
+        "modified": "2019-12-17T11:38:06Z",
+        "files": [
+          {
+            "download_url": "https://api.dane.gov.pl/resources/20940,specyfikacja-usugi-udostepniajacej-informacje-o-podmiotach-prowadzacych-agencje-zatrudnienia-z-kraz-openapi-3_0/file",
+            "openness_score": 3,
+            "file_size": 43783,
+            "format": "json"
+          }
+        ],
+        "created": "2019-12-17T11:38:05Z",
+        "link": "https://api.dane.gov.pl/media/resources/20191217/Specyfikacja_us%C5%82ugi_udost%C4%99pniaj%C4%85cej_informacje_o_podmiotach_prowadz%C4%85cych_agencje_zatrudnienia_z_KRAZ_OpenAPI_3_0.json",
+        "title": "Specyfikacja usługi udostępniającej informacje o podmiotach prowadzących agencje zatrudnienia z KRAZ (OpenAPI 3_0)",
+        "openness_score": 3,
+        "format": "json",
+        "file_size": 43783,
+        "special_signs": [],
+        "has_high_value_data": null,
+        "has_dynamic_data": null,
+        "language": "pl",
+        "jsonld_file_size": null,
+        "jsonld_download_url": null,
+        "contains_protected_data": false,
+        "views_count": 871,
+        "has_research_data": null,
+        "downloads_count": 404,
+        "csv_file_url": null,
+        "supplements": [],
+        "download_url": "https://api.dane.gov.pl/resources/20940,specyfikacja-usugi-udostepniajacej-informacje-o-podmiotach-prowadzacych-agencje-zatrudnienia-z-kraz-openapi-3_0/file",
+        "is_chart_creation_blocked": false,
+        "jsonld_file_url": null,
+        "file_url": "https://api.dane.gov.pl/media/resources/20191217/Specyfikacja_us%C5%82ugi_udost%C4%99pniaj%C4%85cej_informacje_o_podmiotach_prowadz%C4%85cych_agencje_zatrudnienia_z_KRAZ_OpenAPI_3_0.json",
+        "has_high_value_data_from_ec_list": null,
+        "description": "<p>Specyfikacja usługi udostępniającej informacje o podmiotach prowadzących agencje zatrudnienia z KRAZ (OpenAPI 3_0)</p>",
+        "csv_file_size": null,
+        "csv_download_url": null,
+        "media_type": "file",
+        "verified": "2019-12-17T11:38:14Z",
+        "data_date": "2019-12-11",
+        "regions": [
+          {
+            "region_id": "85633723",
+            "name": "Poland",
+            "hierarchy_label": "Poland"
+          }
+        ],
+        "visualization_types": []
+      },
+      "type": "resource",
+      "id": "20940"
+    },
+    {
+      "links": {
+        "self": "https://api.dane.gov.pl/1.4/resources/39717,warunki-udostepniania-informacji-o-podmiotach-prowadzacych-agencje-zatrudnienia-z-kraz"
+      },
+      "relationships": {
+        "institution": {
+          "data": {
+            "id": "30",
+            "type": "institution"
+          },
+          "links": {
+            "related": "https://api.dane.gov.pl/1.4/institutions/30,ministerstwo-rodziny-pracy-i-polityki-spolecznej"
+          }
+        },
+        "dataset": {
+          "data": {
+            "id": "7",
+            "type": "dataset"
+          },
+          "links": {
+            "related": "https://api.dane.gov.pl/1.4/datasets/7,rejestr-podmiotow-prowadzacych-agencje-zatrudnienia"
+          }
+        }
+      },
+      "attributes": {
+        "modified": "2022-07-01T09:22:24Z",
+        "files": [
+          {
+            "download_url": "https://api.dane.gov.pl/resources/39717,warunki-udostepniania-informacji-o-podmiotach-prowadzacych-agencje-zatrudnienia-z-kraz/file",
+            "openness_score": 1,
+            "file_size": 32769,
+            "format": "docx"
+          }
+        ],
+        "created": "2022-07-01T09:22:24Z",
+        "link": "https://api.dane.gov.pl/media/resources/20220701/Warunki_udost%C4%99pniania_informacji_o_podmiotach_prowadz%C4%85cych_agencje_zatrudnienia_z_KRAZ.DOCX",
+        "title": "Warunki udostępniania informacji o podmiotach prowadzących agencje zatrudnienia z KRAZ",
+        "openness_score": 1,
+        "format": "docx",
+        "file_size": 32769,
+        "special_signs": [],
+        "has_high_value_data": false,
+        "has_dynamic_data": false,
+        "language": "pl",
+        "jsonld_file_size": null,
+        "jsonld_download_url": null,
+        "contains_protected_data": false,
+        "views_count": 317,
+        "has_research_data": null,
+        "downloads_count": 360,
+        "csv_file_url": null,
+        "supplements": [],
+        "download_url": "https://api.dane.gov.pl/resources/39717,warunki-udostepniania-informacji-o-podmiotach-prowadzacych-agencje-zatrudnienia-z-kraz/file",
+        "is_chart_creation_blocked": false,
+        "jsonld_file_url": null,
+        "file_url": "https://api.dane.gov.pl/media/resources/20220701/Warunki_udost%C4%99pniania_informacji_o_podmiotach_prowadz%C4%85cych_agencje_zatrudnienia_z_KRAZ.DOCX",
+        "has_high_value_data_from_ec_list": null,
+        "description": "<p>Warunki udostępniania informacji o podmiotach prowadzących agencje zatrudnienia z KRAZ</p>",
+        "csv_file_size": null,
+        "csv_download_url": null,
+        "media_type": "file",
+        "verified": "2022-07-01T09:22:29Z",
+        "data_date": "2022-07-01",
+        "regions": [
+          {
+            "region_id": "85633723",
+            "name": "Poland",
+            "hierarchy_label": "Poland"
+          }
+        ],
+        "visualization_types": []
+      },
+      "type": "resource",
+      "id": "39717"
+    },
+    {
+      "links": {
+        "self": "https://api.dane.gov.pl/1.4/resources/39791,instrukcja-pobierania-podmiotow-prowadzacych-agencje-zatrudnienia-z-kraz"
+      },
+      "relationships": {
+        "institution": {
+          "data": {
+            "id": "30",
+            "type": "institution"
+          },
+          "links": {
+            "related": "https://api.dane.gov.pl/1.4/institutions/30,ministerstwo-rodziny-pracy-i-polityki-spolecznej"
+          }
+        },
+        "dataset": {
+          "data": {
+            "id": "7",
+            "type": "dataset"
+          },
+          "links": {
+            "related": "https://api.dane.gov.pl/1.4/datasets/7,rejestr-podmiotow-prowadzacych-agencje-zatrudnienia"
+          }
+        }
+      },
+      "attributes": {
+        "modified": "2022-07-06T14:36:03Z",
+        "files": [
+          {
+            "download_url": "https://api.dane.gov.pl/resources/39791,instrukcja-pobierania-podmiotow-prowadzacych-agencje-zatrudnienia-z-kraz/file",
+            "openness_score": 1,
+            "file_size": 207645,
+            "format": "pdf"
+          }
+        ],
+        "created": "2022-07-06T14:36:03Z",
+        "link": "https://api.dane.gov.pl/media/resources/20220706/Instrukcja_pobierania_podmiot%C3%B3w_prowadz%C4%85cych_agencje_zatrudnienia_z_KRAZ.pdf",
+        "title": "Instrukcja pobierania podmiotów prowadzących agencje zatrudnienia z KRAZ",
+        "openness_score": 1,
+        "format": "pdf",
+        "file_size": 207645,
+        "special_signs": [],
+        "has_high_value_data": false,
+        "has_dynamic_data": false,
+        "language": "pl",
+        "jsonld_file_size": null,
+        "jsonld_download_url": null,
+        "contains_protected_data": false,
+        "views_count": 848,
+        "has_research_data": null,
+        "downloads_count": 614,
+        "csv_file_url": null,
+        "supplements": [],
+        "download_url": "https://api.dane.gov.pl/resources/39791,instrukcja-pobierania-podmiotow-prowadzacych-agencje-zatrudnienia-z-kraz/file",
+        "is_chart_creation_blocked": false,
+        "jsonld_file_url": null,
+        "file_url": "https://api.dane.gov.pl/media/resources/20220706/Instrukcja_pobierania_podmiot%C3%B3w_prowadz%C4%85cych_agencje_zatrudnienia_z_KRAZ.pdf",
+        "has_high_value_data_from_ec_list": null,
+        "description": "<p>Instrukcja pobierania podmiotów prowadzących agencje zatrudnienia z KRAZ</p>",
+        "csv_file_size": null,
+        "csv_download_url": null,
+        "media_type": "file",
+        "verified": "2022-07-06T14:36:07Z",
+        "data_date": "2022-07-06",
+        "regions": [
+          {
+            "region_id": "85633723",
+            "name": "Poland",
+            "hierarchy_label": "Poland"
+          }
+        ],
+        "visualization_types": []
+      },
+      "type": "resource",
+      "id": "39791"
+    }
+  ],
+  "links": {
+    "self": "https://api.dane.gov.pl/1.4/datasets/7/resources?page=1&per_page=100"
+  },
+  "jsonapi": {
+    "version": "1.0"
+  },
+  "meta": {
+    "aggregations": {},
+    "count": 5,
+    "path": "/1.4/datasets/7/resources",
+    "server_time": "2025-11-10T22:20:12Z",
+    "params": {
+      "page": "1",
+      "per_page": "100"
+    },
+    "language": "en",
+    "relative_uri": "/1.4/datasets/7/resources?page=1&per_page=100"
+  }
+}

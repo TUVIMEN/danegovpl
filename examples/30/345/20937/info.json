@@ -1,0 +1,93 @@
+{
+  "jsonapi": {
+    "version": "1.0"
+  },
+  "data": {
+    "type": "resource",
+    "attributes": {
+      "media_type": "file",
+      "special_signs": [],
+      "jsonld_download_url": null,
+      "has_high_value_data": null,
+      "jsonld_file_size": null,
+      "downloads_count": 304,
+      "csv_download_url": null,
+      "contains_protected_data": false,
+      "openness_score": 3,
+      "title": "Specyfikacja usługi udostępniającej informacje ze Słowników STOR dla API RIS (OpenAPI 3_0)",
+      "download_url": "https://api.dane.gov.pl/resources/20937,specyfikacja-usugi-udostepniajacej-informacje-ze-sownikow-stor-dla-api-ris-openapi-3_0/file",
+      "link": "https://api.dane.gov.pl/media/resources/20191217/Specyfikacja_us%C5%82ugi_udost%C4%99pniaj%C4%85cej_informacje_ze_S%C5%82ownik%C3%B3w_STOR_dla_API_RIS_OpenAPI_3_0.json",
+      "file_size": 21988,
+      "modified": "2019-12-17T11:35:53Z",
+      "file_url": "https://api.dane.gov.pl/media/resources/20191217/Specyfikacja_us%C5%82ugi_udost%C4%99pniaj%C4%85cej_informacje_ze_S%C5%82ownik%C3%B3w_STOR_dla_API_RIS_OpenAPI_3_0.json",
+      "csv_file_url": null,
+      "files": [
+        {
+          "openness_score": 3,
+          "compressed_file_format": null,
+          "download_url": "https://api.dane.gov.pl/resources/20937,specyfikacja-usugi-udostepniajacej-informacje-ze-sownikow-stor-dla-api-ris-openapi-3_0/file",
+          "format": "json",
+          "file_size": 21988
+        }
+      ],
+      "description": "<p>Specyfikacja usługi udostępniającej informacje ze Słowników STOR dla API RIS (OpenAPI 3_0)</p>",
+      "jsonld_file_url": null,
+      "csv_file_size": null,
+      "is_chart_creation_blocked": false,
+      "regions": [
+        {
+          "hierarchy_label": "Poland",
+          "name": "Poland",
+          "is_additional": false,
+          "region_id": "85633723"
+        }
+      ],
+      "has_high_value_data_from_ec_list": null,
+      "language": "pl",
+      "has_dynamic_data": null,
+      "supplements": [],
+      "verified": "2019-12-17T11:52:15Z",
+      "category": "Labour and Social Welfare",
+      "views_count": 1016,
+      "has_research_data": null,
+      "created": "2019-12-17T11:35:52Z",
+      "format": "json",
+      "data_date": "2019-12-11",
+      "visualization_types": []
+    },
+    "relationships": {
+      "institution": {
+        "links": {
+          "related": "https://api.dane.gov.pl/1.4/institutions/30,ministerstwo-rodziny-pracy-i-polityki-spolecznej"
+        },
+        "data": {
+          "type": "institution",
+          "id": "30"
+        }
+      },
+      "dataset": {
+        "links": {
+          "related": "https://api.dane.gov.pl/1.4/datasets/345,rejestr-instytucji-szkoleniowych"
+        },
+        "data": {
+          "type": "dataset",
+          "id": "345"
+        }
+      }
+    },
+    "id": "20937",
+    "links": {
+      "self": "https://api.dane.gov.pl/1.4/resources/20937,specyfikacja-usugi-udostepniajacej-informacje-ze-sownikow-stor-dla-api-ris-openapi-3_0"
+    }
+  },
+  "links": {
+    "self": "http://api.dane.gov.pl/1.4/resources/20937"
+  },
+  "meta": {
+    "server_time": "2025-11-10T22:20:15Z",
+    "path": "/1.4/resources/20937",
+    "language": "en",
+    "params": {},
+    "relative_uri": "/1.4/resources/20937"
+  }
+}
